@@ -1,0 +1,4726 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1030 rid config1-0-20241102-14:49:21-6216 b 1000
+KF p -1 c "" s ""
+MC id 1 c cModule t leachnoinet.ned.leach n leach cm 1
+MS id 1 d bgi=maps/world,s;bgb=,,#0080FF
+MC id 2 c BS t leachnoinet.ned.BS pid 1 n bs
+MS id 2 d i=device/antennatower;is=vl
+MC id 3 c Node t leachnoinet.ned.Node pid 1 n node[0]
+MS id 3 d p=156,100;is=vl;i=device/device
+MC id 4 c Node t leachnoinet.ned.Node pid 1 n node[1]
+MS id 4 d p=156,100;is=vl;i=device/device
+MC id 5 c Node t leachnoinet.ned.Node pid 1 n node[2]
+MS id 5 d p=156,100;is=vl;i=device/device
+MC id 6 c Node t leachnoinet.ned.Node pid 1 n node[3]
+MS id 6 d p=156,100;is=vl;i=device/device
+MC id 7 c Node t leachnoinet.ned.Node pid 1 n node[4]
+MS id 7 d p=156,100;is=vl;i=device/device
+MC id 8 c Node t leachnoinet.ned.Node pid 1 n node[5]
+MS id 8 d p=156,100;is=vl;i=device/device
+MC id 9 c Node t leachnoinet.ned.Node pid 1 n node[6]
+MS id 9 d p=156,100;is=vl;i=device/device
+MC id 10 c Node t leachnoinet.ned.Node pid 1 n node[7]
+MS id 10 d p=156,100;is=vl;i=device/device
+MC id 11 c Node t leachnoinet.ned.Node pid 1 n node[8]
+MS id 11 d p=156,100;is=vl;i=device/device
+MC id 12 c Node t leachnoinet.ned.Node pid 1 n node[9]
+MS id 12 d p=156,100;is=vl;i=device/device
+MC id 13 c Node t leachnoinet.ned.Node pid 1 n node[10]
+MS id 13 d p=156,100;is=vl;i=device/device
+MC id 14 c Node t leachnoinet.ned.Node pid 1 n node[11]
+MS id 14 d p=156,100;is=vl;i=device/device
+MC id 15 c Node t leachnoinet.ned.Node pid 1 n node[12]
+MS id 15 d p=156,100;is=vl;i=device/device
+MC id 16 c Node t leachnoinet.ned.Node pid 1 n node[13]
+MS id 16 d p=156,100;is=vl;i=device/device
+MC id 17 c Node t leachnoinet.ned.Node pid 1 n node[14]
+MS id 17 d p=156,100;is=vl;i=device/device
+MC id 18 c Node t leachnoinet.ned.Node pid 1 n node[15]
+MS id 18 d p=156,100;is=vl;i=device/device
+MC id 19 c Node t leachnoinet.ned.Node pid 1 n node[16]
+MS id 19 d p=156,100;is=vl;i=device/device
+MC id 20 c Node t leachnoinet.ned.Node pid 1 n node[17]
+MS id 20 d p=156,100;is=vl;i=device/device
+MC id 21 c Node t leachnoinet.ned.Node pid 1 n node[18]
+MS id 21 d p=156,100;is=vl;i=device/device
+MC id 22 c Node t leachnoinet.ned.Node pid 1 n node[19]
+MS id 22 d p=156,100;is=vl;i=device/device
+MB sm 1 tm 2 m initialize(0)
+MS id 2 d p=$xpos,$ypos;o=blue;i=device/antennatower
+- BS: id 1 nrGates: 22 x,y 900600
+CM id 0 tid 0 eid 0 etid 0 c cMessage n "" pe -1
+BS id 0 tid 0 eid 0 etid 0 c cMessage n "" k 17 pe 0
+ES t 0
+ME
+MB sm 1 tm 3 m initialize(0)
+MS id 3 d p=$xpos,$ypos;o=black;i=device/device
+CM id 1 tid 1 eid 1 etid 1 c cMessage n "" pe -1
+CM id 2 tid 2 eid 2 etid 2 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 1 tid 1 eid 1 etid 1 c cMessage n "" k 12 pe 0
+ES t 579
+BS id 2 tid 2 eid 2 etid 2 c cMessage n "" k 12 pe 0
+ES t 679
+- 2 energy: 499944status 2
+CM id 3 tid 3 eid 3 etid 3 c cMessage n "" pe -1
+BS id 3 tid 3 eid 3 etid 3 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 4 m initialize(0)
+MS id 4 d p=$xpos,$ypos;o=black;i=device/device
+CM id 4 tid 4 eid 4 etid 4 c cMessage n "" pe -1
+CM id 5 tid 5 eid 5 etid 5 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 4 tid 4 eid 4 etid 4 c cMessage n "" k 12 pe 0
+ES t 379
+BS id 5 tid 5 eid 5 etid 5 c cMessage n "" k 12 pe 0
+ES t 479
+- 3 energy: 499967status 2
+CM id 6 tid 6 eid 6 etid 6 c cMessage n "" pe -1
+BS id 6 tid 6 eid 6 etid 6 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 5 m initialize(0)
+MS id 5 d p=$xpos,$ypos;o=black;i=device/device
+CM id 7 tid 7 eid 7 etid 7 c cMessage n "" pe -1
+CM id 8 tid 8 eid 8 etid 8 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 7 tid 7 eid 7 etid 7 c cMessage n "" k 12 pe 0
+ES t 619
+BS id 8 tid 8 eid 8 etid 8 c cMessage n "" k 12 pe 0
+ES t 719
+- 4 energy: 499936status 2
+CM id 9 tid 9 eid 9 etid 9 c cMessage n "" pe -1
+BS id 9 tid 9 eid 9 etid 9 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 6 m initialize(0)
+MS id 6 d p=$xpos,$ypos;o=black;i=device/device
+CM id 10 tid 10 eid 10 etid 10 c cMessage n "" pe -1
+CM id 11 tid 11 eid 11 etid 11 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 10 tid 10 eid 10 etid 10 c cMessage n "" k 12 pe 0
+ES t 334
+BS id 11 tid 11 eid 11 etid 11 c cMessage n "" k 12 pe 0
+ES t 434
+- 5 energy: 499912status 2
+CM id 12 tid 12 eid 12 etid 12 c cMessage n "" pe -1
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 7 m initialize(0)
+MS id 7 d p=$xpos,$ypos;o=black;i=device/device
+CM id 13 tid 13 eid 13 etid 13 c cMessage n "" pe -1
+CM id 14 tid 14 eid 14 etid 14 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 13 tid 13 eid 13 etid 13 c cMessage n "" k 12 pe 0
+ES t 194
+BS id 14 tid 14 eid 14 etid 14 c cMessage n "" k 12 pe 0
+ES t 294
+- 6 energy: 499987status 2
+CM id 15 tid 15 eid 15 etid 15 c cMessage n "" pe -1
+BS id 15 tid 15 eid 15 etid 15 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 8 m initialize(0)
+MS id 8 d p=$xpos,$ypos;o=black;i=device/device
+CM id 16 tid 16 eid 16 etid 16 c cMessage n "" pe -1
+CM id 17 tid 17 eid 17 etid 17 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 16 tid 16 eid 16 etid 16 c cMessage n "" k 12 pe 0
+ES t 557
+BS id 17 tid 17 eid 17 etid 17 c cMessage n "" k 12 pe 0
+ES t 657
+- 7 energy: 499937status 2
+CM id 18 tid 18 eid 18 etid 18 c cMessage n "" pe -1
+BS id 18 tid 18 eid 18 etid 18 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 9 m initialize(0)
+MS id 9 d p=$xpos,$ypos;o=black;i=device/device
+CM id 19 tid 19 eid 19 etid 19 c cMessage n "" pe -1
+CM id 20 tid 20 eid 20 etid 20 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 19 tid 19 eid 19 etid 19 c cMessage n "" k 12 pe 0
+ES t 135
+BS id 20 tid 20 eid 20 etid 20 c cMessage n "" k 12 pe 0
+ES t 235
+- 8 energy: 499909status 2
+CM id 21 tid 21 eid 21 etid 21 c cMessage n "" pe -1
+BS id 21 tid 21 eid 21 etid 21 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 10 m initialize(0)
+MS id 10 d p=$xpos,$ypos;o=black;i=device/device
+CM id 22 tid 22 eid 22 etid 22 c cMessage n "" pe -1
+CM id 23 tid 23 eid 23 etid 23 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 22 tid 22 eid 22 etid 22 c cMessage n "" k 12 pe 0
+ES t 451
+BS id 23 tid 23 eid 23 etid 23 c cMessage n "" k 12 pe 0
+ES t 551
+- 9 energy: 499969status 2
+CM id 24 tid 24 eid 24 etid 24 c cMessage n "" pe -1
+BS id 24 tid 24 eid 24 etid 24 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 11 m initialize(0)
+MS id 11 d p=$xpos,$ypos;o=black;i=device/device
+CM id 25 tid 25 eid 25 etid 25 c cMessage n "" pe -1
+CM id 26 tid 26 eid 26 etid 26 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 25 tid 25 eid 25 etid 25 c cMessage n "" k 12 pe 0
+ES t 197
+BS id 26 tid 26 eid 26 etid 26 c cMessage n "" k 12 pe 0
+ES t 297
+- 10 energy: 499999status 2
+CM id 27 tid 27 eid 27 etid 27 c cMessage n "" pe -1
+BS id 27 tid 27 eid 27 etid 27 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 12 m initialize(0)
+MS id 12 d p=$xpos,$ypos;o=black;i=device/device
+CM id 28 tid 28 eid 28 etid 28 c cMessage n "" pe -1
+CM id 29 tid 29 eid 29 etid 29 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 28 tid 28 eid 28 etid 28 c cMessage n "" k 12 pe 0
+ES t 167
+BS id 29 tid 29 eid 29 etid 29 c cMessage n "" k 12 pe 0
+ES t 267
+- 11 energy: 499919status 2
+CM id 30 tid 30 eid 30 etid 30 c cMessage n "" pe -1
+BS id 30 tid 30 eid 30 etid 30 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 13 m initialize(0)
+MS id 13 d p=$xpos,$ypos;o=black;i=device/device
+CM id 31 tid 31 eid 31 etid 31 c cMessage n "" pe -1
+CM id 32 tid 32 eid 32 etid 32 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 31 tid 31 eid 31 etid 31 c cMessage n "" k 12 pe 0
+ES t 285
+BS id 32 tid 32 eid 32 etid 32 c cMessage n "" k 12 pe 0
+ES t 385
+- 12 energy: 499932status 2
+CM id 33 tid 33 eid 33 etid 33 c cMessage n "" pe -1
+BS id 33 tid 33 eid 33 etid 33 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 14 m initialize(0)
+MS id 14 d p=$xpos,$ypos;o=black;i=device/device
+CM id 34 tid 34 eid 34 etid 34 c cMessage n "" pe -1
+CM id 35 tid 35 eid 35 etid 35 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 34 tid 34 eid 34 etid 34 c cMessage n "" k 12 pe 0
+ES t 563
+BS id 35 tid 35 eid 35 etid 35 c cMessage n "" k 12 pe 0
+ES t 663
+- 13 energy: 499932status 2
+CM id 36 tid 36 eid 36 etid 36 c cMessage n "" pe -1
+BS id 36 tid 36 eid 36 etid 36 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 15 m initialize(0)
+MS id 15 d p=$xpos,$ypos;o=black;i=device/device
+CM id 37 tid 37 eid 37 etid 37 c cMessage n "" pe -1
+CM id 38 tid 38 eid 38 etid 38 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 37 tid 37 eid 37 etid 37 c cMessage n "" k 12 pe 0
+ES t 530
+BS id 38 tid 38 eid 38 etid 38 c cMessage n "" k 12 pe 0
+ES t 630
+- 14 energy: 499923status 2
+CM id 39 tid 39 eid 39 etid 39 c cMessage n "" pe -1
+BS id 39 tid 39 eid 39 etid 39 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 16 m initialize(0)
+MS id 16 d p=$xpos,$ypos;o=black;i=device/device
+CM id 40 tid 40 eid 40 etid 40 c cMessage n "" pe -1
+CM id 41 tid 41 eid 41 etid 41 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 40 tid 40 eid 40 etid 40 c cMessage n "" k 12 pe 0
+ES t 48
+BS id 41 tid 41 eid 41 etid 41 c cMessage n "" k 12 pe 0
+ES t 148
+- 15 energy: 499955status 2
+CM id 42 tid 42 eid 42 etid 42 c cMessage n "" pe -1
+BS id 42 tid 42 eid 42 etid 42 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 17 m initialize(0)
+MS id 17 d p=$xpos,$ypos;o=black;i=device/device
+CM id 43 tid 43 eid 43 etid 43 c cMessage n "" pe -1
+CM id 44 tid 44 eid 44 etid 44 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 43 tid 43 eid 43 etid 43 c cMessage n "" k 12 pe 0
+ES t 73
+BS id 44 tid 44 eid 44 etid 44 c cMessage n "" k 12 pe 0
+ES t 173
+- 16 energy: 499900status 2
+CM id 45 tid 45 eid 45 etid 45 c cMessage n "" pe -1
+BS id 45 tid 45 eid 45 etid 45 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 18 m initialize(0)
+MS id 18 d p=$xpos,$ypos;o=black;i=device/device
+CM id 46 tid 46 eid 46 etid 46 c cMessage n "" pe -1
+CM id 47 tid 47 eid 47 etid 47 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 46 tid 46 eid 46 etid 46 c cMessage n "" k 12 pe 0
+ES t 355
+BS id 47 tid 47 eid 47 etid 47 c cMessage n "" k 12 pe 0
+ES t 455
+- 17 energy: 499917status 2
+CM id 48 tid 48 eid 48 etid 48 c cMessage n "" pe -1
+BS id 48 tid 48 eid 48 etid 48 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 19 m initialize(0)
+MS id 19 d p=$xpos,$ypos;o=black;i=device/device
+CM id 49 tid 49 eid 49 etid 49 c cMessage n "" pe -1
+CM id 50 tid 50 eid 50 etid 50 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 49 tid 49 eid 49 etid 49 c cMessage n "" k 12 pe 0
+ES t 563
+BS id 50 tid 50 eid 50 etid 50 c cMessage n "" k 12 pe 0
+ES t 663
+- 18 energy: 499958status 2
+CM id 51 tid 51 eid 51 etid 51 c cMessage n "" pe -1
+BS id 51 tid 51 eid 51 etid 51 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 20 m initialize(0)
+MS id 20 d p=$xpos,$ypos;o=black;i=device/device
+CM id 52 tid 52 eid 52 etid 52 c cMessage n "" pe -1
+CM id 53 tid 53 eid 53 etid 53 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 52 tid 52 eid 52 etid 52 c cMessage n "" k 12 pe 0
+ES t 77
+BS id 53 tid 53 eid 53 etid 53 c cMessage n "" k 12 pe 0
+ES t 177
+- 19 energy: 499965status 2
+CM id 54 tid 54 eid 54 etid 54 c cMessage n "" pe -1
+BS id 54 tid 54 eid 54 etid 54 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 21 m initialize(0)
+MS id 21 d p=$xpos,$ypos;o=black;i=device/device
+CM id 55 tid 55 eid 55 etid 55 c cMessage n "" pe -1
+CM id 56 tid 56 eid 56 etid 56 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 55 tid 55 eid 55 etid 55 c cMessage n "" k 12 pe 0
+ES t 450
+BS id 56 tid 56 eid 56 etid 56 c cMessage n "" k 12 pe 0
+ES t 550
+- 20 energy: 499911status 2
+CM id 57 tid 57 eid 57 etid 57 c cMessage n "" pe -1
+BS id 57 tid 57 eid 57 etid 57 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+MB sm 1 tm 22 m initialize(0)
+MS id 22 d p=$xpos,$ypos;o=black;i=device/device
+CM id 58 tid 58 eid 58 etid 58 c cMessage n "" pe -1
+CM id 59 tid 59 eid 59 etid 59 c cMessage n "" pe -1
+- repeatTime 600 expected end 6000
+BS id 58 tid 58 eid 58 etid 58 c cMessage n "" k 12 pe 0
+ES t 418
+BS id 59 tid 59 eid 59 etid 59 c cMessage n "" k 12 pe 0
+ES t 518
+- 21 energy: 499900status 2
+CM id 60 tid 60 eid 60 etid 60 c cMessage n "" pe -1
+BS id 60 tid 60 eid 60 etid 60 c cMessage n "" k 17 pe 0
+ES t 1
+ME
+
+E # 1 t 0 m 2 ce 0 msg 0
+- BS: got self message type 17
+- BS: got start message
+- BS numNodes is: 20
+- BS trRange is: 10
+- BS: 1(900,600) found node with id 2 xpos: 1653 ypos: 835
+- items 3
+GC m 2 g 7 n O_2 o 1
+GC m 3 g 6 n I_1 o 0
+CC sm 2 sg 7 dm 3 dg 6
+CS sm 2 sg 7 d ""
+CS sm 2 sg 7 d ""
+- BS: 1(900,600) found node with id 3 xpos: 1033 ypos: 277
+- items 4
+GC m 2 g 9 n O_3 o 1
+GC m 4 g 6 n I_1 o 0
+CC sm 2 sg 9 dm 4 dg 6
+CS sm 2 sg 9 d ""
+CS sm 2 sg 9 d ""
+- BS: 1(900,600) found node with id 4 xpos: 1094 ypos: 600
+- items 5
+GC m 2 g 11 n O_4 o 1
+GC m 5 g 6 n I_1 o 0
+CC sm 2 sg 11 dm 5 dg 6
+CS sm 2 sg 11 d ""
+CS sm 2 sg 11 d ""
+- BS: 1(900,600) found node with id 5 xpos: 705 ypos: 551
+- items 6
+GC m 2 g 13 n O_5 o 1
+GC m 6 g 6 n I_1 o 0
+CC sm 2 sg 13 dm 6 dg 6
+CS sm 2 sg 13 d ""
+CS sm 2 sg 13 d ""
+- BS: 1(900,600) found node with id 6 xpos: 1624 ypos: 849
+- items 7
+GC m 2 g 15 n O_6 o 1
+GC m 7 g 6 n I_1 o 0
+CC sm 2 sg 15 dm 7 dg 6
+CS sm 2 sg 15 d ""
+CS sm 2 sg 15 d ""
+- BS: 1(900,600) found node with id 7 xpos: 845 ypos: 72
+- items 8
+GC m 2 g 17 n O_7 o 1
+GC m 8 g 6 n I_1 o 0
+CC sm 2 sg 17 dm 8 dg 6
+CS sm 2 sg 17 d ""
+CS sm 2 sg 17 d ""
+- BS: 1(900,600) found node with id 8 xpos: 976 ypos: 755
+- items 9
+GC m 2 g 19 n O_8 o 1
+GC m 9 g 6 n I_1 o 0
+CC sm 2 sg 19 dm 9 dg 6
+CS sm 2 sg 19 d ""
+CS sm 2 sg 19 d ""
+- BS: 1(900,600) found node with id 9 xpos: 448 ypos: 850
+- items 10
+GC m 2 g 21 n O_9 o 1
+GC m 10 g 6 n I_1 o 0
+CC sm 2 sg 21 dm 10 dg 6
+CS sm 2 sg 21 d ""
+CS sm 2 sg 21 d ""
+- BS: 1(900,600) found node with id 10 xpos: 755 ypos: 797
+- items 11
+GC m 2 g 23 n O_10 o 1
+GC m 11 g 6 n I_1 o 0
+CC sm 2 sg 23 dm 11 dg 6
+CS sm 2 sg 23 d ""
+CS sm 2 sg 23 d ""
+- BS: 1(900,600) found node with id 11 xpos: 910 ypos: 423
+- items 12
+GC m 2 g 25 n O_11 o 1
+GC m 12 g 6 n I_1 o 0
+CC sm 2 sg 25 dm 12 dg 6
+CS sm 2 sg 25 d ""
+CS sm 2 sg 25 d ""
+- BS: 1(900,600) found node with id 12 xpos: 697 ypos: 639
+- items 13
+GC m 2 g 27 n O_12 o 1
+GC m 13 g 6 n I_1 o 0
+CC sm 2 sg 27 dm 13 dg 6
+CS sm 2 sg 27 d ""
+CS sm 2 sg 27 d ""
+- BS: 1(900,600) found node with id 13 xpos: 714 ypos: 244
+- items 14
+GC m 2 g 29 n O_13 o 1
+GC m 14 g 6 n I_1 o 0
+CC sm 2 sg 29 dm 14 dg 6
+CS sm 2 sg 29 d ""
+CS sm 2 sg 29 d ""
+- BS: 1(900,600) found node with id 14 xpos: 1483 ypos: 882
+- items 15
+GC m 2 g 31 n O_14 o 1
+GC m 15 g 6 n I_1 o 0
+CC sm 2 sg 31 dm 15 dg 6
+CS sm 2 sg 31 d ""
+CS sm 2 sg 31 d ""
+- BS: 1(900,600) found node with id 15 xpos: 802 ypos: 128
+- items 16
+GC m 2 g 33 n O_15 o 1
+GC m 16 g 6 n I_1 o 0
+CC sm 2 sg 33 dm 16 dg 6
+CS sm 2 sg 33 d ""
+CS sm 2 sg 33 d ""
+- BS: 1(900,600) found node with id 16 xpos: 1574 ypos: 756
+- items 17
+GC m 2 g 35 n O_16 o 1
+GC m 17 g 6 n I_1 o 0
+CC sm 2 sg 35 dm 17 dg 6
+CS sm 2 sg 35 d ""
+CS sm 2 sg 35 d ""
+- BS: 1(900,600) found node with id 17 xpos: 388 ypos: 1066
+- items 18
+GC m 2 g 37 n O_17 o 1
+GC m 18 g 6 n I_1 o 0
+CC sm 2 sg 37 dm 18 dg 6
+CS sm 2 sg 37 d ""
+CS sm 2 sg 37 d ""
+- BS: 1(900,600) found node with id 18 xpos: 888 ypos: 257
+- items 19
+GC m 2 g 39 n O_18 o 1
+GC m 19 g 6 n I_1 o 0
+CC sm 2 sg 39 dm 19 dg 6
+CS sm 2 sg 39 d ""
+CS sm 2 sg 39 d ""
+- BS: 1(900,600) found node with id 19 xpos: 291 ypos: 1143
+- items 20
+GC m 2 g 41 n O_19 o 1
+GC m 20 g 6 n I_1 o 0
+CC sm 2 sg 41 dm 20 dg 6
+CS sm 2 sg 41 d ""
+CS sm 2 sg 41 d ""
+- BS: 1(900,600) found node with id 20 xpos: 1106 ypos: 91
+- items 21
+GC m 2 g 43 n O_20 o 1
+GC m 21 g 6 n I_1 o 0
+CC sm 2 sg 43 dm 21 dg 6
+CS sm 2 sg 43 d ""
+CS sm 2 sg 43 d ""
+- BS: 1(900,600) found node with id 21 xpos: 611 ypos: 908
+- items 22
+GC m 2 g 45 n O_21 o 1
+GC m 22 g 6 n I_1 o 0
+CC sm 2 sg 45 dm 22 dg 6
+CS sm 2 sg 45 d ""
+CS sm 2 sg 45 d ""
+DM id 0 tid 0 eid 0 etid 0 c cMessage n "" k 17 pe 1
+
+E # 2 t 1 m 3 ce 0 msg 3
+- numNodes is: 20 energy: 499944
+GC m 3 g 9 n O_1 o 1
+GC m 2 g 46 n I_2 o 0
+CC sm 3 sg 9 dm 2 dg 46
+CS sm 3 sg 9 d ""
+CS sm 3 sg 9 d ""
+- call send2BS
+CM id 61 tid 61 eid 61 etid 61 c cMessage n "" pe -1
+- in send2BS:2
+- 2: sToCluster to1
+BS id 61 tid 61 eid 61 etid 61 c Status2BSMessage n "" pe 2
+CL id 61 tid 61 eid 61 etid 61 c Status2BSMessage n "" pe 2 cid 62
+SH sm 3 sg 9
+ES t 1
+DM id 3 tid 3 eid 3 etid 3 c cMessage n "" k 17 pe 2
+
+E # 3 t 1 m 4 ce 0 msg 6
+- numNodes is: 20 energy: 499967
+GC m 4 g 9 n O_1 o 1
+GC m 2 g 48 n I_3 o 0
+CC sm 4 sg 9 dm 2 dg 48
+CS sm 4 sg 9 d ""
+CS sm 4 sg 9 d ""
+- call send2BS
+CM id 63 tid 63 eid 63 etid 63 c cMessage n "" pe -1
+- in send2BS:3
+- 3: sToCluster to1
+BS id 63 tid 63 eid 63 etid 63 c Status2BSMessage n "" pe 3
+CL id 63 tid 63 eid 63 etid 63 c Status2BSMessage n "" pe 3 cid 64
+SH sm 4 sg 9
+ES t 1
+DM id 6 tid 6 eid 6 etid 6 c cMessage n "" k 17 pe 3
+
+E # 4 t 1 m 5 ce 0 msg 9
+- numNodes is: 20 energy: 499936
+GC m 5 g 9 n O_1 o 1
+GC m 2 g 50 n I_4 o 0
+CC sm 5 sg 9 dm 2 dg 50
+CS sm 5 sg 9 d ""
+CS sm 5 sg 9 d ""
+- call send2BS
+CM id 65 tid 65 eid 65 etid 65 c cMessage n "" pe -1
+- in send2BS:4
+- 4: sToCluster to1
+BS id 65 tid 65 eid 65 etid 65 c Status2BSMessage n "" pe 4
+CL id 65 tid 65 eid 65 etid 65 c Status2BSMessage n "" pe 4 cid 66
+SH sm 5 sg 9
+ES t 1
+DM id 9 tid 9 eid 9 etid 9 c cMessage n "" k 17 pe 4
+
+E # 5 t 1 m 6 ce 0 msg 12
+- numNodes is: 20 energy: 499912
+GC m 6 g 9 n O_1 o 1
+GC m 2 g 52 n I_5 o 0
+CC sm 6 sg 9 dm 2 dg 52
+CS sm 6 sg 9 d ""
+CS sm 6 sg 9 d ""
+- call send2BS
+CM id 67 tid 67 eid 67 etid 67 c cMessage n "" pe -1
+- in send2BS:5
+- 5: sToCluster to1
+BS id 67 tid 67 eid 67 etid 67 c Status2BSMessage n "" pe 5
+CL id 67 tid 67 eid 67 etid 67 c Status2BSMessage n "" pe 5 cid 68
+SH sm 6 sg 9
+ES t 1
+DM id 12 tid 12 eid 12 etid 12 c cMessage n "" k 17 pe 5
+
+E # 6 t 1 m 7 ce 0 msg 15
+- numNodes is: 20 energy: 499987
+GC m 7 g 9 n O_1 o 1
+GC m 2 g 54 n I_6 o 0
+CC sm 7 sg 9 dm 2 dg 54
+CS sm 7 sg 9 d ""
+CS sm 7 sg 9 d ""
+- call send2BS
+CM id 69 tid 69 eid 69 etid 69 c cMessage n "" pe -1
+- in send2BS:6
+- 6: sToCluster to1
+BS id 69 tid 69 eid 69 etid 69 c Status2BSMessage n "" pe 6
+CL id 69 tid 69 eid 69 etid 69 c Status2BSMessage n "" pe 6 cid 70
+SH sm 7 sg 9
+ES t 1
+DM id 15 tid 15 eid 15 etid 15 c cMessage n "" k 17 pe 6
+
+E # 7 t 1 m 8 ce 0 msg 18
+- numNodes is: 20 energy: 499937
+GC m 8 g 9 n O_1 o 1
+GC m 2 g 56 n I_7 o 0
+CC sm 8 sg 9 dm 2 dg 56
+CS sm 8 sg 9 d ""
+CS sm 8 sg 9 d ""
+- call send2BS
+CM id 71 tid 71 eid 71 etid 71 c cMessage n "" pe -1
+- in send2BS:7
+- 7: sToCluster to1
+BS id 71 tid 71 eid 71 etid 71 c Status2BSMessage n "" pe 7
+CL id 71 tid 71 eid 71 etid 71 c Status2BSMessage n "" pe 7 cid 72
+SH sm 8 sg 9
+ES t 1
+DM id 18 tid 18 eid 18 etid 18 c cMessage n "" k 17 pe 7
+
+E # 8 t 1 m 9 ce 0 msg 21
+- numNodes is: 20 energy: 499909
+GC m 9 g 9 n O_1 o 1
+GC m 2 g 58 n I_8 o 0
+CC sm 9 sg 9 dm 2 dg 58
+CS sm 9 sg 9 d ""
+CS sm 9 sg 9 d ""
+- call send2BS
+CM id 73 tid 73 eid 73 etid 73 c cMessage n "" pe -1
+- in send2BS:8
+- 8: sToCluster to1
+BS id 73 tid 73 eid 73 etid 73 c Status2BSMessage n "" pe 8
+CL id 73 tid 73 eid 73 etid 73 c Status2BSMessage n "" pe 8 cid 74
+SH sm 9 sg 9
+ES t 1
+DM id 21 tid 21 eid 21 etid 21 c cMessage n "" k 17 pe 8
+
+E # 9 t 1 m 10 ce 0 msg 24
+- numNodes is: 20 energy: 499969
+GC m 10 g 9 n O_1 o 1
+GC m 2 g 60 n I_9 o 0
+CC sm 10 sg 9 dm 2 dg 60
+CS sm 10 sg 9 d ""
+CS sm 10 sg 9 d ""
+- call send2BS
+CM id 75 tid 75 eid 75 etid 75 c cMessage n "" pe -1
+- in send2BS:9
+- 9: sToCluster to1
+BS id 75 tid 75 eid 75 etid 75 c Status2BSMessage n "" pe 9
+CL id 75 tid 75 eid 75 etid 75 c Status2BSMessage n "" pe 9 cid 76
+SH sm 10 sg 9
+ES t 1
+DM id 24 tid 24 eid 24 etid 24 c cMessage n "" k 17 pe 9
+
+E # 10 t 1 m 11 ce 0 msg 27
+- numNodes is: 20 energy: 499999
+GC m 11 g 9 n O_1 o 1
+GC m 2 g 62 n I_10 o 0
+CC sm 11 sg 9 dm 2 dg 62
+CS sm 11 sg 9 d ""
+CS sm 11 sg 9 d ""
+- call send2BS
+CM id 77 tid 77 eid 77 etid 77 c cMessage n "" pe -1
+- in send2BS:10
+- 10: sToCluster to1
+BS id 77 tid 77 eid 77 etid 77 c Status2BSMessage n "" pe 10
+CL id 77 tid 77 eid 77 etid 77 c Status2BSMessage n "" pe 10 cid 78
+SH sm 11 sg 9
+ES t 1
+DM id 27 tid 27 eid 27 etid 27 c cMessage n "" k 17 pe 10
+
+E # 11 t 1 m 12 ce 0 msg 30
+- numNodes is: 20 energy: 499919
+GC m 12 g 9 n O_1 o 1
+GC m 2 g 64 n I_11 o 0
+CC sm 12 sg 9 dm 2 dg 64
+CS sm 12 sg 9 d ""
+CS sm 12 sg 9 d ""
+- call send2BS
+CM id 79 tid 79 eid 79 etid 79 c cMessage n "" pe -1
+- in send2BS:11
+- 11: sToCluster to1
+BS id 79 tid 79 eid 79 etid 79 c Status2BSMessage n "" pe 11
+CL id 79 tid 79 eid 79 etid 79 c Status2BSMessage n "" pe 11 cid 80
+SH sm 12 sg 9
+ES t 1
+DM id 30 tid 30 eid 30 etid 30 c cMessage n "" k 17 pe 11
+
+E # 12 t 1 m 13 ce 0 msg 33
+- numNodes is: 20 energy: 499932
+GC m 13 g 9 n O_1 o 1
+GC m 2 g 66 n I_12 o 0
+CC sm 13 sg 9 dm 2 dg 66
+CS sm 13 sg 9 d ""
+CS sm 13 sg 9 d ""
+- call send2BS
+CM id 81 tid 81 eid 81 etid 81 c cMessage n "" pe -1
+- in send2BS:12
+- 12: sToCluster to1
+BS id 81 tid 81 eid 81 etid 81 c Status2BSMessage n "" pe 12
+CL id 81 tid 81 eid 81 etid 81 c Status2BSMessage n "" pe 12 cid 82
+SH sm 13 sg 9
+ES t 1
+DM id 33 tid 33 eid 33 etid 33 c cMessage n "" k 17 pe 12
+
+E # 13 t 1 m 14 ce 0 msg 36
+- numNodes is: 20 energy: 499932
+GC m 14 g 9 n O_1 o 1
+GC m 2 g 68 n I_13 o 0
+CC sm 14 sg 9 dm 2 dg 68
+CS sm 14 sg 9 d ""
+CS sm 14 sg 9 d ""
+- call send2BS
+CM id 83 tid 83 eid 83 etid 83 c cMessage n "" pe -1
+- in send2BS:13
+- 13: sToCluster to1
+BS id 83 tid 83 eid 83 etid 83 c Status2BSMessage n "" pe 13
+CL id 83 tid 83 eid 83 etid 83 c Status2BSMessage n "" pe 13 cid 84
+SH sm 14 sg 9
+ES t 1
+DM id 36 tid 36 eid 36 etid 36 c cMessage n "" k 17 pe 13
+
+E # 14 t 1 m 15 ce 0 msg 39
+- numNodes is: 20 energy: 499923
+GC m 15 g 9 n O_1 o 1
+GC m 2 g 70 n I_14 o 0
+CC sm 15 sg 9 dm 2 dg 70
+CS sm 15 sg 9 d ""
+CS sm 15 sg 9 d ""
+- call send2BS
+CM id 85 tid 85 eid 85 etid 85 c cMessage n "" pe -1
+- in send2BS:14
+- 14: sToCluster to1
+BS id 85 tid 85 eid 85 etid 85 c Status2BSMessage n "" pe 14
+CL id 85 tid 85 eid 85 etid 85 c Status2BSMessage n "" pe 14 cid 86
+SH sm 15 sg 9
+ES t 1
+DM id 39 tid 39 eid 39 etid 39 c cMessage n "" k 17 pe 14
+
+E # 15 t 1 m 16 ce 0 msg 42
+- numNodes is: 20 energy: 499955
+GC m 16 g 9 n O_1 o 1
+GC m 2 g 72 n I_15 o 0
+CC sm 16 sg 9 dm 2 dg 72
+CS sm 16 sg 9 d ""
+CS sm 16 sg 9 d ""
+- call send2BS
+CM id 87 tid 87 eid 87 etid 87 c cMessage n "" pe -1
+- in send2BS:15
+- 15: sToCluster to1
+BS id 87 tid 87 eid 87 etid 87 c Status2BSMessage n "" pe 15
+CL id 87 tid 87 eid 87 etid 87 c Status2BSMessage n "" pe 15 cid 88
+SH sm 16 sg 9
+ES t 1
+DM id 42 tid 42 eid 42 etid 42 c cMessage n "" k 17 pe 15
+
+E # 16 t 1 m 17 ce 0 msg 45
+- numNodes is: 20 energy: 499900
+GC m 17 g 9 n O_1 o 1
+GC m 2 g 74 n I_16 o 0
+CC sm 17 sg 9 dm 2 dg 74
+CS sm 17 sg 9 d ""
+CS sm 17 sg 9 d ""
+- call send2BS
+CM id 89 tid 89 eid 89 etid 89 c cMessage n "" pe -1
+- in send2BS:16
+- 16: sToCluster to1
+BS id 89 tid 89 eid 89 etid 89 c Status2BSMessage n "" pe 16
+CL id 89 tid 89 eid 89 etid 89 c Status2BSMessage n "" pe 16 cid 90
+SH sm 17 sg 9
+ES t 1
+DM id 45 tid 45 eid 45 etid 45 c cMessage n "" k 17 pe 16
+
+E # 17 t 1 m 18 ce 0 msg 48
+- numNodes is: 20 energy: 499917
+GC m 18 g 9 n O_1 o 1
+GC m 2 g 76 n I_17 o 0
+CC sm 18 sg 9 dm 2 dg 76
+CS sm 18 sg 9 d ""
+CS sm 18 sg 9 d ""
+- call send2BS
+CM id 91 tid 91 eid 91 etid 91 c cMessage n "" pe -1
+- in send2BS:17
+- 17: sToCluster to1
+BS id 91 tid 91 eid 91 etid 91 c Status2BSMessage n "" pe 17
+CL id 91 tid 91 eid 91 etid 91 c Status2BSMessage n "" pe 17 cid 92
+SH sm 18 sg 9
+ES t 1
+DM id 48 tid 48 eid 48 etid 48 c cMessage n "" k 17 pe 17
+
+E # 18 t 1 m 19 ce 0 msg 51
+- numNodes is: 20 energy: 499958
+GC m 19 g 9 n O_1 o 1
+GC m 2 g 78 n I_18 o 0
+CC sm 19 sg 9 dm 2 dg 78
+CS sm 19 sg 9 d ""
+CS sm 19 sg 9 d ""
+- call send2BS
+CM id 93 tid 93 eid 93 etid 93 c cMessage n "" pe -1
+- in send2BS:18
+- 18: sToCluster to1
+BS id 93 tid 93 eid 93 etid 93 c Status2BSMessage n "" pe 18
+CL id 93 tid 93 eid 93 etid 93 c Status2BSMessage n "" pe 18 cid 94
+SH sm 19 sg 9
+ES t 1
+DM id 51 tid 51 eid 51 etid 51 c cMessage n "" k 17 pe 18
+
+E # 19 t 1 m 20 ce 0 msg 54
+- numNodes is: 20 energy: 499965
+GC m 20 g 9 n O_1 o 1
+GC m 2 g 80 n I_19 o 0
+CC sm 20 sg 9 dm 2 dg 80
+CS sm 20 sg 9 d ""
+CS sm 20 sg 9 d ""
+- call send2BS
+CM id 95 tid 95 eid 95 etid 95 c cMessage n "" pe -1
+- in send2BS:19
+- 19: sToCluster to1
+BS id 95 tid 95 eid 95 etid 95 c Status2BSMessage n "" pe 19
+CL id 95 tid 95 eid 95 etid 95 c Status2BSMessage n "" pe 19 cid 96
+SH sm 20 sg 9
+ES t 1
+DM id 54 tid 54 eid 54 etid 54 c cMessage n "" k 17 pe 19
+
+E # 20 t 1 m 21 ce 0 msg 57
+- numNodes is: 20 energy: 499911
+GC m 21 g 9 n O_1 o 1
+GC m 2 g 82 n I_20 o 0
+CC sm 21 sg 9 dm 2 dg 82
+CS sm 21 sg 9 d ""
+CS sm 21 sg 9 d ""
+- call send2BS
+CM id 97 tid 97 eid 97 etid 97 c cMessage n "" pe -1
+- in send2BS:20
+- 20: sToCluster to1
+BS id 97 tid 97 eid 97 etid 97 c Status2BSMessage n "" pe 20
+CL id 97 tid 97 eid 97 etid 97 c Status2BSMessage n "" pe 20 cid 98
+SH sm 21 sg 9
+ES t 1
+DM id 57 tid 57 eid 57 etid 57 c cMessage n "" k 17 pe 20
+
+E # 21 t 1 m 22 ce 0 msg 60
+- numNodes is: 20 energy: 499900
+GC m 22 g 9 n O_1 o 1
+GC m 2 g 84 n I_21 o 0
+CC sm 22 sg 9 dm 2 dg 84
+CS sm 22 sg 9 d ""
+CS sm 22 sg 9 d ""
+- call send2BS
+CM id 99 tid 99 eid 99 etid 99 c cMessage n "" pe -1
+- in send2BS:21
+- 21: sToCluster to1
+BS id 99 tid 99 eid 99 etid 99 c Status2BSMessage n "" pe 21
+CL id 99 tid 99 eid 99 etid 99 c Status2BSMessage n "" pe 21 cid 100
+SH sm 22 sg 9
+ES t 1
+DM id 60 tid 60 eid 60 etid 60 c cMessage n "" k 17 pe 21
+
+E # 22 t 1 m 2 ce 2 msg 61
+- BS received from 2status 2 rating: 419943
+- BS rec 1 nrNodes: 20
+DM id 61 tid 61 eid 61 etid 61 c cMessage n "" pe 22
+
+E # 23 t 1 m 2 ce 3 msg 63
+- BS received from 3status 2 rating: 419966
+- BS rec 2 nrNodes: 20
+DM id 63 tid 63 eid 63 etid 63 c cMessage n "" pe 23
+
+E # 24 t 1 m 2 ce 4 msg 65
+- BS received from 4status 2 rating: 419935
+- BS rec 3 nrNodes: 20
+DM id 65 tid 65 eid 65 etid 65 c cMessage n "" pe 24
+
+E # 25 t 1 m 2 ce 5 msg 67
+- BS received from 5status 2 rating: 419911
+- BS rec 4 nrNodes: 20
+DM id 67 tid 67 eid 67 etid 67 c cMessage n "" pe 25
+
+E # 26 t 1 m 2 ce 6 msg 69
+- BS received from 6status 2 rating: 419986
+- BS rec 5 nrNodes: 20
+DM id 69 tid 69 eid 69 etid 69 c cMessage n "" pe 26
+
+E # 27 t 1 m 2 ce 7 msg 71
+- BS received from 7status 2 rating: 419936
+- BS rec 6 nrNodes: 20
+DM id 71 tid 71 eid 71 etid 71 c cMessage n "" pe 27
+
+E # 28 t 1 m 2 ce 8 msg 73
+- BS received from 8status 2 rating: 419908
+- BS rec 7 nrNodes: 20
+DM id 73 tid 73 eid 73 etid 73 c cMessage n "" pe 28
+
+E # 29 t 1 m 2 ce 9 msg 75
+- BS received from 9status 2 rating: 419968
+- BS rec 8 nrNodes: 20
+DM id 75 tid 75 eid 75 etid 75 c cMessage n "" pe 29
+
+E # 30 t 1 m 2 ce 10 msg 77
+- BS received from 10status 2 rating: 419998
+- BS rec 9 nrNodes: 20
+DM id 77 tid 77 eid 77 etid 77 c cMessage n "" pe 30
+
+E # 31 t 1 m 2 ce 11 msg 79
+- BS received from 11status 2 rating: 419918
+- BS rec 10 nrNodes: 20
+DM id 79 tid 79 eid 79 etid 79 c cMessage n "" pe 31
+
+E # 32 t 1 m 2 ce 12 msg 81
+- BS received from 12status 2 rating: 419931
+- BS rec 11 nrNodes: 20
+DM id 81 tid 81 eid 81 etid 81 c cMessage n "" pe 32
+
+E # 33 t 1 m 2 ce 13 msg 83
+- BS received from 13status 2 rating: 419931
+- BS rec 12 nrNodes: 20
+DM id 83 tid 83 eid 83 etid 83 c cMessage n "" pe 33
+
+E # 34 t 1 m 2 ce 14 msg 85
+- BS received from 14status 2 rating: 419922
+- BS rec 13 nrNodes: 20
+DM id 85 tid 85 eid 85 etid 85 c cMessage n "" pe 34
+
+E # 35 t 1 m 2 ce 15 msg 87
+- BS received from 15status 2 rating: 419954
+- BS rec 14 nrNodes: 20
+DM id 87 tid 87 eid 87 etid 87 c cMessage n "" pe 35
+
+E # 36 t 1 m 2 ce 16 msg 89
+- BS received from 16status 2 rating: 419899
+- BS rec 15 nrNodes: 20
+DM id 89 tid 89 eid 89 etid 89 c cMessage n "" pe 36
+
+E # 37 t 1 m 2 ce 17 msg 91
+- BS received from 17status 2 rating: 419916
+- BS rec 16 nrNodes: 20
+DM id 91 tid 91 eid 91 etid 91 c cMessage n "" pe 37
+
+E # 38 t 1 m 2 ce 18 msg 93
+- BS received from 18status 2 rating: 419957
+- BS rec 17 nrNodes: 20
+DM id 93 tid 93 eid 93 etid 93 c cMessage n "" pe 38
+
+E # 39 t 1 m 2 ce 19 msg 95
+- BS received from 19status 2 rating: 419964
+- BS rec 18 nrNodes: 20
+DM id 95 tid 95 eid 95 etid 95 c cMessage n "" pe 39
+
+E # 40 t 1 m 2 ce 20 msg 97
+- BS received from 20status 2 rating: 419910
+- BS rec 19 nrNodes: 20
+DM id 97 tid 97 eid 97 etid 97 c cMessage n "" pe 40
+
+E # 41 t 1 m 2 ce 21 msg 99
+- BS received from 21status 2 rating: 419899
+- BS rec 20 nrNodes: 20
+- nodes dead 0all dead 0
+- BS call compute best
+- first 8
+- Id: 2 rating: 419943
+- Id: 3 rating: 419966
+- Id: 4 rating: 419935
+- Id: 5 rating: 419911
+- Id: 6 rating: 419986
+- Id: 7 rating: 419936
+- Id: 8 rating: 419908
+- Id: 9 rating: 419968
+- computeBest:
+- Id: 2 rating: 419943
+MS id 3 d p=$xpos,$ypos;o=green
+- Id: 3 rating: 419966
+MS id 4 d p=$xpos,$ypos;o=green
+- Id: 18 rating: 419957
+MS id 19 d p=$xpos,$ypos;o=green
+- Id: 15 rating: 419954
+MS id 16 d p=$xpos,$ypos;o=green
+- Id: 6 rating: 419986
+MS id 7 d p=$xpos,$ypos;o=green
+- Id: 19 rating: 419964
+MS id 20 d p=$xpos,$ypos;o=green
+- Id: 10 rating: 419998
+MS id 11 d p=$xpos,$ypos;o=green
+- Id: 9 rating: 419968
+MS id 10 d p=$xpos,$ypos;o=green
+- remove node 10 from cluster 
+MS id 11 d p=$xpos,$ypos;o=red
+- computeBest now:
+- Id: 2 rating: 419943
+- Id: 3 rating: 419966
+- Id: 18 rating: 419957
+- Id: 15 rating: 419954
+- Id: 6 rating: 419986
+- Id: 19 rating: 419964
+- Id: 9 rating: 419968
+- n1: 2 n2: 6
+- remove close2
+MS id 3 d p=$xpos,$ypos;o=red
+- computeBest now:
+- Id: 9 rating: 419968
+- Id: 3 rating: 419966
+- Id: 18 rating: 419957
+- Id: 15 rating: 419954
+- Id: 6 rating: 419986
+- Id: 19 rating: 419964
+- sumwithout 9: 1362169
+- sumwithout 3: 968495
+- sumwithout 18: 901220
+- sumwithout 15: 900236
+- sumwithout 6: 3265585
+- sumwithout 19: 981281
+- time 1 OUT goes 15
+MS id 16 d p=$xpos,$ypos;o=red
+- computeBest now:
+- Id: 9 rating: 419968 x,y 448,850
+- Id: 3 rating: 419966 x,y 1033,277
+- Id: 18 rating: 419957 x,y 888,257
+- Id: 19 rating: 419964 x,y 291,1143
+- Id: 6 rating: 419986 x,y 1624,849
+CM id 101 tid 101 eid 101 etid 101 c cMessage n "" pe -1
+- send messages to nodes announcing cluster heads
+-  BS: rec 2 x,y 1653,835 has head: 6
+-  BS: rec 3 x,y 1033,277 has head: 3
+-  BS: rec 4 x,y 1094,600 has head: 3
+-  BS: rec 5 x,y 705,551 has head: 18
+-  BS: rec 6 x,y 1624,849 has head: 6
+-  BS: rec 7 x,y 845,72 has head: 18
+-  BS: rec 8 x,y 976,755 has head: 3
+-  BS: rec 9 x,y 448,850 has head: 9
+-  BS: rec 10 x,y 755,797 has head: 9
+-  BS: rec 11 x,y 910,423 has head: 18
+-  BS: rec 12 x,y 697,639 has head: 9
+-  BS: rec 13 x,y 714,244 has head: 18
+-  BS: rec 14 x,y 1483,882 has head: 6
+-  BS: rec 15 x,y 802,128 has head: 18
+-  BS: rec 16 x,y 1574,756 has head: 6
+-  BS: rec 17 x,y 388,1066 has head: 19
+-  BS: rec 18 x,y 888,257 has head: 18
+-  BS: rec 19 x,y 291,1143 has head: 19
+-  BS: rec 20 x,y 1106,91 has head: 3
+-  BS: rec 21 x,y 611,908 has head: 9
+- BS sendHEAD for2:6
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 102
+BS id 102 tid 101 eid 102 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 102 tid 101 eid 102 etid 101 c ClusterHeadMessage n "" pe 41 cid 103
+SH sm 2 sg 7
+ES t 1
+- BS sendHEAD for3:3
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 104
+BS id 104 tid 101 eid 104 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 104 tid 101 eid 104 etid 101 c ClusterHeadMessage n "" pe 41 cid 105
+SH sm 2 sg 9
+ES t 1
+- BS sendHEAD for4:3
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 106
+BS id 106 tid 101 eid 106 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 106 tid 101 eid 106 etid 101 c ClusterHeadMessage n "" pe 41 cid 107
+SH sm 2 sg 11
+ES t 1
+- BS sendHEAD for5:18
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 108
+BS id 108 tid 101 eid 108 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 108 tid 101 eid 108 etid 101 c ClusterHeadMessage n "" pe 41 cid 109
+SH sm 2 sg 13
+ES t 1
+- BS sendHEAD for6:6
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 110
+BS id 110 tid 101 eid 110 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 110 tid 101 eid 110 etid 101 c ClusterHeadMessage n "" pe 41 cid 111
+SH sm 2 sg 15
+ES t 1
+- BS sendHEAD for7:18
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 112
+BS id 112 tid 101 eid 112 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 112 tid 101 eid 112 etid 101 c ClusterHeadMessage n "" pe 41 cid 113
+SH sm 2 sg 17
+ES t 1
+- BS sendHEAD for8:3
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 114
+BS id 114 tid 101 eid 114 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 114 tid 101 eid 114 etid 101 c ClusterHeadMessage n "" pe 41 cid 115
+SH sm 2 sg 19
+ES t 1
+- BS sendHEAD for9:9
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 116
+BS id 116 tid 101 eid 116 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 116 tid 101 eid 116 etid 101 c ClusterHeadMessage n "" pe 41 cid 117
+SH sm 2 sg 21
+ES t 1
+- BS sendHEAD for10:9
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 118
+BS id 118 tid 101 eid 118 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 118 tid 101 eid 118 etid 101 c ClusterHeadMessage n "" pe 41 cid 119
+SH sm 2 sg 23
+ES t 1
+- BS sendHEAD for11:18
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 120
+BS id 120 tid 101 eid 120 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 120 tid 101 eid 120 etid 101 c ClusterHeadMessage n "" pe 41 cid 121
+SH sm 2 sg 25
+ES t 1
+- BS sendHEAD for12:9
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 122
+BS id 122 tid 101 eid 122 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 122 tid 101 eid 122 etid 101 c ClusterHeadMessage n "" pe 41 cid 123
+SH sm 2 sg 27
+ES t 1
+- BS sendHEAD for13:18
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 124
+BS id 124 tid 101 eid 124 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 124 tid 101 eid 124 etid 101 c ClusterHeadMessage n "" pe 41 cid 125
+SH sm 2 sg 29
+ES t 1
+- BS sendHEAD for14:6
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 126
+BS id 126 tid 101 eid 126 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 126 tid 101 eid 126 etid 101 c ClusterHeadMessage n "" pe 41 cid 127
+SH sm 2 sg 31
+ES t 1
+- BS sendHEAD for15:18
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 128
+BS id 128 tid 101 eid 128 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 128 tid 101 eid 128 etid 101 c ClusterHeadMessage n "" pe 41 cid 129
+SH sm 2 sg 33
+ES t 1
+- BS sendHEAD for16:6
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 130
+BS id 130 tid 101 eid 130 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 130 tid 101 eid 130 etid 101 c ClusterHeadMessage n "" pe 41 cid 131
+SH sm 2 sg 35
+ES t 1
+- BS sendHEAD for17:19
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 132
+BS id 132 tid 101 eid 132 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 132 tid 101 eid 132 etid 101 c ClusterHeadMessage n "" pe 41 cid 133
+SH sm 2 sg 37
+ES t 1
+- BS sendHEAD for18:18
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 134
+BS id 134 tid 101 eid 134 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 134 tid 101 eid 134 etid 101 c ClusterHeadMessage n "" pe 41 cid 135
+SH sm 2 sg 39
+ES t 1
+- BS sendHEAD for19:19
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 136
+BS id 136 tid 101 eid 136 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 136 tid 101 eid 136 etid 101 c ClusterHeadMessage n "" pe 41 cid 137
+SH sm 2 sg 41
+ES t 1
+- BS sendHEAD for20:3
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 138
+BS id 138 tid 101 eid 138 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 138 tid 101 eid 138 etid 101 c ClusterHeadMessage n "" pe 41 cid 139
+SH sm 2 sg 43
+ES t 1
+- BS sendHEAD for21:9
+CL id 101 tid 101 eid 101 etid 101 c ClusterHeadMessage n "" pe 41 cid 140
+BS id 140 tid 101 eid 140 etid 101 c ClusterHeadMessage n "" pe 41
+CL id 140 tid 101 eid 140 etid 101 c ClusterHeadMessage n "" pe 41 cid 141
+SH sm 2 sg 45
+ES t 1
+DM id 99 tid 99 eid 99 etid 99 c cMessage n "" pe 41
+
+E # 42 t 1 m 3 ce 41 msg 102
+- REC-energy: 10
+- 2 my head is 6
+MS id 3 d p=$xpos,$ypos;o=black;i=device/device
+GC m 3 g 11 n O_6 o 1
+GC m 7 g 10 n I_2 o 0
+CC sm 3 sg 11 dm 7 dg 10
+CS sm 3 sg 11 d ""
+CS sm 3 sg 11 d ""
+DM id 102 tid 101 eid 102 etid 101 c cMessage n "" pe 42
+
+E # 43 t 1 m 4 ce 41 msg 104
+- REC-energy: 10
+- 3 my head is 3
+MS id 4 d p=$xpos,$ypos;o=red;i=device/device
+CM id 142 tid 142 eid 142 etid 142 c cMessage n "" pe -1
+BS id 142 tid 142 eid 142 etid 142 c cMessage n "" k 18 pe 43
+ES t 2
+DM id 104 tid 101 eid 104 etid 101 c cMessage n "" pe 43
+
+E # 44 t 1 m 5 ce 41 msg 106
+- REC-energy: 10
+- 4 my head is 3
+MS id 5 d p=$xpos,$ypos;o=black;i=device/device
+GC m 5 g 11 n O_3 o 1
+GC m 4 g 10 n I_4 o 0
+CC sm 5 sg 11 dm 4 dg 10
+CS sm 5 sg 11 d ""
+CS sm 5 sg 11 d ""
+DM id 106 tid 101 eid 106 etid 101 c cMessage n "" pe 44
+
+E # 45 t 1 m 6 ce 41 msg 108
+- REC-energy: 10
+- 5 my head is 18
+MS id 6 d p=$xpos,$ypos;o=black;i=device/device
+GC m 6 g 11 n O_18 o 1
+GC m 19 g 10 n I_5 o 0
+CC sm 6 sg 11 dm 19 dg 10
+CS sm 6 sg 11 d ""
+CS sm 6 sg 11 d ""
+DM id 108 tid 101 eid 108 etid 101 c cMessage n "" pe 45
+
+E # 46 t 1 m 7 ce 41 msg 110
+- REC-energy: 10
+- 6 my head is 6
+MS id 7 d p=$xpos,$ypos;o=red;i=device/device
+CM id 143 tid 143 eid 143 etid 143 c cMessage n "" pe -1
+BS id 143 tid 143 eid 143 etid 143 c cMessage n "" k 18 pe 46
+ES t 2
+DM id 110 tid 101 eid 110 etid 101 c cMessage n "" pe 46
+
+E # 47 t 1 m 8 ce 41 msg 112
+- REC-energy: 10
+- 7 my head is 18
+MS id 8 d p=$xpos,$ypos;o=black;i=device/device
+GC m 8 g 11 n O_18 o 1
+GC m 19 g 12 n I_7 o 0
+CC sm 8 sg 11 dm 19 dg 12
+CS sm 8 sg 11 d ""
+CS sm 8 sg 11 d ""
+DM id 112 tid 101 eid 112 etid 101 c cMessage n "" pe 47
+
+E # 48 t 1 m 9 ce 41 msg 114
+- REC-energy: 10
+- 8 my head is 3
+MS id 9 d p=$xpos,$ypos;o=black;i=device/device
+GC m 9 g 11 n O_3 o 1
+GC m 4 g 12 n I_8 o 0
+CC sm 9 sg 11 dm 4 dg 12
+CS sm 9 sg 11 d ""
+CS sm 9 sg 11 d ""
+DM id 114 tid 101 eid 114 etid 101 c cMessage n "" pe 48
+
+E # 49 t 1 m 10 ce 41 msg 116
+- REC-energy: 10
+- 9 my head is 9
+MS id 10 d p=$xpos,$ypos;o=red;i=device/device
+CM id 144 tid 144 eid 144 etid 144 c cMessage n "" pe -1
+BS id 144 tid 144 eid 144 etid 144 c cMessage n "" k 18 pe 49
+ES t 2
+DM id 116 tid 101 eid 116 etid 101 c cMessage n "" pe 49
+
+E # 50 t 1 m 11 ce 41 msg 118
+- REC-energy: 10
+- 10 my head is 9
+MS id 11 d p=$xpos,$ypos;o=black;i=device/device
+GC m 11 g 11 n O_9 o 1
+GC m 10 g 10 n I_10 o 0
+CC sm 11 sg 11 dm 10 dg 10
+CS sm 11 sg 11 d ""
+CS sm 11 sg 11 d ""
+DM id 118 tid 101 eid 118 etid 101 c cMessage n "" pe 50
+
+E # 51 t 1 m 12 ce 41 msg 120
+- REC-energy: 10
+- 11 my head is 18
+MS id 12 d p=$xpos,$ypos;o=black;i=device/device
+GC m 12 g 11 n O_18 o 1
+GC m 19 g 14 n I_11 o 0
+CC sm 12 sg 11 dm 19 dg 14
+CS sm 12 sg 11 d ""
+CS sm 12 sg 11 d ""
+DM id 120 tid 101 eid 120 etid 101 c cMessage n "" pe 51
+
+E # 52 t 1 m 13 ce 41 msg 122
+- REC-energy: 10
+- 12 my head is 9
+MS id 13 d p=$xpos,$ypos;o=black;i=device/device
+GC m 13 g 11 n O_9 o 1
+GC m 10 g 12 n I_12 o 0
+CC sm 13 sg 11 dm 10 dg 12
+CS sm 13 sg 11 d ""
+CS sm 13 sg 11 d ""
+DM id 122 tid 101 eid 122 etid 101 c cMessage n "" pe 52
+
+E # 53 t 1 m 14 ce 41 msg 124
+- REC-energy: 10
+- 13 my head is 18
+MS id 14 d p=$xpos,$ypos;o=black;i=device/device
+GC m 14 g 11 n O_18 o 1
+GC m 19 g 16 n I_13 o 0
+CC sm 14 sg 11 dm 19 dg 16
+CS sm 14 sg 11 d ""
+CS sm 14 sg 11 d ""
+DM id 124 tid 101 eid 124 etid 101 c cMessage n "" pe 53
+
+E # 54 t 1 m 15 ce 41 msg 126
+- REC-energy: 10
+- 14 my head is 6
+MS id 15 d p=$xpos,$ypos;o=black;i=device/device
+GC m 15 g 11 n O_6 o 1
+GC m 7 g 12 n I_14 o 0
+CC sm 15 sg 11 dm 7 dg 12
+CS sm 15 sg 11 d ""
+CS sm 15 sg 11 d ""
+DM id 126 tid 101 eid 126 etid 101 c cMessage n "" pe 54
+
+E # 55 t 1 m 16 ce 41 msg 128
+- REC-energy: 10
+- 15 my head is 18
+MS id 16 d p=$xpos,$ypos;o=black;i=device/device
+GC m 16 g 11 n O_18 o 1
+GC m 19 g 18 n I_15 o 0
+CC sm 16 sg 11 dm 19 dg 18
+CS sm 16 sg 11 d ""
+CS sm 16 sg 11 d ""
+DM id 128 tid 101 eid 128 etid 101 c cMessage n "" pe 55
+
+E # 56 t 1 m 17 ce 41 msg 130
+- REC-energy: 10
+- 16 my head is 6
+MS id 17 d p=$xpos,$ypos;o=black;i=device/device
+GC m 17 g 11 n O_6 o 1
+GC m 7 g 14 n I_16 o 0
+CC sm 17 sg 11 dm 7 dg 14
+CS sm 17 sg 11 d ""
+CS sm 17 sg 11 d ""
+DM id 130 tid 101 eid 130 etid 101 c cMessage n "" pe 56
+
+E # 57 t 1 m 18 ce 41 msg 132
+- REC-energy: 10
+- 17 my head is 19
+MS id 18 d p=$xpos,$ypos;o=black;i=device/device
+GC m 18 g 11 n O_19 o 1
+GC m 20 g 10 n I_17 o 0
+CC sm 18 sg 11 dm 20 dg 10
+CS sm 18 sg 11 d ""
+CS sm 18 sg 11 d ""
+DM id 132 tid 101 eid 132 etid 101 c cMessage n "" pe 57
+
+E # 58 t 1 m 19 ce 41 msg 134
+- REC-energy: 10
+- 18 my head is 18
+MS id 19 d p=$xpos,$ypos;o=red;i=device/device
+CM id 145 tid 145 eid 145 etid 145 c cMessage n "" pe -1
+BS id 145 tid 145 eid 145 etid 145 c cMessage n "" k 18 pe 58
+ES t 2
+DM id 134 tid 101 eid 134 etid 101 c cMessage n "" pe 58
+
+E # 59 t 1 m 20 ce 41 msg 136
+- REC-energy: 10
+- 19 my head is 19
+MS id 20 d p=$xpos,$ypos;o=red;i=device/device
+CM id 146 tid 146 eid 146 etid 146 c cMessage n "" pe -1
+BS id 146 tid 146 eid 146 etid 146 c cMessage n "" k 18 pe 59
+ES t 2
+DM id 136 tid 101 eid 136 etid 101 c cMessage n "" pe 59
+
+E # 60 t 1 m 21 ce 41 msg 138
+- REC-energy: 10
+- 20 my head is 3
+MS id 21 d p=$xpos,$ypos;o=black;i=device/device
+GC m 21 g 11 n O_3 o 1
+GC m 4 g 14 n I_20 o 0
+CC sm 21 sg 11 dm 4 dg 14
+CS sm 21 sg 11 d ""
+CS sm 21 sg 11 d ""
+DM id 138 tid 101 eid 138 etid 101 c cMessage n "" pe 60
+
+E # 61 t 1 m 22 ce 41 msg 140
+- REC-energy: 10
+- 21 my head is 9
+MS id 22 d p=$xpos,$ypos;o=black;i=device/device
+GC m 22 g 11 n O_9 o 1
+GC m 10 g 14 n I_21 o 0
+CC sm 22 sg 11 dm 10 dg 14
+CS sm 22 sg 11 d ""
+CS sm 22 sg 11 d ""
+DM id 140 tid 101 eid 140 etid 101 c cMessage n "" pe 61
+
+E # 62 t 2 m 4 ce 43 msg 142
+CM id 147 tid 147 eid 147 etid 147 c cMessage n "" pe -1
+- tdma 0: 4
+GC m 4 g 17 n O_4 o 1
+GC m 5 g 12 n I_3 o 0
+CC sm 4 sg 17 dm 5 dg 12
+CS sm 4 sg 17 d ""
+CS sm 4 sg 17 d ""
+- dist: 1125
+- tdma 1: 8
+GC m 4 g 19 n O_8 o 1
+GC m 9 g 12 n I_3 o 0
+CC sm 4 sg 19 dm 9 dg 12
+CS sm 4 sg 19 d ""
+CS sm 4 sg 19 d ""
+- dist: 2340
+- tdma 2: 20
+GC m 4 g 21 n O_20 o 1
+GC m 21 g 12 n I_3 o 0
+CC sm 4 sg 21 dm 21 dg 12
+CS sm 4 sg 21 d ""
+CS sm 4 sg 21 d ""
+- dist: 373
+- clusterhead 3: have peers 3
+- 3: sTDMA to4
+CL id 147 tid 147 eid 147 etid 147 c TDMAMessage n "" pe 62 cid 148
+BS id 148 tid 147 eid 148 etid 147 c TDMAMessage n "" pe 62
+CL id 148 tid 147 eid 148 etid 147 c TDMAMessage n "" pe 62 cid 149
+SH sm 4 sg 17
+ES t 2
+- TR-energy HEAD: 12.25
+- 3: sTDMA to8
+CL id 147 tid 147 eid 147 etid 147 c TDMAMessage n "" pe 62 cid 150
+BS id 150 tid 147 eid 150 etid 147 c TDMAMessage n "" pe 62
+CL id 150 tid 147 eid 150 etid 147 c TDMAMessage n "" pe 62 cid 151
+SH sm 4 sg 19
+ES t 2
+- TR-energy HEAD: 14.68
+- 3: sTDMA to20
+CL id 147 tid 147 eid 147 etid 147 c TDMAMessage n "" pe 62 cid 152
+BS id 152 tid 147 eid 152 etid 147 c TDMAMessage n "" pe 62
+CL id 152 tid 147 eid 152 etid 147 c TDMAMessage n "" pe 62 cid 153
+SH sm 4 sg 21
+ES t 2
+- TR-energy HEAD: 10.746
+DM id 142 tid 142 eid 142 etid 142 c cMessage n "" k 18 pe 62
+
+E # 63 t 2 m 7 ce 46 msg 143
+CM id 154 tid 154 eid 154 etid 154 c cMessage n "" pe -1
+- tdma 0: 2
+GC m 7 g 17 n O_2 o 1
+GC m 3 g 12 n I_6 o 0
+CC sm 7 sg 17 dm 3 dg 12
+CS sm 7 sg 17 d ""
+CS sm 7 sg 17 d ""
+- dist: 10
+- tdma 1: 14
+GC m 7 g 19 n O_14 o 1
+GC m 15 g 12 n I_6 o 0
+CC sm 7 sg 19 dm 15 dg 12
+CS sm 7 sg 19 d ""
+CS sm 7 sg 19 d ""
+- dist: 212
+- tdma 2: 16
+GC m 7 g 21 n O_16 o 1
+GC m 17 g 12 n I_6 o 0
+CC sm 7 sg 21 dm 17 dg 12
+CS sm 7 sg 21 d ""
+CS sm 7 sg 21 d ""
+- dist: 106
+- clusterhead 6: have peers 3
+- 6: sTDMA to2
+CL id 154 tid 154 eid 154 etid 154 c TDMAMessage n "" pe 63 cid 155
+BS id 155 tid 154 eid 155 etid 154 c TDMAMessage n "" pe 63
+CL id 155 tid 154 eid 155 etid 154 c TDMAMessage n "" pe 63 cid 156
+SH sm 7 sg 17
+ES t 2
+- TR-energy HEAD: 10.02
+- 6: sTDMA to14
+CL id 154 tid 154 eid 154 etid 154 c TDMAMessage n "" pe 63 cid 157
+BS id 157 tid 154 eid 157 etid 154 c TDMAMessage n "" pe 63
+CL id 157 tid 154 eid 157 etid 154 c TDMAMessage n "" pe 63 cid 158
+SH sm 7 sg 19
+ES t 2
+- TR-energy HEAD: 10.424
+- 6: sTDMA to16
+CL id 154 tid 154 eid 154 etid 154 c TDMAMessage n "" pe 63 cid 159
+BS id 159 tid 154 eid 159 etid 154 c TDMAMessage n "" pe 63
+CL id 159 tid 154 eid 159 etid 154 c TDMAMessage n "" pe 63 cid 160
+SH sm 7 sg 21
+ES t 2
+- TR-energy HEAD: 10.212
+DM id 143 tid 143 eid 143 etid 143 c cMessage n "" k 18 pe 63
+
+E # 64 t 2 m 10 ce 49 msg 144
+CM id 161 tid 161 eid 161 etid 161 c cMessage n "" pe -1
+- tdma 0: 10
+GC m 10 g 17 n O_10 o 1
+GC m 11 g 12 n I_9 o 0
+CC sm 10 sg 17 dm 11 dg 12
+CS sm 10 sg 17 d ""
+CS sm 10 sg 17 d ""
+- dist: 997
+- tdma 1: 12
+GC m 10 g 19 n O_12 o 1
+GC m 13 g 12 n I_9 o 0
+CC sm 10 sg 19 dm 13 dg 12
+CS sm 10 sg 19 d ""
+CS sm 10 sg 19 d ""
+- dist: 1109
+- tdma 2: 21
+GC m 10 g 21 n O_21 o 1
+GC m 22 g 12 n I_9 o 0
+CC sm 10 sg 21 dm 22 dg 12
+CS sm 10 sg 21 d ""
+CS sm 10 sg 21 d ""
+- dist: 314
+- clusterhead 9: have peers 3
+- 9: sTDMA to10
+CL id 161 tid 161 eid 161 etid 161 c TDMAMessage n "" pe 64 cid 162
+BS id 162 tid 161 eid 162 etid 161 c TDMAMessage n "" pe 64
+CL id 162 tid 161 eid 162 etid 161 c TDMAMessage n "" pe 64 cid 163
+SH sm 10 sg 17
+ES t 2
+- TR-energy HEAD: 11.994
+- 9: sTDMA to12
+CL id 161 tid 161 eid 161 etid 161 c TDMAMessage n "" pe 64 cid 164
+BS id 164 tid 161 eid 164 etid 161 c TDMAMessage n "" pe 64
+CL id 164 tid 161 eid 164 etid 161 c TDMAMessage n "" pe 64 cid 165
+SH sm 10 sg 19
+ES t 2
+- TR-energy HEAD: 12.218
+- 9: sTDMA to21
+CL id 161 tid 161 eid 161 etid 161 c TDMAMessage n "" pe 64 cid 166
+BS id 166 tid 161 eid 166 etid 161 c TDMAMessage n "" pe 64
+CL id 166 tid 161 eid 166 etid 161 c TDMAMessage n "" pe 64 cid 167
+SH sm 10 sg 21
+ES t 2
+- TR-energy HEAD: 10.628
+DM id 144 tid 144 eid 144 etid 144 c cMessage n "" k 18 pe 64
+
+E # 65 t 2 m 19 ce 58 msg 145
+CM id 168 tid 168 eid 168 etid 168 c cMessage n "" pe -1
+- tdma 0: 5
+GC m 19 g 21 n O_5 o 1
+GC m 6 g 12 n I_18 o 0
+CC sm 19 sg 21 dm 6 dg 12
+CS sm 19 sg 21 d ""
+CS sm 19 sg 21 d ""
+- dist: 1224
+- tdma 1: 7
+GC m 19 g 23 n O_7 o 1
+GC m 8 g 12 n I_18 o 0
+CC sm 19 sg 23 dm 8 dg 12
+CS sm 19 sg 23 d ""
+CS sm 19 sg 23 d ""
+- dist: 340
+- tdma 2: 11
+GC m 19 g 25 n O_11 o 1
+GC m 12 g 12 n I_18 o 0
+CC sm 19 sg 25 dm 12 dg 12
+CS sm 19 sg 25 d ""
+CS sm 19 sg 25 d ""
+- dist: 298
+- tdma 3: 13
+GC m 19 g 27 n O_13 o 1
+GC m 14 g 12 n I_18 o 0
+CC sm 19 sg 27 dm 14 dg 12
+CS sm 19 sg 27 d ""
+CS sm 19 sg 27 d ""
+- dist: 290
+- tdma 4: 15
+GC m 19 g 29 n O_15 o 1
+GC m 16 g 12 n I_18 o 0
+CC sm 19 sg 29 dm 16 dg 12
+CS sm 19 sg 29 d ""
+CS sm 19 sg 29 d ""
+- dist: 233
+- clusterhead 18: have peers 5
+- 18: sTDMA to5
+CL id 168 tid 168 eid 168 etid 168 c TDMAMessage n "" pe 65 cid 169
+BS id 169 tid 168 eid 169 etid 168 c TDMAMessage n "" pe 65
+CL id 169 tid 168 eid 169 etid 168 c TDMAMessage n "" pe 65 cid 170
+SH sm 19 sg 21
+ES t 2
+- TR-energy HEAD: 12.448
+- 18: sTDMA to7
+CL id 168 tid 168 eid 168 etid 168 c TDMAMessage n "" pe 65 cid 171
+BS id 171 tid 168 eid 171 etid 168 c TDMAMessage n "" pe 65
+CL id 171 tid 168 eid 171 etid 168 c TDMAMessage n "" pe 65 cid 172
+SH sm 19 sg 23
+ES t 2
+- TR-energy HEAD: 10.68
+- 18: sTDMA to11
+CL id 168 tid 168 eid 168 etid 168 c TDMAMessage n "" pe 65 cid 173
+BS id 173 tid 168 eid 173 etid 168 c TDMAMessage n "" pe 65
+CL id 173 tid 168 eid 173 etid 168 c TDMAMessage n "" pe 65 cid 174
+SH sm 19 sg 25
+ES t 2
+- TR-energy HEAD: 10.596
+- 18: sTDMA to13
+CL id 168 tid 168 eid 168 etid 168 c TDMAMessage n "" pe 65 cid 175
+BS id 175 tid 168 eid 175 etid 168 c TDMAMessage n "" pe 65
+CL id 175 tid 168 eid 175 etid 168 c TDMAMessage n "" pe 65 cid 176
+SH sm 19 sg 27
+ES t 2
+- TR-energy HEAD: 10.58
+- 18: sTDMA to15
+CL id 168 tid 168 eid 168 etid 168 c TDMAMessage n "" pe 65 cid 177
+BS id 177 tid 168 eid 177 etid 168 c TDMAMessage n "" pe 65
+CL id 177 tid 168 eid 177 etid 168 c TDMAMessage n "" pe 65 cid 178
+SH sm 19 sg 29
+ES t 2
+- TR-energy HEAD: 10.466
+DM id 145 tid 145 eid 145 etid 145 c cMessage n "" k 18 pe 65
+
+E # 66 t 2 m 20 ce 59 msg 146
+CM id 179 tid 179 eid 179 etid 179 c cMessage n "" pe -1
+- tdma 0: 17
+GC m 20 g 13 n O_17 o 1
+GC m 18 g 12 n I_19 o 0
+CC sm 20 sg 13 dm 18 dg 12
+CS sm 20 sg 13 d ""
+CS sm 20 sg 13 d ""
+- dist: 145
+- clusterhead 19: have peers 1
+- 19: sTDMA to17
+CL id 179 tid 179 eid 179 etid 179 c TDMAMessage n "" pe 66 cid 180
+BS id 180 tid 179 eid 180 etid 179 c TDMAMessage n "" pe 66
+CL id 180 tid 179 eid 180 etid 179 c TDMAMessage n "" pe 66 cid 181
+SH sm 20 sg 13
+ES t 2
+- TR-energy HEAD: 10.29
+DM id 146 tid 146 eid 146 etid 146 c cMessage n "" k 18 pe 66
+
+E # 67 t 2 m 5 ce 62 msg 148
+- REC-energy: 10
+- 4: received TDMA  frameTime 5
+- 4: found slot time 1
+- loop done
+CM id 182 tid 182 eid 182 etid 182 c cMessage n "" pe -1
+BS id 182 tid 182 eid 182 etid 182 c cMessage n "" k 11 pe 67
+ES t 3
+- tdma 4done
+DM id 148 tid 147 eid 148 etid 147 c cMessage n "" pe 67
+
+E # 68 t 2 m 9 ce 62 msg 150
+- REC-energy: 10
+- 8: received TDMA  frameTime 5
+- 8: found slot time 2
+- loop done
+CM id 183 tid 183 eid 183 etid 183 c cMessage n "" pe -1
+BS id 183 tid 183 eid 183 etid 183 c cMessage n "" k 11 pe 68
+ES t 4
+- tdma 8done
+DM id 150 tid 147 eid 150 etid 147 c cMessage n "" pe 68
+
+E # 69 t 2 m 21 ce 62 msg 152
+- REC-energy: 10
+- 20: received TDMA  frameTime 5
+- 20: found slot time 3
+- loop done
+CM id 184 tid 184 eid 184 etid 184 c cMessage n "" pe -1
+BS id 184 tid 184 eid 184 etid 184 c cMessage n "" k 11 pe 69
+ES t 5
+- tdma 20done
+DM id 152 tid 147 eid 152 etid 147 c cMessage n "" pe 69
+
+E # 70 t 2 m 3 ce 63 msg 155
+- REC-energy: 10
+- 2: received TDMA  frameTime 5
+- 2: found slot time 1
+- loop done
+CM id 185 tid 185 eid 185 etid 185 c cMessage n "" pe -1
+BS id 185 tid 185 eid 185 etid 185 c cMessage n "" k 11 pe 70
+ES t 3
+- tdma 2done
+DM id 155 tid 154 eid 155 etid 154 c cMessage n "" pe 70
+
+E # 71 t 2 m 15 ce 63 msg 157
+- REC-energy: 10
+- 14: received TDMA  frameTime 5
+- 14: found slot time 2
+- loop done
+CM id 186 tid 186 eid 186 etid 186 c cMessage n "" pe -1
+BS id 186 tid 186 eid 186 etid 186 c cMessage n "" k 11 pe 71
+ES t 4
+- tdma 14done
+DM id 157 tid 154 eid 157 etid 154 c cMessage n "" pe 71
+
+E # 72 t 2 m 17 ce 63 msg 159
+- REC-energy: 10
+- 16: received TDMA  frameTime 5
+- 16: found slot time 3
+- loop done
+CM id 187 tid 187 eid 187 etid 187 c cMessage n "" pe -1
+BS id 187 tid 187 eid 187 etid 187 c cMessage n "" k 11 pe 72
+ES t 5
+- tdma 16done
+DM id 159 tid 154 eid 159 etid 154 c cMessage n "" pe 72
+
+E # 73 t 2 m 11 ce 64 msg 162
+- REC-energy: 10
+- 10: received TDMA  frameTime 5
+- 10: found slot time 1
+- loop done
+CM id 188 tid 188 eid 188 etid 188 c cMessage n "" pe -1
+BS id 188 tid 188 eid 188 etid 188 c cMessage n "" k 11 pe 73
+ES t 3
+- tdma 10done
+DM id 162 tid 161 eid 162 etid 161 c cMessage n "" pe 73
+
+E # 74 t 2 m 13 ce 64 msg 164
+- REC-energy: 10
+- 12: received TDMA  frameTime 5
+- 12: found slot time 2
+- loop done
+CM id 189 tid 189 eid 189 etid 189 c cMessage n "" pe -1
+BS id 189 tid 189 eid 189 etid 189 c cMessage n "" k 11 pe 74
+ES t 4
+- tdma 12done
+DM id 164 tid 161 eid 164 etid 161 c cMessage n "" pe 74
+
+E # 75 t 2 m 22 ce 64 msg 166
+- REC-energy: 10
+- 21: received TDMA  frameTime 5
+- 21: found slot time 3
+- loop done
+CM id 190 tid 190 eid 190 etid 190 c cMessage n "" pe -1
+BS id 190 tid 190 eid 190 etid 190 c cMessage n "" k 11 pe 75
+ES t 5
+- tdma 21done
+DM id 166 tid 161 eid 166 etid 161 c cMessage n "" pe 75
+
+E # 76 t 2 m 6 ce 65 msg 169
+- REC-energy: 10
+- 5: received TDMA  frameTime 7
+- 5: found slot time 1
+- loop done
+CM id 191 tid 191 eid 191 etid 191 c cMessage n "" pe -1
+BS id 191 tid 191 eid 191 etid 191 c cMessage n "" k 11 pe 76
+ES t 3
+- tdma 5done
+DM id 169 tid 168 eid 169 etid 168 c cMessage n "" pe 76
+
+E # 77 t 2 m 8 ce 65 msg 171
+- REC-energy: 10
+- 7: received TDMA  frameTime 7
+- 7: found slot time 2
+- loop done
+CM id 192 tid 192 eid 192 etid 192 c cMessage n "" pe -1
+BS id 192 tid 192 eid 192 etid 192 c cMessage n "" k 11 pe 77
+ES t 4
+- tdma 7done
+DM id 171 tid 168 eid 171 etid 168 c cMessage n "" pe 77
+
+E # 78 t 2 m 12 ce 65 msg 173
+- REC-energy: 10
+- 11: received TDMA  frameTime 7
+- 11: found slot time 3
+- loop done
+CM id 193 tid 193 eid 193 etid 193 c cMessage n "" pe -1
+BS id 193 tid 193 eid 193 etid 193 c cMessage n "" k 11 pe 78
+ES t 5
+- tdma 11done
+DM id 173 tid 168 eid 173 etid 168 c cMessage n "" pe 78
+
+E # 79 t 2 m 14 ce 65 msg 175
+- REC-energy: 10
+- 13: received TDMA  frameTime 7
+- 13: found slot time 4
+- loop done
+CM id 194 tid 194 eid 194 etid 194 c cMessage n "" pe -1
+BS id 194 tid 194 eid 194 etid 194 c cMessage n "" k 11 pe 79
+ES t 6
+- tdma 13done
+DM id 175 tid 168 eid 175 etid 168 c cMessage n "" pe 79
+
+E # 80 t 2 m 16 ce 65 msg 177
+- REC-energy: 10
+- 15: received TDMA  frameTime 7
+- 15: found slot time 5
+- loop done
+CM id 195 tid 195 eid 195 etid 195 c cMessage n "" pe -1
+BS id 195 tid 195 eid 195 etid 195 c cMessage n "" k 11 pe 80
+ES t 7
+- tdma 15done
+DM id 177 tid 168 eid 177 etid 168 c cMessage n "" pe 80
+
+E # 81 t 2 m 18 ce 66 msg 180
+- REC-energy: 10
+- 17: received TDMA  frameTime 3
+- 17: found slot time 1
+- loop done
+CM id 196 tid 196 eid 196 etid 196 c cMessage n "" pe -1
+BS id 196 tid 196 eid 196 etid 196 c cMessage n "" k 11 pe 81
+ES t 3
+- tdma 17done
+DM id 180 tid 179 eid 180 etid 179 c cMessage n "" pe 81
+
+E # 82 t 3 m 5 ce 67 msg 182
+CM id 197 tid 197 eid 197 etid 197 c cMessage n "" pe -1
+BS id 197 tid 197 eid 197 etid 197 c DataToCHMessage n "" pe 82
+CL id 197 tid 197 eid 197 etid 197 c DataToCHMessage n "" pe 82 cid 198
+SH sm 5 sg 11
+ES t 3
+CM id 199 tid 199 eid 199 etid 199 c cMessage n "" pe -1
+BS id 199 tid 199 eid 199 etid 199 c cMessage n "" k 11 pe 82
+ES t 8
+DM id 182 tid 182 eid 182 etid 182 c cMessage n "" k 11 pe 82
+
+E # 83 t 3 m 3 ce 70 msg 185
+CM id 200 tid 200 eid 200 etid 200 c cMessage n "" pe -1
+BS id 200 tid 200 eid 200 etid 200 c DataToCHMessage n "" pe 83
+CL id 200 tid 200 eid 200 etid 200 c DataToCHMessage n "" pe 83 cid 201
+SH sm 3 sg 11
+ES t 3
+CM id 202 tid 202 eid 202 etid 202 c cMessage n "" pe -1
+BS id 202 tid 202 eid 202 etid 202 c cMessage n "" k 11 pe 83
+ES t 8
+DM id 185 tid 185 eid 185 etid 185 c cMessage n "" k 11 pe 83
+
+E # 84 t 3 m 11 ce 73 msg 188
+CM id 203 tid 203 eid 203 etid 203 c cMessage n "" pe -1
+BS id 203 tid 203 eid 203 etid 203 c DataToCHMessage n "" pe 84
+CL id 203 tid 203 eid 203 etid 203 c DataToCHMessage n "" pe 84 cid 204
+SH sm 11 sg 11
+ES t 3
+CM id 205 tid 205 eid 205 etid 205 c cMessage n "" pe -1
+BS id 205 tid 205 eid 205 etid 205 c cMessage n "" k 11 pe 84
+ES t 8
+DM id 188 tid 188 eid 188 etid 188 c cMessage n "" k 11 pe 84
+
+E # 85 t 3 m 6 ce 76 msg 191
+CM id 206 tid 206 eid 206 etid 206 c cMessage n "" pe -1
+BS id 206 tid 206 eid 206 etid 206 c DataToCHMessage n "" pe 85
+CL id 206 tid 206 eid 206 etid 206 c DataToCHMessage n "" pe 85 cid 207
+SH sm 6 sg 11
+ES t 3
+CM id 208 tid 208 eid 208 etid 208 c cMessage n "" pe -1
+BS id 208 tid 208 eid 208 etid 208 c cMessage n "" k 11 pe 85
+ES t 10
+DM id 191 tid 191 eid 191 etid 191 c cMessage n "" k 11 pe 85
+
+E # 86 t 3 m 18 ce 81 msg 196
+CM id 209 tid 209 eid 209 etid 209 c cMessage n "" pe -1
+BS id 209 tid 209 eid 209 etid 209 c DataToCHMessage n "" pe 86
+CL id 209 tid 209 eid 209 etid 209 c DataToCHMessage n "" pe 86 cid 210
+SH sm 18 sg 11
+ES t 3
+CM id 211 tid 211 eid 211 etid 211 c cMessage n "" pe -1
+BS id 211 tid 211 eid 211 etid 211 c cMessage n "" k 11 pe 86
+ES t 6
+DM id 196 tid 196 eid 196 etid 196 c cMessage n "" k 11 pe 86
+
+E # 87 t 3 m 4 ce 82 msg 197
+- REC-energy: 200
+DM id 197 tid 197 eid 197 etid 197 c cMessage n "" pe 87
+
+E # 88 t 3 m 7 ce 83 msg 200
+- REC-energy: 200
+DM id 200 tid 200 eid 200 etid 200 c cMessage n "" pe 88
+
+E # 89 t 3 m 10 ce 84 msg 203
+- REC-energy: 200
+DM id 203 tid 203 eid 203 etid 203 c cMessage n "" pe 89
+
+E # 90 t 3 m 19 ce 85 msg 206
+- REC-energy: 200
+DM id 206 tid 206 eid 206 etid 206 c cMessage n "" pe 90
+
+E # 91 t 3 m 20 ce 86 msg 209
+- REC-energy: 200
+CM id 212 tid 212 eid 212 etid 212 c cMessage n "" pe -1
+BS id 212 tid 212 eid 212 etid 212 c cMessage n "" k 13 pe 91
+ES t 5
+DM id 209 tid 209 eid 209 etid 209 c cMessage n "" pe 91
+
+E # 92 t 4 m 9 ce 68 msg 183
+CM id 213 tid 213 eid 213 etid 213 c cMessage n "" pe -1
+BS id 213 tid 213 eid 213 etid 213 c DataToCHMessage n "" pe 92
+CL id 213 tid 213 eid 213 etid 213 c DataToCHMessage n "" pe 92 cid 214
+SH sm 9 sg 11
+ES t 4
+CM id 215 tid 215 eid 215 etid 215 c cMessage n "" pe -1
+BS id 215 tid 215 eid 215 etid 215 c cMessage n "" k 11 pe 92
+ES t 9
+DM id 183 tid 183 eid 183 etid 183 c cMessage n "" k 11 pe 92
+
+E # 93 t 4 m 15 ce 71 msg 186
+CM id 216 tid 216 eid 216 etid 216 c cMessage n "" pe -1
+BS id 216 tid 216 eid 216 etid 216 c DataToCHMessage n "" pe 93
+CL id 216 tid 216 eid 216 etid 216 c DataToCHMessage n "" pe 93 cid 217
+SH sm 15 sg 11
+ES t 4
+CM id 218 tid 218 eid 218 etid 218 c cMessage n "" pe -1
+BS id 218 tid 218 eid 218 etid 218 c cMessage n "" k 11 pe 93
+ES t 9
+DM id 186 tid 186 eid 186 etid 186 c cMessage n "" k 11 pe 93
+
+E # 94 t 4 m 13 ce 74 msg 189
+CM id 219 tid 219 eid 219 etid 219 c cMessage n "" pe -1
+BS id 219 tid 219 eid 219 etid 219 c DataToCHMessage n "" pe 94
+CL id 219 tid 219 eid 219 etid 219 c DataToCHMessage n "" pe 94 cid 220
+SH sm 13 sg 11
+ES t 4
+CM id 221 tid 221 eid 221 etid 221 c cMessage n "" pe -1
+BS id 221 tid 221 eid 221 etid 221 c cMessage n "" k 11 pe 94
+ES t 9
+DM id 189 tid 189 eid 189 etid 189 c cMessage n "" k 11 pe 94
+
+E # 95 t 4 m 8 ce 77 msg 192
+CM id 222 tid 222 eid 222 etid 222 c cMessage n "" pe -1
+BS id 222 tid 222 eid 222 etid 222 c DataToCHMessage n "" pe 95
+CL id 222 tid 222 eid 222 etid 222 c DataToCHMessage n "" pe 95 cid 223
+SH sm 8 sg 11
+ES t 4
+CM id 224 tid 224 eid 224 etid 224 c cMessage n "" pe -1
+BS id 224 tid 224 eid 224 etid 224 c cMessage n "" k 11 pe 95
+ES t 11
+DM id 192 tid 192 eid 192 etid 192 c cMessage n "" k 11 pe 95
+
+E # 96 t 4 m 4 ce 92 msg 213
+- REC-energy: 200
+DM id 213 tid 213 eid 213 etid 213 c cMessage n "" pe 96
+
+E # 97 t 4 m 7 ce 93 msg 216
+- REC-energy: 200
+DM id 216 tid 216 eid 216 etid 216 c cMessage n "" pe 97
+
+E # 98 t 4 m 10 ce 94 msg 219
+- REC-energy: 200
+DM id 219 tid 219 eid 219 etid 219 c cMessage n "" pe 98
+
+E # 99 t 4 m 19 ce 95 msg 222
+- REC-energy: 200
+DM id 222 tid 222 eid 222 etid 222 c cMessage n "" pe 99
+
+E # 100 t 5 m 21 ce 69 msg 184
+CM id 225 tid 225 eid 225 etid 225 c cMessage n "" pe -1
+BS id 225 tid 225 eid 225 etid 225 c DataToCHMessage n "" pe 100
+CL id 225 tid 225 eid 225 etid 225 c DataToCHMessage n "" pe 100 cid 226
+SH sm 21 sg 11
+ES t 5
+CM id 227 tid 227 eid 227 etid 227 c cMessage n "" pe -1
+BS id 227 tid 227 eid 227 etid 227 c cMessage n "" k 11 pe 100
+ES t 10
+DM id 184 tid 184 eid 184 etid 184 c cMessage n "" k 11 pe 100
+
+E # 101 t 5 m 17 ce 72 msg 187
+CM id 228 tid 228 eid 228 etid 228 c cMessage n "" pe -1
+BS id 228 tid 228 eid 228 etid 228 c DataToCHMessage n "" pe 101
+CL id 228 tid 228 eid 228 etid 228 c DataToCHMessage n "" pe 101 cid 229
+SH sm 17 sg 11
+ES t 5
+CM id 230 tid 230 eid 230 etid 230 c cMessage n "" pe -1
+BS id 230 tid 230 eid 230 etid 230 c cMessage n "" k 11 pe 101
+ES t 10
+DM id 187 tid 187 eid 187 etid 187 c cMessage n "" k 11 pe 101
+
+E # 102 t 5 m 22 ce 75 msg 190
+CM id 231 tid 231 eid 231 etid 231 c cMessage n "" pe -1
+BS id 231 tid 231 eid 231 etid 231 c DataToCHMessage n "" pe 102
+CL id 231 tid 231 eid 231 etid 231 c DataToCHMessage n "" pe 102 cid 232
+SH sm 22 sg 11
+ES t 5
+CM id 233 tid 233 eid 233 etid 233 c cMessage n "" pe -1
+BS id 233 tid 233 eid 233 etid 233 c cMessage n "" k 11 pe 102
+ES t 10
+DM id 190 tid 190 eid 190 etid 190 c cMessage n "" k 11 pe 102
+
+E # 103 t 5 m 12 ce 78 msg 193
+CM id 234 tid 234 eid 234 etid 234 c cMessage n "" pe -1
+BS id 234 tid 234 eid 234 etid 234 c DataToCHMessage n "" pe 103
+CL id 234 tid 234 eid 234 etid 234 c DataToCHMessage n "" pe 103 cid 235
+SH sm 12 sg 11
+ES t 5
+CM id 236 tid 236 eid 236 etid 236 c cMessage n "" pe -1
+BS id 236 tid 236 eid 236 etid 236 c cMessage n "" k 11 pe 103
+ES t 12
+DM id 193 tid 193 eid 193 etid 193 c cMessage n "" k 11 pe 103
+
+E # 104 t 5 m 20 ce 91 msg 212
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 237 tid 237 eid 237 etid 237 c cMessage n "" pe -1
+BS id 237 tid 237 eid 237 etid 237 c Data2BSMessage n "" pe 104
+CL id 237 tid 237 eid 237 etid 237 c Data2BSMessage n "" pe 104 cid 238
+SH sm 20 sg 9
+ES t 5
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 212 tid 212 eid 212 etid 212 c cMessage n "" k 13 pe 104
+
+E # 105 t 5 m 4 ce 100 msg 225
+- REC-energy: 200
+CM id 239 tid 239 eid 239 etid 239 c cMessage n "" pe -1
+BS id 239 tid 239 eid 239 etid 239 c cMessage n "" k 13 pe 105
+ES t 7
+DM id 225 tid 225 eid 225 etid 225 c cMessage n "" pe 105
+
+E # 106 t 5 m 7 ce 101 msg 228
+- REC-energy: 200
+CM id 240 tid 240 eid 240 etid 240 c cMessage n "" pe -1
+BS id 240 tid 240 eid 240 etid 240 c cMessage n "" k 13 pe 106
+ES t 7
+DM id 228 tid 228 eid 228 etid 228 c cMessage n "" pe 106
+
+E # 107 t 5 m 10 ce 102 msg 231
+- REC-energy: 200
+CM id 241 tid 241 eid 241 etid 241 c cMessage n "" pe -1
+BS id 241 tid 241 eid 241 etid 241 c cMessage n "" k 13 pe 107
+ES t 7
+DM id 231 tid 231 eid 231 etid 231 c cMessage n "" pe 107
+
+E # 108 t 5 m 19 ce 103 msg 234
+- REC-energy: 200
+DM id 234 tid 234 eid 234 etid 234 c cMessage n "" pe 108
+
+E # 109 t 5 m 2 ce 104 msg 237
+DM id 237 tid 237 eid 237 etid 237 c cMessage n "" pe 109
+
+E # 110 t 6 m 14 ce 79 msg 194
+CM id 242 tid 242 eid 242 etid 242 c cMessage n "" pe -1
+BS id 242 tid 242 eid 242 etid 242 c DataToCHMessage n "" pe 110
+CL id 242 tid 242 eid 242 etid 242 c DataToCHMessage n "" pe 110 cid 243
+SH sm 14 sg 11
+ES t 6
+CM id 244 tid 244 eid 244 etid 244 c cMessage n "" pe -1
+BS id 244 tid 244 eid 244 etid 244 c cMessage n "" k 11 pe 110
+ES t 13
+DM id 194 tid 194 eid 194 etid 194 c cMessage n "" k 11 pe 110
+
+E # 111 t 6 m 18 ce 86 msg 211
+CM id 245 tid 245 eid 245 etid 245 c cMessage n "" pe -1
+BS id 245 tid 245 eid 245 etid 245 c DataToCHMessage n "" pe 111
+CL id 245 tid 245 eid 245 etid 245 c DataToCHMessage n "" pe 111 cid 246
+SH sm 18 sg 11
+ES t 6
+CM id 247 tid 247 eid 247 etid 247 c cMessage n "" pe -1
+BS id 247 tid 247 eid 247 etid 247 c cMessage n "" k 11 pe 111
+ES t 9
+DM id 211 tid 211 eid 211 etid 211 c cMessage n "" k 11 pe 111
+
+E # 112 t 6 m 19 ce 110 msg 242
+- REC-energy: 200
+DM id 242 tid 242 eid 242 etid 242 c cMessage n "" pe 112
+
+E # 113 t 6 m 20 ce 111 msg 245
+- REC-energy: 200
+CM id 248 tid 248 eid 248 etid 248 c cMessage n "" pe -1
+BS id 248 tid 248 eid 248 etid 248 c cMessage n "" k 13 pe 113
+ES t 8
+DM id 245 tid 245 eid 245 etid 245 c cMessage n "" pe 113
+
+E # 114 t 7 m 16 ce 80 msg 195
+CM id 249 tid 249 eid 249 etid 249 c cMessage n "" pe -1
+BS id 249 tid 249 eid 249 etid 249 c DataToCHMessage n "" pe 114
+CL id 249 tid 249 eid 249 etid 249 c DataToCHMessage n "" pe 114 cid 250
+SH sm 16 sg 11
+ES t 7
+CM id 251 tid 251 eid 251 etid 251 c cMessage n "" pe -1
+BS id 251 tid 251 eid 251 etid 251 c cMessage n "" k 11 pe 114
+ES t 14
+DM id 195 tid 195 eid 195 etid 195 c cMessage n "" k 11 pe 114
+
+E # 115 t 7 m 4 ce 105 msg 239
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 252 tid 252 eid 252 etid 252 c cMessage n "" pe -1
+BS id 252 tid 252 eid 252 etid 252 c Data2BSMessage n "" pe 115
+CL id 252 tid 252 eid 252 etid 252 c Data2BSMessage n "" pe 115 cid 253
+SH sm 4 sg 9
+ES t 7
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 239 tid 239 eid 239 etid 239 c cMessage n "" k 13 pe 115
+
+E # 116 t 7 m 7 ce 106 msg 240
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 254 tid 254 eid 254 etid 254 c cMessage n "" pe -1
+BS id 254 tid 254 eid 254 etid 254 c Data2BSMessage n "" pe 116
+CL id 254 tid 254 eid 254 etid 254 c Data2BSMessage n "" pe 116 cid 255
+SH sm 7 sg 9
+ES t 7
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 240 tid 240 eid 240 etid 240 c cMessage n "" k 13 pe 116
+
+E # 117 t 7 m 10 ce 107 msg 241
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 256 tid 256 eid 256 etid 256 c cMessage n "" pe -1
+BS id 256 tid 256 eid 256 etid 256 c Data2BSMessage n "" pe 117
+CL id 256 tid 256 eid 256 etid 256 c Data2BSMessage n "" pe 117 cid 257
+SH sm 10 sg 9
+ES t 7
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 241 tid 241 eid 241 etid 241 c cMessage n "" k 13 pe 117
+
+E # 118 t 7 m 19 ce 114 msg 249
+- REC-energy: 200
+CM id 258 tid 258 eid 258 etid 258 c cMessage n "" pe -1
+BS id 258 tid 258 eid 258 etid 258 c cMessage n "" k 13 pe 118
+ES t 9
+DM id 249 tid 249 eid 249 etid 249 c cMessage n "" pe 118
+
+E # 119 t 7 m 2 ce 115 msg 252
+DM id 252 tid 252 eid 252 etid 252 c cMessage n "" pe 119
+
+E # 120 t 7 m 2 ce 116 msg 254
+DM id 254 tid 254 eid 254 etid 254 c cMessage n "" pe 120
+
+E # 121 t 7 m 2 ce 117 msg 256
+DM id 256 tid 256 eid 256 etid 256 c cMessage n "" pe 121
+
+E # 122 t 8 m 5 ce 82 msg 199
+CM id 259 tid 259 eid 259 etid 259 c cMessage n "" pe -1
+BS id 259 tid 259 eid 259 etid 259 c DataToCHMessage n "" pe 122
+CL id 259 tid 259 eid 259 etid 259 c DataToCHMessage n "" pe 122 cid 260
+SH sm 5 sg 11
+ES t 8
+CM id 261 tid 261 eid 261 etid 261 c cMessage n "" pe -1
+BS id 261 tid 261 eid 261 etid 261 c cMessage n "" k 11 pe 122
+ES t 13
+DM id 199 tid 199 eid 199 etid 199 c cMessage n "" k 11 pe 122
+
+E # 123 t 8 m 3 ce 83 msg 202
+CM id 262 tid 262 eid 262 etid 262 c cMessage n "" pe -1
+BS id 262 tid 262 eid 262 etid 262 c DataToCHMessage n "" pe 123
+CL id 262 tid 262 eid 262 etid 262 c DataToCHMessage n "" pe 123 cid 263
+SH sm 3 sg 11
+ES t 8
+CM id 264 tid 264 eid 264 etid 264 c cMessage n "" pe -1
+BS id 264 tid 264 eid 264 etid 264 c cMessage n "" k 11 pe 123
+ES t 13
+DM id 202 tid 202 eid 202 etid 202 c cMessage n "" k 11 pe 123
+
+E # 124 t 8 m 11 ce 84 msg 205
+CM id 265 tid 265 eid 265 etid 265 c cMessage n "" pe -1
+BS id 265 tid 265 eid 265 etid 265 c DataToCHMessage n "" pe 124
+CL id 265 tid 265 eid 265 etid 265 c DataToCHMessage n "" pe 124 cid 266
+SH sm 11 sg 11
+ES t 8
+CM id 267 tid 267 eid 267 etid 267 c cMessage n "" pe -1
+BS id 267 tid 267 eid 267 etid 267 c cMessage n "" k 11 pe 124
+ES t 13
+DM id 205 tid 205 eid 205 etid 205 c cMessage n "" k 11 pe 124
+
+E # 125 t 8 m 20 ce 113 msg 248
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 268 tid 268 eid 268 etid 268 c cMessage n "" pe -1
+BS id 268 tid 268 eid 268 etid 268 c Data2BSMessage n "" pe 125
+CL id 268 tid 268 eid 268 etid 268 c Data2BSMessage n "" pe 125 cid 269
+SH sm 20 sg 9
+ES t 8
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 248 tid 248 eid 248 etid 248 c cMessage n "" k 13 pe 125
+
+E # 126 t 8 m 4 ce 122 msg 259
+- REC-energy: 200
+DM id 259 tid 259 eid 259 etid 259 c cMessage n "" pe 126
+
+E # 127 t 8 m 7 ce 123 msg 262
+- REC-energy: 200
+DM id 262 tid 262 eid 262 etid 262 c cMessage n "" pe 127
+
+E # 128 t 8 m 10 ce 124 msg 265
+- REC-energy: 200
+DM id 265 tid 265 eid 265 etid 265 c cMessage n "" pe 128
+
+E # 129 t 8 m 2 ce 125 msg 268
+DM id 268 tid 268 eid 268 etid 268 c cMessage n "" pe 129
+
+E # 130 t 9 m 9 ce 92 msg 215
+CM id 270 tid 270 eid 270 etid 270 c cMessage n "" pe -1
+BS id 270 tid 270 eid 270 etid 270 c DataToCHMessage n "" pe 130
+CL id 270 tid 270 eid 270 etid 270 c DataToCHMessage n "" pe 130 cid 271
+SH sm 9 sg 11
+ES t 9
+CM id 272 tid 272 eid 272 etid 272 c cMessage n "" pe -1
+BS id 272 tid 272 eid 272 etid 272 c cMessage n "" k 11 pe 130
+ES t 14
+DM id 215 tid 215 eid 215 etid 215 c cMessage n "" k 11 pe 130
+
+E # 131 t 9 m 15 ce 93 msg 218
+CM id 273 tid 273 eid 273 etid 273 c cMessage n "" pe -1
+BS id 273 tid 273 eid 273 etid 273 c DataToCHMessage n "" pe 131
+CL id 273 tid 273 eid 273 etid 273 c DataToCHMessage n "" pe 131 cid 274
+SH sm 15 sg 11
+ES t 9
+CM id 275 tid 275 eid 275 etid 275 c cMessage n "" pe -1
+BS id 275 tid 275 eid 275 etid 275 c cMessage n "" k 11 pe 131
+ES t 14
+DM id 218 tid 218 eid 218 etid 218 c cMessage n "" k 11 pe 131
+
+E # 132 t 9 m 13 ce 94 msg 221
+CM id 276 tid 276 eid 276 etid 276 c cMessage n "" pe -1
+BS id 276 tid 276 eid 276 etid 276 c DataToCHMessage n "" pe 132
+CL id 276 tid 276 eid 276 etid 276 c DataToCHMessage n "" pe 132 cid 277
+SH sm 13 sg 11
+ES t 9
+CM id 278 tid 278 eid 278 etid 278 c cMessage n "" pe -1
+BS id 278 tid 278 eid 278 etid 278 c cMessage n "" k 11 pe 132
+ES t 14
+DM id 221 tid 221 eid 221 etid 221 c cMessage n "" k 11 pe 132
+
+E # 133 t 9 m 18 ce 111 msg 247
+CM id 279 tid 279 eid 279 etid 279 c cMessage n "" pe -1
+BS id 279 tid 279 eid 279 etid 279 c DataToCHMessage n "" pe 133
+CL id 279 tid 279 eid 279 etid 279 c DataToCHMessage n "" pe 133 cid 280
+SH sm 18 sg 11
+ES t 9
+CM id 281 tid 281 eid 281 etid 281 c cMessage n "" pe -1
+BS id 281 tid 281 eid 281 etid 281 c cMessage n "" k 11 pe 133
+ES t 12
+DM id 247 tid 247 eid 247 etid 247 c cMessage n "" k 11 pe 133
+
+E # 134 t 9 m 19 ce 118 msg 258
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 282 tid 282 eid 282 etid 282 c cMessage n "" pe -1
+BS id 282 tid 282 eid 282 etid 282 c Data2BSMessage n "" pe 134
+CL id 282 tid 282 eid 282 etid 282 c Data2BSMessage n "" pe 134 cid 283
+SH sm 19 sg 9
+ES t 9
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 258 tid 258 eid 258 etid 258 c cMessage n "" k 13 pe 134
+
+E # 135 t 9 m 4 ce 130 msg 270
+- REC-energy: 200
+DM id 270 tid 270 eid 270 etid 270 c cMessage n "" pe 135
+
+E # 136 t 9 m 7 ce 131 msg 273
+- REC-energy: 200
+DM id 273 tid 273 eid 273 etid 273 c cMessage n "" pe 136
+
+E # 137 t 9 m 10 ce 132 msg 276
+- REC-energy: 200
+DM id 276 tid 276 eid 276 etid 276 c cMessage n "" pe 137
+
+E # 138 t 9 m 20 ce 133 msg 279
+- REC-energy: 200
+CM id 284 tid 284 eid 284 etid 284 c cMessage n "" pe -1
+BS id 284 tid 284 eid 284 etid 284 c cMessage n "" k 13 pe 138
+ES t 11
+DM id 279 tid 279 eid 279 etid 279 c cMessage n "" pe 138
+
+E # 139 t 9 m 2 ce 134 msg 282
+DM id 282 tid 282 eid 282 etid 282 c cMessage n "" pe 139
+
+E # 140 t 10 m 6 ce 85 msg 208
+CM id 285 tid 285 eid 285 etid 285 c cMessage n "" pe -1
+BS id 285 tid 285 eid 285 etid 285 c DataToCHMessage n "" pe 140
+CL id 285 tid 285 eid 285 etid 285 c DataToCHMessage n "" pe 140 cid 286
+SH sm 6 sg 11
+ES t 10
+CM id 287 tid 287 eid 287 etid 287 c cMessage n "" pe -1
+BS id 287 tid 287 eid 287 etid 287 c cMessage n "" k 11 pe 140
+ES t 17
+DM id 208 tid 208 eid 208 etid 208 c cMessage n "" k 11 pe 140
+
+E # 141 t 10 m 21 ce 100 msg 227
+CM id 288 tid 288 eid 288 etid 288 c cMessage n "" pe -1
+BS id 288 tid 288 eid 288 etid 288 c DataToCHMessage n "" pe 141
+CL id 288 tid 288 eid 288 etid 288 c DataToCHMessage n "" pe 141 cid 289
+SH sm 21 sg 11
+ES t 10
+CM id 290 tid 290 eid 290 etid 290 c cMessage n "" pe -1
+BS id 290 tid 290 eid 290 etid 290 c cMessage n "" k 11 pe 141
+ES t 15
+DM id 227 tid 227 eid 227 etid 227 c cMessage n "" k 11 pe 141
+
+E # 142 t 10 m 17 ce 101 msg 230
+CM id 291 tid 291 eid 291 etid 291 c cMessage n "" pe -1
+BS id 291 tid 291 eid 291 etid 291 c DataToCHMessage n "" pe 142
+CL id 291 tid 291 eid 291 etid 291 c DataToCHMessage n "" pe 142 cid 292
+SH sm 17 sg 11
+ES t 10
+CM id 293 tid 293 eid 293 etid 293 c cMessage n "" pe -1
+BS id 293 tid 293 eid 293 etid 293 c cMessage n "" k 11 pe 142
+ES t 15
+DM id 230 tid 230 eid 230 etid 230 c cMessage n "" k 11 pe 142
+
+E # 143 t 10 m 22 ce 102 msg 233
+CM id 294 tid 294 eid 294 etid 294 c cMessage n "" pe -1
+BS id 294 tid 294 eid 294 etid 294 c DataToCHMessage n "" pe 143
+CL id 294 tid 294 eid 294 etid 294 c DataToCHMessage n "" pe 143 cid 295
+SH sm 22 sg 11
+ES t 10
+CM id 296 tid 296 eid 296 etid 296 c cMessage n "" pe -1
+BS id 296 tid 296 eid 296 etid 296 c cMessage n "" k 11 pe 143
+ES t 15
+DM id 233 tid 233 eid 233 etid 233 c cMessage n "" k 11 pe 143
+
+E # 144 t 10 m 19 ce 140 msg 285
+- REC-energy: 200
+DM id 285 tid 285 eid 285 etid 285 c cMessage n "" pe 144
+
+E # 145 t 10 m 4 ce 141 msg 288
+- REC-energy: 200
+CM id 297 tid 297 eid 297 etid 297 c cMessage n "" pe -1
+BS id 297 tid 297 eid 297 etid 297 c cMessage n "" k 13 pe 145
+ES t 12
+DM id 288 tid 288 eid 288 etid 288 c cMessage n "" pe 145
+
+E # 146 t 10 m 7 ce 142 msg 291
+- REC-energy: 200
+CM id 298 tid 298 eid 298 etid 298 c cMessage n "" pe -1
+BS id 298 tid 298 eid 298 etid 298 c cMessage n "" k 13 pe 146
+ES t 12
+DM id 291 tid 291 eid 291 etid 291 c cMessage n "" pe 146
+
+E # 147 t 10 m 10 ce 143 msg 294
+- REC-energy: 200
+CM id 299 tid 299 eid 299 etid 299 c cMessage n "" pe -1
+BS id 299 tid 299 eid 299 etid 299 c cMessage n "" k 13 pe 147
+ES t 12
+DM id 294 tid 294 eid 294 etid 294 c cMessage n "" pe 147
+
+E # 148 t 11 m 8 ce 95 msg 224
+CM id 300 tid 300 eid 300 etid 300 c cMessage n "" pe -1
+BS id 300 tid 300 eid 300 etid 300 c DataToCHMessage n "" pe 148
+CL id 300 tid 300 eid 300 etid 300 c DataToCHMessage n "" pe 148 cid 301
+SH sm 8 sg 11
+ES t 11
+CM id 302 tid 302 eid 302 etid 302 c cMessage n "" pe -1
+BS id 302 tid 302 eid 302 etid 302 c cMessage n "" k 11 pe 148
+ES t 18
+DM id 224 tid 224 eid 224 etid 224 c cMessage n "" k 11 pe 148
+
+E # 149 t 11 m 20 ce 138 msg 284
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 303 tid 303 eid 303 etid 303 c cMessage n "" pe -1
+BS id 303 tid 303 eid 303 etid 303 c Data2BSMessage n "" pe 149
+CL id 303 tid 303 eid 303 etid 303 c Data2BSMessage n "" pe 149 cid 304
+SH sm 20 sg 9
+ES t 11
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 284 tid 284 eid 284 etid 284 c cMessage n "" k 13 pe 149
+
+E # 150 t 11 m 19 ce 148 msg 300
+- REC-energy: 200
+DM id 300 tid 300 eid 300 etid 300 c cMessage n "" pe 150
+
+E # 151 t 11 m 2 ce 149 msg 303
+DM id 303 tid 303 eid 303 etid 303 c cMessage n "" pe 151
+
+E # 152 t 12 m 12 ce 103 msg 236
+CM id 305 tid 305 eid 305 etid 305 c cMessage n "" pe -1
+BS id 305 tid 305 eid 305 etid 305 c DataToCHMessage n "" pe 152
+CL id 305 tid 305 eid 305 etid 305 c DataToCHMessage n "" pe 152 cid 306
+SH sm 12 sg 11
+ES t 12
+CM id 307 tid 307 eid 307 etid 307 c cMessage n "" pe -1
+BS id 307 tid 307 eid 307 etid 307 c cMessage n "" k 11 pe 152
+ES t 19
+DM id 236 tid 236 eid 236 etid 236 c cMessage n "" k 11 pe 152
+
+E # 153 t 12 m 18 ce 133 msg 281
+CM id 308 tid 308 eid 308 etid 308 c cMessage n "" pe -1
+BS id 308 tid 308 eid 308 etid 308 c DataToCHMessage n "" pe 153
+CL id 308 tid 308 eid 308 etid 308 c DataToCHMessage n "" pe 153 cid 309
+SH sm 18 sg 11
+ES t 12
+CM id 310 tid 310 eid 310 etid 310 c cMessage n "" pe -1
+BS id 310 tid 310 eid 310 etid 310 c cMessage n "" k 11 pe 153
+ES t 15
+DM id 281 tid 281 eid 281 etid 281 c cMessage n "" k 11 pe 153
+
+E # 154 t 12 m 4 ce 145 msg 297
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 311 tid 311 eid 311 etid 311 c cMessage n "" pe -1
+BS id 311 tid 311 eid 311 etid 311 c Data2BSMessage n "" pe 154
+CL id 311 tid 311 eid 311 etid 311 c Data2BSMessage n "" pe 154 cid 312
+SH sm 4 sg 9
+ES t 12
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 297 tid 297 eid 297 etid 297 c cMessage n "" k 13 pe 154
+
+E # 155 t 12 m 7 ce 146 msg 298
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 313 tid 313 eid 313 etid 313 c cMessage n "" pe -1
+BS id 313 tid 313 eid 313 etid 313 c Data2BSMessage n "" pe 155
+CL id 313 tid 313 eid 313 etid 313 c Data2BSMessage n "" pe 155 cid 314
+SH sm 7 sg 9
+ES t 12
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 298 tid 298 eid 298 etid 298 c cMessage n "" k 13 pe 155
+
+E # 156 t 12 m 10 ce 147 msg 299
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 315 tid 315 eid 315 etid 315 c cMessage n "" pe -1
+BS id 315 tid 315 eid 315 etid 315 c Data2BSMessage n "" pe 156
+CL id 315 tid 315 eid 315 etid 315 c Data2BSMessage n "" pe 156 cid 316
+SH sm 10 sg 9
+ES t 12
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 299 tid 299 eid 299 etid 299 c cMessage n "" k 13 pe 156
+
+E # 157 t 12 m 19 ce 152 msg 305
+- REC-energy: 200
+DM id 305 tid 305 eid 305 etid 305 c cMessage n "" pe 157
+
+E # 158 t 12 m 20 ce 153 msg 308
+- REC-energy: 200
+CM id 317 tid 317 eid 317 etid 317 c cMessage n "" pe -1
+BS id 317 tid 317 eid 317 etid 317 c cMessage n "" k 13 pe 158
+ES t 14
+DM id 308 tid 308 eid 308 etid 308 c cMessage n "" pe 158
+
+E # 159 t 12 m 2 ce 154 msg 311
+DM id 311 tid 311 eid 311 etid 311 c cMessage n "" pe 159
+
+E # 160 t 12 m 2 ce 155 msg 313
+DM id 313 tid 313 eid 313 etid 313 c cMessage n "" pe 160
+
+E # 161 t 12 m 2 ce 156 msg 315
+DM id 315 tid 315 eid 315 etid 315 c cMessage n "" pe 161
+
+E # 162 t 13 m 14 ce 110 msg 244
+CM id 318 tid 318 eid 318 etid 318 c cMessage n "" pe -1
+BS id 318 tid 318 eid 318 etid 318 c DataToCHMessage n "" pe 162
+CL id 318 tid 318 eid 318 etid 318 c DataToCHMessage n "" pe 162 cid 319
+SH sm 14 sg 11
+ES t 13
+CM id 320 tid 320 eid 320 etid 320 c cMessage n "" pe -1
+BS id 320 tid 320 eid 320 etid 320 c cMessage n "" k 11 pe 162
+ES t 20
+DM id 244 tid 244 eid 244 etid 244 c cMessage n "" k 11 pe 162
+
+E # 163 t 13 m 5 ce 122 msg 261
+CM id 321 tid 321 eid 321 etid 321 c cMessage n "" pe -1
+BS id 321 tid 321 eid 321 etid 321 c DataToCHMessage n "" pe 163
+CL id 321 tid 321 eid 321 etid 321 c DataToCHMessage n "" pe 163 cid 322
+SH sm 5 sg 11
+ES t 13
+CM id 323 tid 323 eid 323 etid 323 c cMessage n "" pe -1
+BS id 323 tid 323 eid 323 etid 323 c cMessage n "" k 11 pe 163
+ES t 18
+DM id 261 tid 261 eid 261 etid 261 c cMessage n "" k 11 pe 163
+
+E # 164 t 13 m 3 ce 123 msg 264
+CM id 324 tid 324 eid 324 etid 324 c cMessage n "" pe -1
+BS id 324 tid 324 eid 324 etid 324 c DataToCHMessage n "" pe 164
+CL id 324 tid 324 eid 324 etid 324 c DataToCHMessage n "" pe 164 cid 325
+SH sm 3 sg 11
+ES t 13
+CM id 326 tid 326 eid 326 etid 326 c cMessage n "" pe -1
+BS id 326 tid 326 eid 326 etid 326 c cMessage n "" k 11 pe 164
+ES t 18
+DM id 264 tid 264 eid 264 etid 264 c cMessage n "" k 11 pe 164
+
+E # 165 t 13 m 11 ce 124 msg 267
+CM id 327 tid 327 eid 327 etid 327 c cMessage n "" pe -1
+BS id 327 tid 327 eid 327 etid 327 c DataToCHMessage n "" pe 165
+CL id 327 tid 327 eid 327 etid 327 c DataToCHMessage n "" pe 165 cid 328
+SH sm 11 sg 11
+ES t 13
+CM id 329 tid 329 eid 329 etid 329 c cMessage n "" pe -1
+BS id 329 tid 329 eid 329 etid 329 c cMessage n "" k 11 pe 165
+ES t 18
+DM id 267 tid 267 eid 267 etid 267 c cMessage n "" k 11 pe 165
+
+E # 166 t 13 m 19 ce 162 msg 318
+- REC-energy: 200
+DM id 318 tid 318 eid 318 etid 318 c cMessage n "" pe 166
+
+E # 167 t 13 m 4 ce 163 msg 321
+- REC-energy: 200
+DM id 321 tid 321 eid 321 etid 321 c cMessage n "" pe 167
+
+E # 168 t 13 m 7 ce 164 msg 324
+- REC-energy: 200
+DM id 324 tid 324 eid 324 etid 324 c cMessage n "" pe 168
+
+E # 169 t 13 m 10 ce 165 msg 327
+- REC-energy: 200
+DM id 327 tid 327 eid 327 etid 327 c cMessage n "" pe 169
+
+E # 170 t 14 m 16 ce 114 msg 251
+CM id 330 tid 330 eid 330 etid 330 c cMessage n "" pe -1
+BS id 330 tid 330 eid 330 etid 330 c DataToCHMessage n "" pe 170
+CL id 330 tid 330 eid 330 etid 330 c DataToCHMessage n "" pe 170 cid 331
+SH sm 16 sg 11
+ES t 14
+CM id 332 tid 332 eid 332 etid 332 c cMessage n "" pe -1
+BS id 332 tid 332 eid 332 etid 332 c cMessage n "" k 11 pe 170
+ES t 21
+DM id 251 tid 251 eid 251 etid 251 c cMessage n "" k 11 pe 170
+
+E # 171 t 14 m 9 ce 130 msg 272
+CM id 333 tid 333 eid 333 etid 333 c cMessage n "" pe -1
+BS id 333 tid 333 eid 333 etid 333 c DataToCHMessage n "" pe 171
+CL id 333 tid 333 eid 333 etid 333 c DataToCHMessage n "" pe 171 cid 334
+SH sm 9 sg 11
+ES t 14
+CM id 335 tid 335 eid 335 etid 335 c cMessage n "" pe -1
+BS id 335 tid 335 eid 335 etid 335 c cMessage n "" k 11 pe 171
+ES t 19
+DM id 272 tid 272 eid 272 etid 272 c cMessage n "" k 11 pe 171
+
+E # 172 t 14 m 15 ce 131 msg 275
+CM id 336 tid 336 eid 336 etid 336 c cMessage n "" pe -1
+BS id 336 tid 336 eid 336 etid 336 c DataToCHMessage n "" pe 172
+CL id 336 tid 336 eid 336 etid 336 c DataToCHMessage n "" pe 172 cid 337
+SH sm 15 sg 11
+ES t 14
+CM id 338 tid 338 eid 338 etid 338 c cMessage n "" pe -1
+BS id 338 tid 338 eid 338 etid 338 c cMessage n "" k 11 pe 172
+ES t 19
+DM id 275 tid 275 eid 275 etid 275 c cMessage n "" k 11 pe 172
+
+E # 173 t 14 m 13 ce 132 msg 278
+CM id 339 tid 339 eid 339 etid 339 c cMessage n "" pe -1
+BS id 339 tid 339 eid 339 etid 339 c DataToCHMessage n "" pe 173
+CL id 339 tid 339 eid 339 etid 339 c DataToCHMessage n "" pe 173 cid 340
+SH sm 13 sg 11
+ES t 14
+CM id 341 tid 341 eid 341 etid 341 c cMessage n "" pe -1
+BS id 341 tid 341 eid 341 etid 341 c cMessage n "" k 11 pe 173
+ES t 19
+DM id 278 tid 278 eid 278 etid 278 c cMessage n "" k 11 pe 173
+
+E # 174 t 14 m 20 ce 158 msg 317
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 342 tid 342 eid 342 etid 342 c cMessage n "" pe -1
+BS id 342 tid 342 eid 342 etid 342 c Data2BSMessage n "" pe 174
+CL id 342 tid 342 eid 342 etid 342 c Data2BSMessage n "" pe 174 cid 343
+SH sm 20 sg 9
+ES t 14
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 317 tid 317 eid 317 etid 317 c cMessage n "" k 13 pe 174
+
+E # 175 t 14 m 19 ce 170 msg 330
+- REC-energy: 200
+CM id 344 tid 344 eid 344 etid 344 c cMessage n "" pe -1
+BS id 344 tid 344 eid 344 etid 344 c cMessage n "" k 13 pe 175
+ES t 16
+DM id 330 tid 330 eid 330 etid 330 c cMessage n "" pe 175
+
+E # 176 t 14 m 4 ce 171 msg 333
+- REC-energy: 200
+DM id 333 tid 333 eid 333 etid 333 c cMessage n "" pe 176
+
+E # 177 t 14 m 7 ce 172 msg 336
+- REC-energy: 200
+DM id 336 tid 336 eid 336 etid 336 c cMessage n "" pe 177
+
+E # 178 t 14 m 10 ce 173 msg 339
+- REC-energy: 200
+DM id 339 tid 339 eid 339 etid 339 c cMessage n "" pe 178
+
+E # 179 t 14 m 2 ce 174 msg 342
+DM id 342 tid 342 eid 342 etid 342 c cMessage n "" pe 179
+
+E # 180 t 15 m 21 ce 141 msg 290
+CM id 345 tid 345 eid 345 etid 345 c cMessage n "" pe -1
+BS id 345 tid 345 eid 345 etid 345 c DataToCHMessage n "" pe 180
+CL id 345 tid 345 eid 345 etid 345 c DataToCHMessage n "" pe 180 cid 346
+SH sm 21 sg 11
+ES t 15
+CM id 347 tid 347 eid 347 etid 347 c cMessage n "" pe -1
+BS id 347 tid 347 eid 347 etid 347 c cMessage n "" k 11 pe 180
+ES t 20
+DM id 290 tid 290 eid 290 etid 290 c cMessage n "" k 11 pe 180
+
+E # 181 t 15 m 17 ce 142 msg 293
+CM id 348 tid 348 eid 348 etid 348 c cMessage n "" pe -1
+BS id 348 tid 348 eid 348 etid 348 c DataToCHMessage n "" pe 181
+CL id 348 tid 348 eid 348 etid 348 c DataToCHMessage n "" pe 181 cid 349
+SH sm 17 sg 11
+ES t 15
+CM id 350 tid 350 eid 350 etid 350 c cMessage n "" pe -1
+BS id 350 tid 350 eid 350 etid 350 c cMessage n "" k 11 pe 181
+ES t 20
+DM id 293 tid 293 eid 293 etid 293 c cMessage n "" k 11 pe 181
+
+E # 182 t 15 m 22 ce 143 msg 296
+CM id 351 tid 351 eid 351 etid 351 c cMessage n "" pe -1
+BS id 351 tid 351 eid 351 etid 351 c DataToCHMessage n "" pe 182
+CL id 351 tid 351 eid 351 etid 351 c DataToCHMessage n "" pe 182 cid 352
+SH sm 22 sg 11
+ES t 15
+CM id 353 tid 353 eid 353 etid 353 c cMessage n "" pe -1
+BS id 353 tid 353 eid 353 etid 353 c cMessage n "" k 11 pe 182
+ES t 20
+DM id 296 tid 296 eid 296 etid 296 c cMessage n "" k 11 pe 182
+
+E # 183 t 15 m 18 ce 153 msg 310
+CM id 354 tid 354 eid 354 etid 354 c cMessage n "" pe -1
+BS id 354 tid 354 eid 354 etid 354 c DataToCHMessage n "" pe 183
+CL id 354 tid 354 eid 354 etid 354 c DataToCHMessage n "" pe 183 cid 355
+SH sm 18 sg 11
+ES t 15
+CM id 356 tid 356 eid 356 etid 356 c cMessage n "" pe -1
+BS id 356 tid 356 eid 356 etid 356 c cMessage n "" k 11 pe 183
+ES t 18
+DM id 310 tid 310 eid 310 etid 310 c cMessage n "" k 11 pe 183
+
+E # 184 t 15 m 4 ce 180 msg 345
+- REC-energy: 200
+CM id 357 tid 357 eid 357 etid 357 c cMessage n "" pe -1
+BS id 357 tid 357 eid 357 etid 357 c cMessage n "" k 13 pe 184
+ES t 17
+DM id 345 tid 345 eid 345 etid 345 c cMessage n "" pe 184
+
+E # 185 t 15 m 7 ce 181 msg 348
+- REC-energy: 200
+CM id 358 tid 358 eid 358 etid 358 c cMessage n "" pe -1
+BS id 358 tid 358 eid 358 etid 358 c cMessage n "" k 13 pe 185
+ES t 17
+DM id 348 tid 348 eid 348 etid 348 c cMessage n "" pe 185
+
+E # 186 t 15 m 10 ce 182 msg 351
+- REC-energy: 200
+CM id 359 tid 359 eid 359 etid 359 c cMessage n "" pe -1
+BS id 359 tid 359 eid 359 etid 359 c cMessage n "" k 13 pe 186
+ES t 17
+DM id 351 tid 351 eid 351 etid 351 c cMessage n "" pe 186
+
+E # 187 t 15 m 20 ce 183 msg 354
+- REC-energy: 200
+CM id 360 tid 360 eid 360 etid 360 c cMessage n "" pe -1
+BS id 360 tid 360 eid 360 etid 360 c cMessage n "" k 13 pe 187
+ES t 17
+DM id 354 tid 354 eid 354 etid 354 c cMessage n "" pe 187
+
+E # 188 t 16 m 19 ce 175 msg 344
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 361 tid 361 eid 361 etid 361 c cMessage n "" pe -1
+BS id 361 tid 361 eid 361 etid 361 c Data2BSMessage n "" pe 188
+CL id 361 tid 361 eid 361 etid 361 c Data2BSMessage n "" pe 188 cid 362
+SH sm 19 sg 9
+ES t 16
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 344 tid 344 eid 344 etid 344 c cMessage n "" k 13 pe 188
+
+E # 189 t 16 m 2 ce 188 msg 361
+DM id 361 tid 361 eid 361 etid 361 c cMessage n "" pe 189
+
+E # 190 t 17 m 6 ce 140 msg 287
+CM id 363 tid 363 eid 363 etid 363 c cMessage n "" pe -1
+BS id 363 tid 363 eid 363 etid 363 c DataToCHMessage n "" pe 190
+CL id 363 tid 363 eid 363 etid 363 c DataToCHMessage n "" pe 190 cid 364
+SH sm 6 sg 11
+ES t 17
+CM id 365 tid 365 eid 365 etid 365 c cMessage n "" pe -1
+BS id 365 tid 365 eid 365 etid 365 c cMessage n "" k 11 pe 190
+ES t 24
+DM id 287 tid 287 eid 287 etid 287 c cMessage n "" k 11 pe 190
+
+E # 191 t 17 m 4 ce 184 msg 357
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 366 tid 366 eid 366 etid 366 c cMessage n "" pe -1
+BS id 366 tid 366 eid 366 etid 366 c Data2BSMessage n "" pe 191
+CL id 366 tid 366 eid 366 etid 366 c Data2BSMessage n "" pe 191 cid 367
+SH sm 4 sg 9
+ES t 17
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 357 tid 357 eid 357 etid 357 c cMessage n "" k 13 pe 191
+
+E # 192 t 17 m 7 ce 185 msg 358
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 368 tid 368 eid 368 etid 368 c cMessage n "" pe -1
+BS id 368 tid 368 eid 368 etid 368 c Data2BSMessage n "" pe 192
+CL id 368 tid 368 eid 368 etid 368 c Data2BSMessage n "" pe 192 cid 369
+SH sm 7 sg 9
+ES t 17
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 358 tid 358 eid 358 etid 358 c cMessage n "" k 13 pe 192
+
+E # 193 t 17 m 10 ce 186 msg 359
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 370 tid 370 eid 370 etid 370 c cMessage n "" pe -1
+BS id 370 tid 370 eid 370 etid 370 c Data2BSMessage n "" pe 193
+CL id 370 tid 370 eid 370 etid 370 c Data2BSMessage n "" pe 193 cid 371
+SH sm 10 sg 9
+ES t 17
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 359 tid 359 eid 359 etid 359 c cMessage n "" k 13 pe 193
+
+E # 194 t 17 m 20 ce 187 msg 360
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 372 tid 372 eid 372 etid 372 c cMessage n "" pe -1
+BS id 372 tid 372 eid 372 etid 372 c Data2BSMessage n "" pe 194
+CL id 372 tid 372 eid 372 etid 372 c Data2BSMessage n "" pe 194 cid 373
+SH sm 20 sg 9
+ES t 17
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 360 tid 360 eid 360 etid 360 c cMessage n "" k 13 pe 194
+
+E # 195 t 17 m 19 ce 190 msg 363
+- REC-energy: 200
+DM id 363 tid 363 eid 363 etid 363 c cMessage n "" pe 195
+
+E # 196 t 17 m 2 ce 191 msg 366
+DM id 366 tid 366 eid 366 etid 366 c cMessage n "" pe 196
+
+E # 197 t 17 m 2 ce 192 msg 368
+DM id 368 tid 368 eid 368 etid 368 c cMessage n "" pe 197
+
+E # 198 t 17 m 2 ce 193 msg 370
+DM id 370 tid 370 eid 370 etid 370 c cMessage n "" pe 198
+
+E # 199 t 17 m 2 ce 194 msg 372
+DM id 372 tid 372 eid 372 etid 372 c cMessage n "" pe 199
+
+E # 200 t 18 m 8 ce 148 msg 302
+CM id 374 tid 374 eid 374 etid 374 c cMessage n "" pe -1
+BS id 374 tid 374 eid 374 etid 374 c DataToCHMessage n "" pe 200
+CL id 374 tid 374 eid 374 etid 374 c DataToCHMessage n "" pe 200 cid 375
+SH sm 8 sg 11
+ES t 18
+CM id 376 tid 376 eid 376 etid 376 c cMessage n "" pe -1
+BS id 376 tid 376 eid 376 etid 376 c cMessage n "" k 11 pe 200
+ES t 25
+DM id 302 tid 302 eid 302 etid 302 c cMessage n "" k 11 pe 200
+
+E # 201 t 18 m 5 ce 163 msg 323
+CM id 377 tid 377 eid 377 etid 377 c cMessage n "" pe -1
+BS id 377 tid 377 eid 377 etid 377 c DataToCHMessage n "" pe 201
+CL id 377 tid 377 eid 377 etid 377 c DataToCHMessage n "" pe 201 cid 378
+SH sm 5 sg 11
+ES t 18
+CM id 379 tid 379 eid 379 etid 379 c cMessage n "" pe -1
+BS id 379 tid 379 eid 379 etid 379 c cMessage n "" k 11 pe 201
+ES t 23
+DM id 323 tid 323 eid 323 etid 323 c cMessage n "" k 11 pe 201
+
+E # 202 t 18 m 3 ce 164 msg 326
+CM id 380 tid 380 eid 380 etid 380 c cMessage n "" pe -1
+BS id 380 tid 380 eid 380 etid 380 c DataToCHMessage n "" pe 202
+CL id 380 tid 380 eid 380 etid 380 c DataToCHMessage n "" pe 202 cid 381
+SH sm 3 sg 11
+ES t 18
+CM id 382 tid 382 eid 382 etid 382 c cMessage n "" pe -1
+BS id 382 tid 382 eid 382 etid 382 c cMessage n "" k 11 pe 202
+ES t 23
+DM id 326 tid 326 eid 326 etid 326 c cMessage n "" k 11 pe 202
+
+E # 203 t 18 m 11 ce 165 msg 329
+CM id 383 tid 383 eid 383 etid 383 c cMessage n "" pe -1
+BS id 383 tid 383 eid 383 etid 383 c DataToCHMessage n "" pe 203
+CL id 383 tid 383 eid 383 etid 383 c DataToCHMessage n "" pe 203 cid 384
+SH sm 11 sg 11
+ES t 18
+CM id 385 tid 385 eid 385 etid 385 c cMessage n "" pe -1
+BS id 385 tid 385 eid 385 etid 385 c cMessage n "" k 11 pe 203
+ES t 23
+DM id 329 tid 329 eid 329 etid 329 c cMessage n "" k 11 pe 203
+
+E # 204 t 18 m 18 ce 183 msg 356
+CM id 386 tid 386 eid 386 etid 386 c cMessage n "" pe -1
+BS id 386 tid 386 eid 386 etid 386 c DataToCHMessage n "" pe 204
+CL id 386 tid 386 eid 386 etid 386 c DataToCHMessage n "" pe 204 cid 387
+SH sm 18 sg 11
+ES t 18
+CM id 388 tid 388 eid 388 etid 388 c cMessage n "" pe -1
+BS id 388 tid 388 eid 388 etid 388 c cMessage n "" k 11 pe 204
+ES t 21
+DM id 356 tid 356 eid 356 etid 356 c cMessage n "" k 11 pe 204
+
+E # 205 t 18 m 19 ce 200 msg 374
+- REC-energy: 200
+DM id 374 tid 374 eid 374 etid 374 c cMessage n "" pe 205
+
+E # 206 t 18 m 4 ce 201 msg 377
+- REC-energy: 200
+DM id 377 tid 377 eid 377 etid 377 c cMessage n "" pe 206
+
+E # 207 t 18 m 7 ce 202 msg 380
+- REC-energy: 200
+DM id 380 tid 380 eid 380 etid 380 c cMessage n "" pe 207
+
+E # 208 t 18 m 10 ce 203 msg 383
+- REC-energy: 200
+DM id 383 tid 383 eid 383 etid 383 c cMessage n "" pe 208
+
+E # 209 t 18 m 20 ce 204 msg 386
+- REC-energy: 200
+CM id 389 tid 389 eid 389 etid 389 c cMessage n "" pe -1
+BS id 389 tid 389 eid 389 etid 389 c cMessage n "" k 13 pe 209
+ES t 20
+DM id 386 tid 386 eid 386 etid 386 c cMessage n "" pe 209
+
+E # 210 t 19 m 12 ce 152 msg 307
+CM id 390 tid 390 eid 390 etid 390 c cMessage n "" pe -1
+BS id 390 tid 390 eid 390 etid 390 c DataToCHMessage n "" pe 210
+CL id 390 tid 390 eid 390 etid 390 c DataToCHMessage n "" pe 210 cid 391
+SH sm 12 sg 11
+ES t 19
+CM id 392 tid 392 eid 392 etid 392 c cMessage n "" pe -1
+BS id 392 tid 392 eid 392 etid 392 c cMessage n "" k 11 pe 210
+ES t 26
+DM id 307 tid 307 eid 307 etid 307 c cMessage n "" k 11 pe 210
+
+E # 211 t 19 m 9 ce 171 msg 335
+CM id 393 tid 393 eid 393 etid 393 c cMessage n "" pe -1
+BS id 393 tid 393 eid 393 etid 393 c DataToCHMessage n "" pe 211
+CL id 393 tid 393 eid 393 etid 393 c DataToCHMessage n "" pe 211 cid 394
+SH sm 9 sg 11
+ES t 19
+CM id 395 tid 395 eid 395 etid 395 c cMessage n "" pe -1
+BS id 395 tid 395 eid 395 etid 395 c cMessage n "" k 11 pe 211
+ES t 24
+DM id 335 tid 335 eid 335 etid 335 c cMessage n "" k 11 pe 211
+
+E # 212 t 19 m 15 ce 172 msg 338
+CM id 396 tid 396 eid 396 etid 396 c cMessage n "" pe -1
+BS id 396 tid 396 eid 396 etid 396 c DataToCHMessage n "" pe 212
+CL id 396 tid 396 eid 396 etid 396 c DataToCHMessage n "" pe 212 cid 397
+SH sm 15 sg 11
+ES t 19
+CM id 398 tid 398 eid 398 etid 398 c cMessage n "" pe -1
+BS id 398 tid 398 eid 398 etid 398 c cMessage n "" k 11 pe 212
+ES t 24
+DM id 338 tid 338 eid 338 etid 338 c cMessage n "" k 11 pe 212
+
+E # 213 t 19 m 13 ce 173 msg 341
+CM id 399 tid 399 eid 399 etid 399 c cMessage n "" pe -1
+BS id 399 tid 399 eid 399 etid 399 c DataToCHMessage n "" pe 213
+CL id 399 tid 399 eid 399 etid 399 c DataToCHMessage n "" pe 213 cid 400
+SH sm 13 sg 11
+ES t 19
+CM id 401 tid 401 eid 401 etid 401 c cMessage n "" pe -1
+BS id 401 tid 401 eid 401 etid 401 c cMessage n "" k 11 pe 213
+ES t 24
+DM id 341 tid 341 eid 341 etid 341 c cMessage n "" k 11 pe 213
+
+E # 214 t 19 m 19 ce 210 msg 390
+- REC-energy: 200
+DM id 390 tid 390 eid 390 etid 390 c cMessage n "" pe 214
+
+E # 215 t 19 m 4 ce 211 msg 393
+- REC-energy: 200
+DM id 393 tid 393 eid 393 etid 393 c cMessage n "" pe 215
+
+E # 216 t 19 m 7 ce 212 msg 396
+- REC-energy: 200
+DM id 396 tid 396 eid 396 etid 396 c cMessage n "" pe 216
+
+E # 217 t 19 m 10 ce 213 msg 399
+- REC-energy: 200
+DM id 399 tid 399 eid 399 etid 399 c cMessage n "" pe 217
+
+E # 218 t 20 m 14 ce 162 msg 320
+CM id 402 tid 402 eid 402 etid 402 c cMessage n "" pe -1
+BS id 402 tid 402 eid 402 etid 402 c DataToCHMessage n "" pe 218
+CL id 402 tid 402 eid 402 etid 402 c DataToCHMessage n "" pe 218 cid 403
+SH sm 14 sg 11
+ES t 20
+CM id 404 tid 404 eid 404 etid 404 c cMessage n "" pe -1
+BS id 404 tid 404 eid 404 etid 404 c cMessage n "" k 11 pe 218
+ES t 27
+DM id 320 tid 320 eid 320 etid 320 c cMessage n "" k 11 pe 218
+
+E # 219 t 20 m 21 ce 180 msg 347
+CM id 405 tid 405 eid 405 etid 405 c cMessage n "" pe -1
+BS id 405 tid 405 eid 405 etid 405 c DataToCHMessage n "" pe 219
+CL id 405 tid 405 eid 405 etid 405 c DataToCHMessage n "" pe 219 cid 406
+SH sm 21 sg 11
+ES t 20
+CM id 407 tid 407 eid 407 etid 407 c cMessage n "" pe -1
+BS id 407 tid 407 eid 407 etid 407 c cMessage n "" k 11 pe 219
+ES t 25
+DM id 347 tid 347 eid 347 etid 347 c cMessage n "" k 11 pe 219
+
+E # 220 t 20 m 17 ce 181 msg 350
+CM id 408 tid 408 eid 408 etid 408 c cMessage n "" pe -1
+BS id 408 tid 408 eid 408 etid 408 c DataToCHMessage n "" pe 220
+CL id 408 tid 408 eid 408 etid 408 c DataToCHMessage n "" pe 220 cid 409
+SH sm 17 sg 11
+ES t 20
+CM id 410 tid 410 eid 410 etid 410 c cMessage n "" pe -1
+BS id 410 tid 410 eid 410 etid 410 c cMessage n "" k 11 pe 220
+ES t 25
+DM id 350 tid 350 eid 350 etid 350 c cMessage n "" k 11 pe 220
+
+E # 221 t 20 m 22 ce 182 msg 353
+CM id 411 tid 411 eid 411 etid 411 c cMessage n "" pe -1
+BS id 411 tid 411 eid 411 etid 411 c DataToCHMessage n "" pe 221
+CL id 411 tid 411 eid 411 etid 411 c DataToCHMessage n "" pe 221 cid 412
+SH sm 22 sg 11
+ES t 20
+CM id 413 tid 413 eid 413 etid 413 c cMessage n "" pe -1
+BS id 413 tid 413 eid 413 etid 413 c cMessage n "" k 11 pe 221
+ES t 25
+DM id 353 tid 353 eid 353 etid 353 c cMessage n "" k 11 pe 221
+
+E # 222 t 20 m 20 ce 209 msg 389
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 414 tid 414 eid 414 etid 414 c cMessage n "" pe -1
+BS id 414 tid 414 eid 414 etid 414 c Data2BSMessage n "" pe 222
+CL id 414 tid 414 eid 414 etid 414 c Data2BSMessage n "" pe 222 cid 415
+SH sm 20 sg 9
+ES t 20
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 389 tid 389 eid 389 etid 389 c cMessage n "" k 13 pe 222
+
+E # 223 t 20 m 19 ce 218 msg 402
+- REC-energy: 200
+DM id 402 tid 402 eid 402 etid 402 c cMessage n "" pe 223
+
+E # 224 t 20 m 4 ce 219 msg 405
+- REC-energy: 200
+CM id 416 tid 416 eid 416 etid 416 c cMessage n "" pe -1
+BS id 416 tid 416 eid 416 etid 416 c cMessage n "" k 13 pe 224
+ES t 22
+DM id 405 tid 405 eid 405 etid 405 c cMessage n "" pe 224
+
+E # 225 t 20 m 7 ce 220 msg 408
+- REC-energy: 200
+CM id 417 tid 417 eid 417 etid 417 c cMessage n "" pe -1
+BS id 417 tid 417 eid 417 etid 417 c cMessage n "" k 13 pe 225
+ES t 22
+DM id 408 tid 408 eid 408 etid 408 c cMessage n "" pe 225
+
+E # 226 t 20 m 10 ce 221 msg 411
+- REC-energy: 200
+CM id 418 tid 418 eid 418 etid 418 c cMessage n "" pe -1
+BS id 418 tid 418 eid 418 etid 418 c cMessage n "" k 13 pe 226
+ES t 22
+DM id 411 tid 411 eid 411 etid 411 c cMessage n "" pe 226
+
+E # 227 t 20 m 2 ce 222 msg 414
+DM id 414 tid 414 eid 414 etid 414 c cMessage n "" pe 227
+
+E # 228 t 21 m 16 ce 170 msg 332
+CM id 419 tid 419 eid 419 etid 419 c cMessage n "" pe -1
+BS id 419 tid 419 eid 419 etid 419 c DataToCHMessage n "" pe 228
+CL id 419 tid 419 eid 419 etid 419 c DataToCHMessage n "" pe 228 cid 420
+SH sm 16 sg 11
+ES t 21
+CM id 421 tid 421 eid 421 etid 421 c cMessage n "" pe -1
+BS id 421 tid 421 eid 421 etid 421 c cMessage n "" k 11 pe 228
+ES t 28
+DM id 332 tid 332 eid 332 etid 332 c cMessage n "" k 11 pe 228
+
+E # 229 t 21 m 18 ce 204 msg 388
+CM id 422 tid 422 eid 422 etid 422 c cMessage n "" pe -1
+BS id 422 tid 422 eid 422 etid 422 c DataToCHMessage n "" pe 229
+CL id 422 tid 422 eid 422 etid 422 c DataToCHMessage n "" pe 229 cid 423
+SH sm 18 sg 11
+ES t 21
+CM id 424 tid 424 eid 424 etid 424 c cMessage n "" pe -1
+BS id 424 tid 424 eid 424 etid 424 c cMessage n "" k 11 pe 229
+ES t 24
+DM id 388 tid 388 eid 388 etid 388 c cMessage n "" k 11 pe 229
+
+E # 230 t 21 m 19 ce 228 msg 419
+- REC-energy: 200
+CM id 425 tid 425 eid 425 etid 425 c cMessage n "" pe -1
+BS id 425 tid 425 eid 425 etid 425 c cMessage n "" k 13 pe 230
+ES t 23
+DM id 419 tid 419 eid 419 etid 419 c cMessage n "" pe 230
+
+E # 231 t 21 m 20 ce 229 msg 422
+- REC-energy: 200
+CM id 426 tid 426 eid 426 etid 426 c cMessage n "" pe -1
+BS id 426 tid 426 eid 426 etid 426 c cMessage n "" k 13 pe 231
+ES t 23
+DM id 422 tid 422 eid 422 etid 422 c cMessage n "" pe 231
+
+E # 232 t 22 m 4 ce 224 msg 416
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 427 tid 427 eid 427 etid 427 c cMessage n "" pe -1
+BS id 427 tid 427 eid 427 etid 427 c Data2BSMessage n "" pe 232
+CL id 427 tid 427 eid 427 etid 427 c Data2BSMessage n "" pe 232 cid 428
+SH sm 4 sg 9
+ES t 22
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 416 tid 416 eid 416 etid 416 c cMessage n "" k 13 pe 232
+
+E # 233 t 22 m 7 ce 225 msg 417
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 429 tid 429 eid 429 etid 429 c cMessage n "" pe -1
+BS id 429 tid 429 eid 429 etid 429 c Data2BSMessage n "" pe 233
+CL id 429 tid 429 eid 429 etid 429 c Data2BSMessage n "" pe 233 cid 430
+SH sm 7 sg 9
+ES t 22
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 417 tid 417 eid 417 etid 417 c cMessage n "" k 13 pe 233
+
+E # 234 t 22 m 10 ce 226 msg 418
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 431 tid 431 eid 431 etid 431 c cMessage n "" pe -1
+BS id 431 tid 431 eid 431 etid 431 c Data2BSMessage n "" pe 234
+CL id 431 tid 431 eid 431 etid 431 c Data2BSMessage n "" pe 234 cid 432
+SH sm 10 sg 9
+ES t 22
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 418 tid 418 eid 418 etid 418 c cMessage n "" k 13 pe 234
+
+E # 235 t 22 m 2 ce 232 msg 427
+DM id 427 tid 427 eid 427 etid 427 c cMessage n "" pe 235
+
+E # 236 t 22 m 2 ce 233 msg 429
+DM id 429 tid 429 eid 429 etid 429 c cMessage n "" pe 236
+
+E # 237 t 22 m 2 ce 234 msg 431
+DM id 431 tid 431 eid 431 etid 431 c cMessage n "" pe 237
+
+E # 238 t 23 m 5 ce 201 msg 379
+CM id 433 tid 433 eid 433 etid 433 c cMessage n "" pe -1
+BS id 433 tid 433 eid 433 etid 433 c DataToCHMessage n "" pe 238
+CL id 433 tid 433 eid 433 etid 433 c DataToCHMessage n "" pe 238 cid 434
+SH sm 5 sg 11
+ES t 23
+CM id 435 tid 435 eid 435 etid 435 c cMessage n "" pe -1
+BS id 435 tid 435 eid 435 etid 435 c cMessage n "" k 11 pe 238
+ES t 28
+DM id 379 tid 379 eid 379 etid 379 c cMessage n "" k 11 pe 238
+
+E # 239 t 23 m 3 ce 202 msg 382
+CM id 436 tid 436 eid 436 etid 436 c cMessage n "" pe -1
+BS id 436 tid 436 eid 436 etid 436 c DataToCHMessage n "" pe 239
+CL id 436 tid 436 eid 436 etid 436 c DataToCHMessage n "" pe 239 cid 437
+SH sm 3 sg 11
+ES t 23
+CM id 438 tid 438 eid 438 etid 438 c cMessage n "" pe -1
+BS id 438 tid 438 eid 438 etid 438 c cMessage n "" k 11 pe 239
+ES t 28
+DM id 382 tid 382 eid 382 etid 382 c cMessage n "" k 11 pe 239
+
+E # 240 t 23 m 11 ce 203 msg 385
+CM id 439 tid 439 eid 439 etid 439 c cMessage n "" pe -1
+BS id 439 tid 439 eid 439 etid 439 c DataToCHMessage n "" pe 240
+CL id 439 tid 439 eid 439 etid 439 c DataToCHMessage n "" pe 240 cid 440
+SH sm 11 sg 11
+ES t 23
+CM id 441 tid 441 eid 441 etid 441 c cMessage n "" pe -1
+BS id 441 tid 441 eid 441 etid 441 c cMessage n "" k 11 pe 240
+ES t 28
+DM id 385 tid 385 eid 385 etid 385 c cMessage n "" k 11 pe 240
+
+E # 241 t 23 m 19 ce 230 msg 425
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 442 tid 442 eid 442 etid 442 c cMessage n "" pe -1
+BS id 442 tid 442 eid 442 etid 442 c Data2BSMessage n "" pe 241
+CL id 442 tid 442 eid 442 etid 442 c Data2BSMessage n "" pe 241 cid 443
+SH sm 19 sg 9
+ES t 23
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 425 tid 425 eid 425 etid 425 c cMessage n "" k 13 pe 241
+
+E # 242 t 23 m 20 ce 231 msg 426
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 444 tid 444 eid 444 etid 444 c cMessage n "" pe -1
+BS id 444 tid 444 eid 444 etid 444 c Data2BSMessage n "" pe 242
+CL id 444 tid 444 eid 444 etid 444 c Data2BSMessage n "" pe 242 cid 445
+SH sm 20 sg 9
+ES t 23
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 426 tid 426 eid 426 etid 426 c cMessage n "" k 13 pe 242
+
+E # 243 t 23 m 4 ce 238 msg 433
+- REC-energy: 200
+DM id 433 tid 433 eid 433 etid 433 c cMessage n "" pe 243
+
+E # 244 t 23 m 7 ce 239 msg 436
+- REC-energy: 200
+DM id 436 tid 436 eid 436 etid 436 c cMessage n "" pe 244
+
+E # 245 t 23 m 10 ce 240 msg 439
+- REC-energy: 200
+DM id 439 tid 439 eid 439 etid 439 c cMessage n "" pe 245
+
+E # 246 t 23 m 2 ce 241 msg 442
+DM id 442 tid 442 eid 442 etid 442 c cMessage n "" pe 246
+
+E # 247 t 23 m 2 ce 242 msg 444
+DM id 444 tid 444 eid 444 etid 444 c cMessage n "" pe 247
+
+E # 248 t 24 m 6 ce 190 msg 365
+CM id 446 tid 446 eid 446 etid 446 c cMessage n "" pe -1
+BS id 446 tid 446 eid 446 etid 446 c DataToCHMessage n "" pe 248
+CL id 446 tid 446 eid 446 etid 446 c DataToCHMessage n "" pe 248 cid 447
+SH sm 6 sg 11
+ES t 24
+CM id 448 tid 448 eid 448 etid 448 c cMessage n "" pe -1
+BS id 448 tid 448 eid 448 etid 448 c cMessage n "" k 11 pe 248
+ES t 31
+DM id 365 tid 365 eid 365 etid 365 c cMessage n "" k 11 pe 248
+
+E # 249 t 24 m 9 ce 211 msg 395
+CM id 449 tid 449 eid 449 etid 449 c cMessage n "" pe -1
+BS id 449 tid 449 eid 449 etid 449 c DataToCHMessage n "" pe 249
+CL id 449 tid 449 eid 449 etid 449 c DataToCHMessage n "" pe 249 cid 450
+SH sm 9 sg 11
+ES t 24
+CM id 451 tid 451 eid 451 etid 451 c cMessage n "" pe -1
+BS id 451 tid 451 eid 451 etid 451 c cMessage n "" k 11 pe 249
+ES t 29
+DM id 395 tid 395 eid 395 etid 395 c cMessage n "" k 11 pe 249
+
+E # 250 t 24 m 15 ce 212 msg 398
+CM id 452 tid 452 eid 452 etid 452 c cMessage n "" pe -1
+BS id 452 tid 452 eid 452 etid 452 c DataToCHMessage n "" pe 250
+CL id 452 tid 452 eid 452 etid 452 c DataToCHMessage n "" pe 250 cid 453
+SH sm 15 sg 11
+ES t 24
+CM id 454 tid 454 eid 454 etid 454 c cMessage n "" pe -1
+BS id 454 tid 454 eid 454 etid 454 c cMessage n "" k 11 pe 250
+ES t 29
+DM id 398 tid 398 eid 398 etid 398 c cMessage n "" k 11 pe 250
+
+E # 251 t 24 m 13 ce 213 msg 401
+CM id 455 tid 455 eid 455 etid 455 c cMessage n "" pe -1
+BS id 455 tid 455 eid 455 etid 455 c DataToCHMessage n "" pe 251
+CL id 455 tid 455 eid 455 etid 455 c DataToCHMessage n "" pe 251 cid 456
+SH sm 13 sg 11
+ES t 24
+CM id 457 tid 457 eid 457 etid 457 c cMessage n "" pe -1
+BS id 457 tid 457 eid 457 etid 457 c cMessage n "" k 11 pe 251
+ES t 29
+DM id 401 tid 401 eid 401 etid 401 c cMessage n "" k 11 pe 251
+
+E # 252 t 24 m 18 ce 229 msg 424
+CM id 458 tid 458 eid 458 etid 458 c cMessage n "" pe -1
+BS id 458 tid 458 eid 458 etid 458 c DataToCHMessage n "" pe 252
+CL id 458 tid 458 eid 458 etid 458 c DataToCHMessage n "" pe 252 cid 459
+SH sm 18 sg 11
+ES t 24
+CM id 460 tid 460 eid 460 etid 460 c cMessage n "" pe -1
+BS id 460 tid 460 eid 460 etid 460 c cMessage n "" k 11 pe 252
+ES t 27
+DM id 424 tid 424 eid 424 etid 424 c cMessage n "" k 11 pe 252
+
+E # 253 t 24 m 19 ce 248 msg 446
+- REC-energy: 200
+DM id 446 tid 446 eid 446 etid 446 c cMessage n "" pe 253
+
+E # 254 t 24 m 4 ce 249 msg 449
+- REC-energy: 200
+DM id 449 tid 449 eid 449 etid 449 c cMessage n "" pe 254
+
+E # 255 t 24 m 7 ce 250 msg 452
+- REC-energy: 200
+DM id 452 tid 452 eid 452 etid 452 c cMessage n "" pe 255
+
+E # 256 t 24 m 10 ce 251 msg 455
+- REC-energy: 200
+DM id 455 tid 455 eid 455 etid 455 c cMessage n "" pe 256
+
+E # 257 t 24 m 20 ce 252 msg 458
+- REC-energy: 200
+CM id 461 tid 461 eid 461 etid 461 c cMessage n "" pe -1
+BS id 461 tid 461 eid 461 etid 461 c cMessage n "" k 13 pe 257
+ES t 26
+DM id 458 tid 458 eid 458 etid 458 c cMessage n "" pe 257
+
+E # 258 t 25 m 8 ce 200 msg 376
+CM id 462 tid 462 eid 462 etid 462 c cMessage n "" pe -1
+BS id 462 tid 462 eid 462 etid 462 c DataToCHMessage n "" pe 258
+CL id 462 tid 462 eid 462 etid 462 c DataToCHMessage n "" pe 258 cid 463
+SH sm 8 sg 11
+ES t 25
+CM id 464 tid 464 eid 464 etid 464 c cMessage n "" pe -1
+BS id 464 tid 464 eid 464 etid 464 c cMessage n "" k 11 pe 258
+ES t 32
+DM id 376 tid 376 eid 376 etid 376 c cMessage n "" k 11 pe 258
+
+E # 259 t 25 m 21 ce 219 msg 407
+CM id 465 tid 465 eid 465 etid 465 c cMessage n "" pe -1
+BS id 465 tid 465 eid 465 etid 465 c DataToCHMessage n "" pe 259
+CL id 465 tid 465 eid 465 etid 465 c DataToCHMessage n "" pe 259 cid 466
+SH sm 21 sg 11
+ES t 25
+CM id 467 tid 467 eid 467 etid 467 c cMessage n "" pe -1
+BS id 467 tid 467 eid 467 etid 467 c cMessage n "" k 11 pe 259
+ES t 30
+DM id 407 tid 407 eid 407 etid 407 c cMessage n "" k 11 pe 259
+
+E # 260 t 25 m 17 ce 220 msg 410
+CM id 468 tid 468 eid 468 etid 468 c cMessage n "" pe -1
+BS id 468 tid 468 eid 468 etid 468 c DataToCHMessage n "" pe 260
+CL id 468 tid 468 eid 468 etid 468 c DataToCHMessage n "" pe 260 cid 469
+SH sm 17 sg 11
+ES t 25
+CM id 470 tid 470 eid 470 etid 470 c cMessage n "" pe -1
+BS id 470 tid 470 eid 470 etid 470 c cMessage n "" k 11 pe 260
+ES t 30
+DM id 410 tid 410 eid 410 etid 410 c cMessage n "" k 11 pe 260
+
+E # 261 t 25 m 22 ce 221 msg 413
+CM id 471 tid 471 eid 471 etid 471 c cMessage n "" pe -1
+BS id 471 tid 471 eid 471 etid 471 c DataToCHMessage n "" pe 261
+CL id 471 tid 471 eid 471 etid 471 c DataToCHMessage n "" pe 261 cid 472
+SH sm 22 sg 11
+ES t 25
+CM id 473 tid 473 eid 473 etid 473 c cMessage n "" pe -1
+BS id 473 tid 473 eid 473 etid 473 c cMessage n "" k 11 pe 261
+ES t 30
+DM id 413 tid 413 eid 413 etid 413 c cMessage n "" k 11 pe 261
+
+E # 262 t 25 m 19 ce 258 msg 462
+- REC-energy: 200
+DM id 462 tid 462 eid 462 etid 462 c cMessage n "" pe 262
+
+E # 263 t 25 m 4 ce 259 msg 465
+- REC-energy: 200
+CM id 474 tid 474 eid 474 etid 474 c cMessage n "" pe -1
+BS id 474 tid 474 eid 474 etid 474 c cMessage n "" k 13 pe 263
+ES t 27
+DM id 465 tid 465 eid 465 etid 465 c cMessage n "" pe 263
+
+E # 264 t 25 m 7 ce 260 msg 468
+- REC-energy: 200
+CM id 475 tid 475 eid 475 etid 475 c cMessage n "" pe -1
+BS id 475 tid 475 eid 475 etid 475 c cMessage n "" k 13 pe 264
+ES t 27
+DM id 468 tid 468 eid 468 etid 468 c cMessage n "" pe 264
+
+E # 265 t 25 m 10 ce 261 msg 471
+- REC-energy: 200
+CM id 476 tid 476 eid 476 etid 476 c cMessage n "" pe -1
+BS id 476 tid 476 eid 476 etid 476 c cMessage n "" k 13 pe 265
+ES t 27
+DM id 471 tid 471 eid 471 etid 471 c cMessage n "" pe 265
+
+E # 266 t 26 m 12 ce 210 msg 392
+CM id 477 tid 477 eid 477 etid 477 c cMessage n "" pe -1
+BS id 477 tid 477 eid 477 etid 477 c DataToCHMessage n "" pe 266
+CL id 477 tid 477 eid 477 etid 477 c DataToCHMessage n "" pe 266 cid 478
+SH sm 12 sg 11
+ES t 26
+CM id 479 tid 479 eid 479 etid 479 c cMessage n "" pe -1
+BS id 479 tid 479 eid 479 etid 479 c cMessage n "" k 11 pe 266
+ES t 33
+DM id 392 tid 392 eid 392 etid 392 c cMessage n "" k 11 pe 266
+
+E # 267 t 26 m 20 ce 257 msg 461
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 480 tid 480 eid 480 etid 480 c cMessage n "" pe -1
+BS id 480 tid 480 eid 480 etid 480 c Data2BSMessage n "" pe 267
+CL id 480 tid 480 eid 480 etid 480 c Data2BSMessage n "" pe 267 cid 481
+SH sm 20 sg 9
+ES t 26
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 461 tid 461 eid 461 etid 461 c cMessage n "" k 13 pe 267
+
+E # 268 t 26 m 19 ce 266 msg 477
+- REC-energy: 200
+DM id 477 tid 477 eid 477 etid 477 c cMessage n "" pe 268
+
+E # 269 t 26 m 2 ce 267 msg 480
+DM id 480 tid 480 eid 480 etid 480 c cMessage n "" pe 269
+
+E # 270 t 27 m 14 ce 218 msg 404
+CM id 482 tid 482 eid 482 etid 482 c cMessage n "" pe -1
+BS id 482 tid 482 eid 482 etid 482 c DataToCHMessage n "" pe 270
+CL id 482 tid 482 eid 482 etid 482 c DataToCHMessage n "" pe 270 cid 483
+SH sm 14 sg 11
+ES t 27
+CM id 484 tid 484 eid 484 etid 484 c cMessage n "" pe -1
+BS id 484 tid 484 eid 484 etid 484 c cMessage n "" k 11 pe 270
+ES t 34
+DM id 404 tid 404 eid 404 etid 404 c cMessage n "" k 11 pe 270
+
+E # 271 t 27 m 18 ce 252 msg 460
+CM id 485 tid 485 eid 485 etid 485 c cMessage n "" pe -1
+BS id 485 tid 485 eid 485 etid 485 c DataToCHMessage n "" pe 271
+CL id 485 tid 485 eid 485 etid 485 c DataToCHMessage n "" pe 271 cid 486
+SH sm 18 sg 11
+ES t 27
+CM id 487 tid 487 eid 487 etid 487 c cMessage n "" pe -1
+BS id 487 tid 487 eid 487 etid 487 c cMessage n "" k 11 pe 271
+ES t 30
+DM id 460 tid 460 eid 460 etid 460 c cMessage n "" k 11 pe 271
+
+E # 272 t 27 m 4 ce 263 msg 474
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 488 tid 488 eid 488 etid 488 c cMessage n "" pe -1
+BS id 488 tid 488 eid 488 etid 488 c Data2BSMessage n "" pe 272
+CL id 488 tid 488 eid 488 etid 488 c Data2BSMessage n "" pe 272 cid 489
+SH sm 4 sg 9
+ES t 27
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 474 tid 474 eid 474 etid 474 c cMessage n "" k 13 pe 272
+
+E # 273 t 27 m 7 ce 264 msg 475
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 490 tid 490 eid 490 etid 490 c cMessage n "" pe -1
+BS id 490 tid 490 eid 490 etid 490 c Data2BSMessage n "" pe 273
+CL id 490 tid 490 eid 490 etid 490 c Data2BSMessage n "" pe 273 cid 491
+SH sm 7 sg 9
+ES t 27
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 475 tid 475 eid 475 etid 475 c cMessage n "" k 13 pe 273
+
+E # 274 t 27 m 10 ce 265 msg 476
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 492 tid 492 eid 492 etid 492 c cMessage n "" pe -1
+BS id 492 tid 492 eid 492 etid 492 c Data2BSMessage n "" pe 274
+CL id 492 tid 492 eid 492 etid 492 c Data2BSMessage n "" pe 274 cid 493
+SH sm 10 sg 9
+ES t 27
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 476 tid 476 eid 476 etid 476 c cMessage n "" k 13 pe 274
+
+E # 275 t 27 m 19 ce 270 msg 482
+- REC-energy: 200
+DM id 482 tid 482 eid 482 etid 482 c cMessage n "" pe 275
+
+E # 276 t 27 m 20 ce 271 msg 485
+- REC-energy: 200
+CM id 494 tid 494 eid 494 etid 494 c cMessage n "" pe -1
+BS id 494 tid 494 eid 494 etid 494 c cMessage n "" k 13 pe 276
+ES t 29
+DM id 485 tid 485 eid 485 etid 485 c cMessage n "" pe 276
+
+E # 277 t 27 m 2 ce 272 msg 488
+DM id 488 tid 488 eid 488 etid 488 c cMessage n "" pe 277
+
+E # 278 t 27 m 2 ce 273 msg 490
+DM id 490 tid 490 eid 490 etid 490 c cMessage n "" pe 278
+
+E # 279 t 27 m 2 ce 274 msg 492
+DM id 492 tid 492 eid 492 etid 492 c cMessage n "" pe 279
+
+E # 280 t 28 m 16 ce 228 msg 421
+CM id 495 tid 495 eid 495 etid 495 c cMessage n "" pe -1
+BS id 495 tid 495 eid 495 etid 495 c DataToCHMessage n "" pe 280
+CL id 495 tid 495 eid 495 etid 495 c DataToCHMessage n "" pe 280 cid 496
+SH sm 16 sg 11
+ES t 28
+CM id 497 tid 497 eid 497 etid 497 c cMessage n "" pe -1
+BS id 497 tid 497 eid 497 etid 497 c cMessage n "" k 11 pe 280
+ES t 35
+DM id 421 tid 421 eid 421 etid 421 c cMessage n "" k 11 pe 280
+
+E # 281 t 28 m 5 ce 238 msg 435
+CM id 498 tid 498 eid 498 etid 498 c cMessage n "" pe -1
+BS id 498 tid 498 eid 498 etid 498 c DataToCHMessage n "" pe 281
+CL id 498 tid 498 eid 498 etid 498 c DataToCHMessage n "" pe 281 cid 499
+SH sm 5 sg 11
+ES t 28
+CM id 500 tid 500 eid 500 etid 500 c cMessage n "" pe -1
+BS id 500 tid 500 eid 500 etid 500 c cMessage n "" k 11 pe 281
+ES t 33
+DM id 435 tid 435 eid 435 etid 435 c cMessage n "" k 11 pe 281
+
+E # 282 t 28 m 3 ce 239 msg 438
+CM id 501 tid 501 eid 501 etid 501 c cMessage n "" pe -1
+BS id 501 tid 501 eid 501 etid 501 c DataToCHMessage n "" pe 282
+CL id 501 tid 501 eid 501 etid 501 c DataToCHMessage n "" pe 282 cid 502
+SH sm 3 sg 11
+ES t 28
+CM id 503 tid 503 eid 503 etid 503 c cMessage n "" pe -1
+BS id 503 tid 503 eid 503 etid 503 c cMessage n "" k 11 pe 282
+ES t 33
+DM id 438 tid 438 eid 438 etid 438 c cMessage n "" k 11 pe 282
+
+E # 283 t 28 m 11 ce 240 msg 441
+CM id 504 tid 504 eid 504 etid 504 c cMessage n "" pe -1
+BS id 504 tid 504 eid 504 etid 504 c DataToCHMessage n "" pe 283
+CL id 504 tid 504 eid 504 etid 504 c DataToCHMessage n "" pe 283 cid 505
+SH sm 11 sg 11
+ES t 28
+CM id 506 tid 506 eid 506 etid 506 c cMessage n "" pe -1
+BS id 506 tid 506 eid 506 etid 506 c cMessage n "" k 11 pe 283
+ES t 33
+DM id 441 tid 441 eid 441 etid 441 c cMessage n "" k 11 pe 283
+
+E # 284 t 28 m 19 ce 280 msg 495
+- REC-energy: 200
+CM id 507 tid 507 eid 507 etid 507 c cMessage n "" pe -1
+BS id 507 tid 507 eid 507 etid 507 c cMessage n "" k 13 pe 284
+ES t 30
+DM id 495 tid 495 eid 495 etid 495 c cMessage n "" pe 284
+
+E # 285 t 28 m 4 ce 281 msg 498
+- REC-energy: 200
+DM id 498 tid 498 eid 498 etid 498 c cMessage n "" pe 285
+
+E # 286 t 28 m 7 ce 282 msg 501
+- REC-energy: 200
+DM id 501 tid 501 eid 501 etid 501 c cMessage n "" pe 286
+
+E # 287 t 28 m 10 ce 283 msg 504
+- REC-energy: 200
+DM id 504 tid 504 eid 504 etid 504 c cMessage n "" pe 287
+
+E # 288 t 29 m 9 ce 249 msg 451
+CM id 508 tid 508 eid 508 etid 508 c cMessage n "" pe -1
+BS id 508 tid 508 eid 508 etid 508 c DataToCHMessage n "" pe 288
+CL id 508 tid 508 eid 508 etid 508 c DataToCHMessage n "" pe 288 cid 509
+SH sm 9 sg 11
+ES t 29
+CM id 510 tid 510 eid 510 etid 510 c cMessage n "" pe -1
+BS id 510 tid 510 eid 510 etid 510 c cMessage n "" k 11 pe 288
+ES t 34
+DM id 451 tid 451 eid 451 etid 451 c cMessage n "" k 11 pe 288
+
+E # 289 t 29 m 15 ce 250 msg 454
+CM id 511 tid 511 eid 511 etid 511 c cMessage n "" pe -1
+BS id 511 tid 511 eid 511 etid 511 c DataToCHMessage n "" pe 289
+CL id 511 tid 511 eid 511 etid 511 c DataToCHMessage n "" pe 289 cid 512
+SH sm 15 sg 11
+ES t 29
+CM id 513 tid 513 eid 513 etid 513 c cMessage n "" pe -1
+BS id 513 tid 513 eid 513 etid 513 c cMessage n "" k 11 pe 289
+ES t 34
+DM id 454 tid 454 eid 454 etid 454 c cMessage n "" k 11 pe 289
+
+E # 290 t 29 m 13 ce 251 msg 457
+CM id 514 tid 514 eid 514 etid 514 c cMessage n "" pe -1
+BS id 514 tid 514 eid 514 etid 514 c DataToCHMessage n "" pe 290
+CL id 514 tid 514 eid 514 etid 514 c DataToCHMessage n "" pe 290 cid 515
+SH sm 13 sg 11
+ES t 29
+CM id 516 tid 516 eid 516 etid 516 c cMessage n "" pe -1
+BS id 516 tid 516 eid 516 etid 516 c cMessage n "" k 11 pe 290
+ES t 34
+DM id 457 tid 457 eid 457 etid 457 c cMessage n "" k 11 pe 290
+
+E # 291 t 29 m 20 ce 276 msg 494
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 517 tid 517 eid 517 etid 517 c cMessage n "" pe -1
+BS id 517 tid 517 eid 517 etid 517 c Data2BSMessage n "" pe 291
+CL id 517 tid 517 eid 517 etid 517 c Data2BSMessage n "" pe 291 cid 518
+SH sm 20 sg 9
+ES t 29
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+DM id 494 tid 494 eid 494 etid 494 c cMessage n "" k 13 pe 291
+
+E # 292 t 29 m 4 ce 288 msg 508
+- REC-energy: 200
+DM id 508 tid 508 eid 508 etid 508 c cMessage n "" pe 292
+
+E # 293 t 29 m 7 ce 289 msg 511
+- REC-energy: 200
+DM id 511 tid 511 eid 511 etid 511 c cMessage n "" pe 293
+
+E # 294 t 29 m 10 ce 290 msg 514
+- REC-energy: 200
+DM id 514 tid 514 eid 514 etid 514 c cMessage n "" pe 294
+
+E # 295 t 29 m 2 ce 291 msg 517
+DM id 517 tid 517 eid 517 etid 517 c cMessage n "" pe 295
+
+E # 296 t 30 m 21 ce 259 msg 467
+CM id 519 tid 519 eid 519 etid 519 c cMessage n "" pe -1
+BS id 519 tid 519 eid 519 etid 519 c DataToCHMessage n "" pe 296
+CL id 519 tid 519 eid 519 etid 519 c DataToCHMessage n "" pe 296 cid 520
+SH sm 21 sg 11
+ES t 30
+CM id 521 tid 521 eid 521 etid 521 c cMessage n "" pe -1
+BS id 521 tid 521 eid 521 etid 521 c cMessage n "" k 11 pe 296
+ES t 35
+DM id 467 tid 467 eid 467 etid 467 c cMessage n "" k 11 pe 296
+
+E # 297 t 30 m 17 ce 260 msg 470
+CM id 522 tid 522 eid 522 etid 522 c cMessage n "" pe -1
+BS id 522 tid 522 eid 522 etid 522 c DataToCHMessage n "" pe 297
+CL id 522 tid 522 eid 522 etid 522 c DataToCHMessage n "" pe 297 cid 523
+SH sm 17 sg 11
+ES t 30
+CM id 524 tid 524 eid 524 etid 524 c cMessage n "" pe -1
+BS id 524 tid 524 eid 524 etid 524 c cMessage n "" k 11 pe 297
+ES t 35
+DM id 470 tid 470 eid 470 etid 470 c cMessage n "" k 11 pe 297
+
+E # 298 t 30 m 22 ce 261 msg 473
+CM id 525 tid 525 eid 525 etid 525 c cMessage n "" pe -1
+BS id 525 tid 525 eid 525 etid 525 c DataToCHMessage n "" pe 298
+CL id 525 tid 525 eid 525 etid 525 c DataToCHMessage n "" pe 298 cid 526
+SH sm 22 sg 11
+ES t 30
+CM id 527 tid 527 eid 527 etid 527 c cMessage n "" pe -1
+BS id 527 tid 527 eid 527 etid 527 c cMessage n "" k 11 pe 298
+ES t 35
+DM id 473 tid 473 eid 473 etid 473 c cMessage n "" k 11 pe 298
+
+E # 299 t 30 m 18 ce 271 msg 487
+CM id 528 tid 528 eid 528 etid 528 c cMessage n "" pe -1
+BS id 528 tid 528 eid 528 etid 528 c DataToCHMessage n "" pe 299
+CL id 528 tid 528 eid 528 etid 528 c DataToCHMessage n "" pe 299 cid 529
+SH sm 18 sg 11
+ES t 30
+CM id 530 tid 530 eid 530 etid 530 c cMessage n "" pe -1
+BS id 530 tid 530 eid 530 etid 530 c cMessage n "" k 14 pe 299
+ES t 32
+DM id 487 tid 487 eid 487 etid 487 c cMessage n "" k 11 pe 299
+
+E # 300 t 30 m 19 ce 284 msg 507
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 531 tid 531 eid 531 etid 531 c cMessage n "" pe -1
+BS id 531 tid 531 eid 531 etid 531 c Data2BSMessage n "" pe 300
+CL id 531 tid 531 eid 531 etid 531 c Data2BSMessage n "" pe 300 cid 532
+SH sm 19 sg 9
+ES t 30
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 507 tid 507 eid 507 etid 507 c cMessage n "" k 13 pe 300
+
+E # 301 t 30 m 4 ce 296 msg 519
+- REC-energy: 200
+CM id 533 tid 533 eid 533 etid 533 c cMessage n "" pe -1
+BS id 533 tid 533 eid 533 etid 533 c cMessage n "" k 13 pe 301
+ES t 32
+DM id 519 tid 519 eid 519 etid 519 c cMessage n "" pe 301
+
+E # 302 t 30 m 7 ce 297 msg 522
+- REC-energy: 200
+CM id 534 tid 534 eid 534 etid 534 c cMessage n "" pe -1
+BS id 534 tid 534 eid 534 etid 534 c cMessage n "" k 13 pe 302
+ES t 32
+DM id 522 tid 522 eid 522 etid 522 c cMessage n "" pe 302
+
+E # 303 t 30 m 10 ce 298 msg 525
+- REC-energy: 200
+CM id 535 tid 535 eid 535 etid 535 c cMessage n "" pe -1
+BS id 535 tid 535 eid 535 etid 535 c cMessage n "" k 13 pe 303
+ES t 32
+DM id 525 tid 525 eid 525 etid 525 c cMessage n "" pe 303
+
+E # 304 t 30 m 20 ce 299 msg 528
+- REC-energy: 200
+CM id 536 tid 536 eid 536 etid 536 c cMessage n "" pe -1
+BS id 536 tid 536 eid 536 etid 536 c cMessage n "" k 13 pe 304
+ES t 32
+DM id 528 tid 528 eid 528 etid 528 c cMessage n "" pe 304
+
+E # 305 t 30 m 2 ce 300 msg 531
+DM id 531 tid 531 eid 531 etid 531 c cMessage n "" pe 305
+
+E # 306 t 31 m 6 ce 248 msg 448
+CM id 537 tid 537 eid 537 etid 537 c cMessage n "" pe -1
+BS id 537 tid 537 eid 537 etid 537 c DataToCHMessage n "" pe 306
+CL id 537 tid 537 eid 537 etid 537 c DataToCHMessage n "" pe 306 cid 538
+SH sm 6 sg 11
+ES t 31
+CM id 539 tid 539 eid 539 etid 539 c cMessage n "" pe -1
+BS id 539 tid 539 eid 539 etid 539 c cMessage n "" k 11 pe 306
+ES t 38
+DM id 448 tid 448 eid 448 etid 448 c cMessage n "" k 11 pe 306
+
+E # 307 t 31 m 19 ce 306 msg 537
+- REC-energy: 200
+DM id 537 tid 537 eid 537 etid 537 c cMessage n "" pe 307
+
+E # 308 t 32 m 8 ce 258 msg 464
+CM id 540 tid 540 eid 540 etid 540 c cMessage n "" pe -1
+BS id 540 tid 540 eid 540 etid 540 c DataToCHMessage n "" pe 308
+CL id 540 tid 540 eid 540 etid 540 c DataToCHMessage n "" pe 308 cid 541
+SH sm 8 sg 11
+ES t 32
+CM id 542 tid 542 eid 542 etid 542 c cMessage n "" pe -1
+BS id 542 tid 542 eid 542 etid 542 c cMessage n "" k 11 pe 308
+ES t 39
+DM id 464 tid 464 eid 464 etid 464 c cMessage n "" k 11 pe 308
+
+E # 309 t 32 m 18 ce 299 msg 530
+CM id 543 tid 543 eid 543 etid 543 c cMessage n "" pe -1
+- in send2BS:17
+- 17: sToCluster to1
+BS id 543 tid 543 eid 543 etid 543 c Status2BSMessage n "" pe 309
+CL id 543 tid 543 eid 543 etid 543 c Status2BSMessage n "" pe 309 cid 544
+SH sm 18 sg 9
+ES t 32
+DM id 530 tid 530 eid 530 etid 530 c cMessage n "" k 14 pe 309
+
+E # 310 t 32 m 4 ce 301 msg 533
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 545 tid 545 eid 545 etid 545 c cMessage n "" pe -1
+BS id 545 tid 545 eid 545 etid 545 c Data2BSMessage n "" pe 310
+CL id 545 tid 545 eid 545 etid 545 c Data2BSMessage n "" pe 310 cid 546
+SH sm 4 sg 9
+ES t 32
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 533 tid 533 eid 533 etid 533 c cMessage n "" k 13 pe 310
+
+E # 311 t 32 m 7 ce 302 msg 534
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 547 tid 547 eid 547 etid 547 c cMessage n "" pe -1
+BS id 547 tid 547 eid 547 etid 547 c Data2BSMessage n "" pe 311
+CL id 547 tid 547 eid 547 etid 547 c Data2BSMessage n "" pe 311 cid 548
+SH sm 7 sg 9
+ES t 32
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 534 tid 534 eid 534 etid 534 c cMessage n "" k 13 pe 311
+
+E # 312 t 32 m 10 ce 303 msg 535
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 549 tid 549 eid 549 etid 549 c cMessage n "" pe -1
+BS id 549 tid 549 eid 549 etid 549 c Data2BSMessage n "" pe 312
+CL id 549 tid 549 eid 549 etid 549 c Data2BSMessage n "" pe 312 cid 550
+SH sm 10 sg 9
+ES t 32
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 535 tid 535 eid 535 etid 535 c cMessage n "" k 13 pe 312
+
+E # 313 t 32 m 20 ce 304 msg 536
+- 19send data to BBBBBSSSS
+- 
+- 
+CM id 551 tid 551 eid 551 etid 551 c cMessage n "" pe -1
+BS id 551 tid 551 eid 551 etid 551 c Data2BSMessage n "" pe 313
+CL id 551 tid 551 eid 551 etid 551 c Data2BSMessage n "" pe 313 cid 552
+SH sm 20 sg 9
+ES t 32
+- TR-energy HEAD: 465.48
+- AGG-energy: 0.005
+- cHead: round done
+CM id 553 tid 553 eid 553 etid 553 c cMessage n "" pe -1
+BS id 553 tid 553 eid 553 etid 553 c cMessage n "" k 14 pe 313
+ES t 32
+DM id 536 tid 536 eid 536 etid 536 c cMessage n "" k 13 pe 313
+
+E # 314 t 32 m 19 ce 308 msg 540
+- REC-energy: 200
+DM id 540 tid 540 eid 540 etid 540 c cMessage n "" pe 314
+
+E # 315 t 32 m 2 ce 309 msg 543
+- BS received from 17status 2 rating: 417818
+- BS rec 1 nrNodes: 20
+DM id 543 tid 543 eid 543 etid 543 c cMessage n "" pe 315
+
+E # 316 t 32 m 2 ce 310 msg 545
+DM id 545 tid 545 eid 545 etid 545 c cMessage n "" pe 316
+
+E # 317 t 32 m 2 ce 311 msg 547
+DM id 547 tid 547 eid 547 etid 547 c cMessage n "" pe 317
+
+E # 318 t 32 m 2 ce 312 msg 549
+DM id 549 tid 549 eid 549 etid 549 c cMessage n "" pe 318
+
+E # 319 t 32 m 2 ce 313 msg 551
+DM id 551 tid 551 eid 551 etid 551 c cMessage n "" pe 319
+
+E # 320 t 32 m 20 ce 313 msg 553
+CM id 554 tid 554 eid 554 etid 554 c cMessage n "" pe -1
+- in send2BS:19
+- 19: sToCluster to1
+BS id 554 tid 554 eid 554 etid 554 c Status2BSMessage n "" pe 320
+CL id 554 tid 554 eid 554 etid 554 c Status2BSMessage n "" pe 320 cid 555
+SH sm 20 sg 9
+ES t 32
+DM id 553 tid 553 eid 553 etid 553 c cMessage n "" k 14 pe 320
+
+E # 321 t 32 m 2 ce 320 msg 554
+- BS received from 19status 2 rating: 413265
+- BS rec 2 nrNodes: 20
+DM id 554 tid 554 eid 554 etid 554 c cMessage n "" pe 321
+
+E # 322 t 33 m 12 ce 266 msg 479
+CM id 556 tid 556 eid 556 etid 556 c cMessage n "" pe -1
+BS id 556 tid 556 eid 556 etid 556 c DataToCHMessage n "" pe 322
+CL id 556 tid 556 eid 556 etid 556 c DataToCHMessage n "" pe 322 cid 557
+SH sm 12 sg 11
+ES t 33
+CM id 558 tid 558 eid 558 etid 558 c cMessage n "" pe -1
+BS id 558 tid 558 eid 558 etid 558 c cMessage n "" k 11 pe 322
+ES t 40
+DM id 479 tid 479 eid 479 etid 479 c cMessage n "" k 11 pe 322
+
+E # 323 t 33 m 5 ce 281 msg 500
+CM id 559 tid 559 eid 559 etid 559 c cMessage n "" pe -1
+BS id 559 tid 559 eid 559 etid 559 c DataToCHMessage n "" pe 323
+CL id 559 tid 559 eid 559 etid 559 c DataToCHMessage n "" pe 323 cid 560
+SH sm 5 sg 11
+ES t 33
+CM id 561 tid 561 eid 561 etid 561 c cMessage n "" pe -1
+BS id 561 tid 561 eid 561 etid 561 c cMessage n "" k 11 pe 323
+ES t 38
+DM id 500 tid 500 eid 500 etid 500 c cMessage n "" k 11 pe 323
+
+E # 324 t 33 m 3 ce 282 msg 503
+CM id 562 tid 562 eid 562 etid 562 c cMessage n "" pe -1
+BS id 562 tid 562 eid 562 etid 562 c DataToCHMessage n "" pe 324
+CL id 562 tid 562 eid 562 etid 562 c DataToCHMessage n "" pe 324 cid 563
+SH sm 3 sg 11
+ES t 33
+CM id 564 tid 564 eid 564 etid 564 c cMessage n "" pe -1
+BS id 564 tid 564 eid 564 etid 564 c cMessage n "" k 11 pe 324
+ES t 38
+DM id 503 tid 503 eid 503 etid 503 c cMessage n "" k 11 pe 324
+
+E # 325 t 33 m 11 ce 283 msg 506
+CM id 565 tid 565 eid 565 etid 565 c cMessage n "" pe -1
+BS id 565 tid 565 eid 565 etid 565 c DataToCHMessage n "" pe 325
+CL id 565 tid 565 eid 565 etid 565 c DataToCHMessage n "" pe 325 cid 566
+SH sm 11 sg 11
+ES t 33
+CM id 567 tid 567 eid 567 etid 567 c cMessage n "" pe -1
+BS id 567 tid 567 eid 567 etid 567 c cMessage n "" k 11 pe 325
+ES t 38
+DM id 506 tid 506 eid 506 etid 506 c cMessage n "" k 11 pe 325
+
+E # 326 t 33 m 19 ce 322 msg 556
+- REC-energy: 200
+DM id 556 tid 556 eid 556 etid 556 c cMessage n "" pe 326
+
+E # 327 t 33 m 4 ce 323 msg 559
+- REC-energy: 200
+DM id 559 tid 559 eid 559 etid 559 c cMessage n "" pe 327
+
+E # 328 t 33 m 7 ce 324 msg 562
+- REC-energy: 200
+DM id 562 tid 562 eid 562 etid 562 c cMessage n "" pe 328
+
+E # 329 t 33 m 10 ce 325 msg 565
+- REC-energy: 200
+DM id 565 tid 565 eid 565 etid 565 c cMessage n "" pe 329
+
+E # 330 t 34 m 14 ce 270 msg 484
+CM id 568 tid 568 eid 568 etid 568 c cMessage n "" pe -1
+BS id 568 tid 568 eid 568 etid 568 c DataToCHMessage n "" pe 330
+CL id 568 tid 568 eid 568 etid 568 c DataToCHMessage n "" pe 330 cid 569
+SH sm 14 sg 11
+ES t 34
+CM id 570 tid 570 eid 570 etid 570 c cMessage n "" pe -1
+BS id 570 tid 570 eid 570 etid 570 c cMessage n "" k 11 pe 330
+ES t 41
+DM id 484 tid 484 eid 484 etid 484 c cMessage n "" k 11 pe 330
+
+E # 331 t 34 m 9 ce 288 msg 510
+CM id 571 tid 571 eid 571 etid 571 c cMessage n "" pe -1
+BS id 571 tid 571 eid 571 etid 571 c DataToCHMessage n "" pe 331
+CL id 571 tid 571 eid 571 etid 571 c DataToCHMessage n "" pe 331 cid 572
+SH sm 9 sg 11
+ES t 34
+CM id 573 tid 573 eid 573 etid 573 c cMessage n "" pe -1
+BS id 573 tid 573 eid 573 etid 573 c cMessage n "" k 11 pe 331
+ES t 39
+DM id 510 tid 510 eid 510 etid 510 c cMessage n "" k 11 pe 331
+
+E # 332 t 34 m 15 ce 289 msg 513
+CM id 574 tid 574 eid 574 etid 574 c cMessage n "" pe -1
+BS id 574 tid 574 eid 574 etid 574 c DataToCHMessage n "" pe 332
+CL id 574 tid 574 eid 574 etid 574 c DataToCHMessage n "" pe 332 cid 575
+SH sm 15 sg 11
+ES t 34
+CM id 576 tid 576 eid 576 etid 576 c cMessage n "" pe -1
+BS id 576 tid 576 eid 576 etid 576 c cMessage n "" k 11 pe 332
+ES t 39
+DM id 513 tid 513 eid 513 etid 513 c cMessage n "" k 11 pe 332
+
+E # 333 t 34 m 13 ce 290 msg 516
+CM id 577 tid 577 eid 577 etid 577 c cMessage n "" pe -1
+BS id 577 tid 577 eid 577 etid 577 c DataToCHMessage n "" pe 333
+CL id 577 tid 577 eid 577 etid 577 c DataToCHMessage n "" pe 333 cid 578
+SH sm 13 sg 11
+ES t 34
+CM id 579 tid 579 eid 579 etid 579 c cMessage n "" pe -1
+BS id 579 tid 579 eid 579 etid 579 c cMessage n "" k 11 pe 333
+ES t 39
+DM id 516 tid 516 eid 516 etid 516 c cMessage n "" k 11 pe 333
+
+E # 334 t 34 m 19 ce 330 msg 568
+- REC-energy: 200
+DM id 568 tid 568 eid 568 etid 568 c cMessage n "" pe 334
+
+E # 335 t 34 m 4 ce 331 msg 571
+- REC-energy: 200
+DM id 571 tid 571 eid 571 etid 571 c cMessage n "" pe 335
+
+E # 336 t 34 m 7 ce 332 msg 574
+- REC-energy: 200
+DM id 574 tid 574 eid 574 etid 574 c cMessage n "" pe 336
+
+E # 337 t 34 m 10 ce 333 msg 577
+- REC-energy: 200
+DM id 577 tid 577 eid 577 etid 577 c cMessage n "" pe 337
+
+E # 338 t 35 m 16 ce 280 msg 497
+CM id 580 tid 580 eid 580 etid 580 c cMessage n "" pe -1
+BS id 580 tid 580 eid 580 etid 580 c DataToCHMessage n "" pe 338
+CL id 580 tid 580 eid 580 etid 580 c DataToCHMessage n "" pe 338 cid 581
+SH sm 16 sg 11
+ES t 35
+CM id 582 tid 582 eid 582 etid 582 c cMessage n "" pe -1
+BS id 582 tid 582 eid 582 etid 582 c cMessage n "" k 11 pe 338
+ES t 42
+DM id 497 tid 497 eid 497 etid 497 c cMessage n "" k 11 pe 338
+
+E # 339 t 35 m 21 ce 296 msg 521
+CM id 583 tid 583 eid 583 etid 583 c cMessage n "" pe -1
+BS id 583 tid 583 eid 583 etid 583 c DataToCHMessage n "" pe 339
+CL id 583 tid 583 eid 583 etid 583 c DataToCHMessage n "" pe 339 cid 584
+SH sm 21 sg 11
+ES t 35
+CM id 585 tid 585 eid 585 etid 585 c cMessage n "" pe -1
+BS id 585 tid 585 eid 585 etid 585 c cMessage n "" k 11 pe 339
+ES t 40
+DM id 521 tid 521 eid 521 etid 521 c cMessage n "" k 11 pe 339
+
+E # 340 t 35 m 17 ce 297 msg 524
+CM id 586 tid 586 eid 586 etid 586 c cMessage n "" pe -1
+BS id 586 tid 586 eid 586 etid 586 c DataToCHMessage n "" pe 340
+CL id 586 tid 586 eid 586 etid 586 c DataToCHMessage n "" pe 340 cid 587
+SH sm 17 sg 11
+ES t 35
+CM id 588 tid 588 eid 588 etid 588 c cMessage n "" pe -1
+BS id 588 tid 588 eid 588 etid 588 c cMessage n "" k 11 pe 340
+ES t 40
+DM id 524 tid 524 eid 524 etid 524 c cMessage n "" k 11 pe 340
+
+E # 341 t 35 m 22 ce 298 msg 527
+CM id 589 tid 589 eid 589 etid 589 c cMessage n "" pe -1
+BS id 589 tid 589 eid 589 etid 589 c DataToCHMessage n "" pe 341
+CL id 589 tid 589 eid 589 etid 589 c DataToCHMessage n "" pe 341 cid 590
+SH sm 22 sg 11
+ES t 35
+CM id 591 tid 591 eid 591 etid 591 c cMessage n "" pe -1
+BS id 591 tid 591 eid 591 etid 591 c cMessage n "" k 11 pe 341
+ES t 40
+DM id 527 tid 527 eid 527 etid 527 c cMessage n "" k 11 pe 341
+
+E # 342 t 35 m 19 ce 338 msg 580
+- REC-energy: 200
+CM id 592 tid 592 eid 592 etid 592 c cMessage n "" pe -1
+BS id 592 tid 592 eid 592 etid 592 c cMessage n "" k 13 pe 342
+ES t 37
+DM id 580 tid 580 eid 580 etid 580 c cMessage n "" pe 342
+
+E # 343 t 35 m 4 ce 339 msg 583
+- REC-energy: 200
+CM id 593 tid 593 eid 593 etid 593 c cMessage n "" pe -1
+BS id 593 tid 593 eid 593 etid 593 c cMessage n "" k 13 pe 343
+ES t 37
+DM id 583 tid 583 eid 583 etid 583 c cMessage n "" pe 343
+
+E # 344 t 35 m 7 ce 340 msg 586
+- REC-energy: 200
+CM id 594 tid 594 eid 594 etid 594 c cMessage n "" pe -1
+BS id 594 tid 594 eid 594 etid 594 c cMessage n "" k 13 pe 344
+ES t 37
+DM id 586 tid 586 eid 586 etid 586 c cMessage n "" pe 344
+
+E # 345 t 35 m 10 ce 341 msg 589
+- REC-energy: 200
+CM id 595 tid 595 eid 595 etid 595 c cMessage n "" pe -1
+BS id 595 tid 595 eid 595 etid 595 c cMessage n "" k 13 pe 345
+ES t 37
+DM id 589 tid 589 eid 589 etid 589 c cMessage n "" pe 345
+
+E # 346 t 37 m 19 ce 342 msg 592
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 596 tid 596 eid 596 etid 596 c cMessage n "" pe -1
+BS id 596 tid 596 eid 596 etid 596 c Data2BSMessage n "" pe 346
+CL id 596 tid 596 eid 596 etid 596 c Data2BSMessage n "" pe 346 cid 597
+SH sm 19 sg 9
+ES t 37
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 592 tid 592 eid 592 etid 592 c cMessage n "" k 13 pe 346
+
+E # 347 t 37 m 4 ce 343 msg 593
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 598 tid 598 eid 598 etid 598 c cMessage n "" pe -1
+BS id 598 tid 598 eid 598 etid 598 c Data2BSMessage n "" pe 347
+CL id 598 tid 598 eid 598 etid 598 c Data2BSMessage n "" pe 347 cid 599
+SH sm 4 sg 9
+ES t 37
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 593 tid 593 eid 593 etid 593 c cMessage n "" k 13 pe 347
+
+E # 348 t 37 m 7 ce 344 msg 594
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 600 tid 600 eid 600 etid 600 c cMessage n "" pe -1
+BS id 600 tid 600 eid 600 etid 600 c Data2BSMessage n "" pe 348
+CL id 600 tid 600 eid 600 etid 600 c Data2BSMessage n "" pe 348 cid 601
+SH sm 7 sg 9
+ES t 37
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 594 tid 594 eid 594 etid 594 c cMessage n "" k 13 pe 348
+
+E # 349 t 37 m 10 ce 345 msg 595
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 602 tid 602 eid 602 etid 602 c cMessage n "" pe -1
+BS id 602 tid 602 eid 602 etid 602 c Data2BSMessage n "" pe 349
+CL id 602 tid 602 eid 602 etid 602 c Data2BSMessage n "" pe 349 cid 603
+SH sm 10 sg 9
+ES t 37
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 595 tid 595 eid 595 etid 595 c cMessage n "" k 13 pe 349
+
+E # 350 t 37 m 2 ce 346 msg 596
+DM id 596 tid 596 eid 596 etid 596 c cMessage n "" pe 350
+
+E # 351 t 37 m 2 ce 347 msg 598
+DM id 598 tid 598 eid 598 etid 598 c cMessage n "" pe 351
+
+E # 352 t 37 m 2 ce 348 msg 600
+DM id 600 tid 600 eid 600 etid 600 c cMessage n "" pe 352
+
+E # 353 t 37 m 2 ce 349 msg 602
+DM id 602 tid 602 eid 602 etid 602 c cMessage n "" pe 353
+
+E # 354 t 38 m 6 ce 306 msg 539
+CM id 604 tid 604 eid 604 etid 604 c cMessage n "" pe -1
+BS id 604 tid 604 eid 604 etid 604 c DataToCHMessage n "" pe 354
+CL id 604 tid 604 eid 604 etid 604 c DataToCHMessage n "" pe 354 cid 605
+SH sm 6 sg 11
+ES t 38
+CM id 606 tid 606 eid 606 etid 606 c cMessage n "" pe -1
+BS id 606 tid 606 eid 606 etid 606 c cMessage n "" k 11 pe 354
+ES t 45
+DM id 539 tid 539 eid 539 etid 539 c cMessage n "" k 11 pe 354
+
+E # 355 t 38 m 5 ce 323 msg 561
+CM id 607 tid 607 eid 607 etid 607 c cMessage n "" pe -1
+BS id 607 tid 607 eid 607 etid 607 c DataToCHMessage n "" pe 355
+CL id 607 tid 607 eid 607 etid 607 c DataToCHMessage n "" pe 355 cid 608
+SH sm 5 sg 11
+ES t 38
+CM id 609 tid 609 eid 609 etid 609 c cMessage n "" pe -1
+BS id 609 tid 609 eid 609 etid 609 c cMessage n "" k 11 pe 355
+ES t 43
+DM id 561 tid 561 eid 561 etid 561 c cMessage n "" k 11 pe 355
+
+E # 356 t 38 m 3 ce 324 msg 564
+CM id 610 tid 610 eid 610 etid 610 c cMessage n "" pe -1
+BS id 610 tid 610 eid 610 etid 610 c DataToCHMessage n "" pe 356
+CL id 610 tid 610 eid 610 etid 610 c DataToCHMessage n "" pe 356 cid 611
+SH sm 3 sg 11
+ES t 38
+CM id 612 tid 612 eid 612 etid 612 c cMessage n "" pe -1
+BS id 612 tid 612 eid 612 etid 612 c cMessage n "" k 11 pe 356
+ES t 43
+DM id 564 tid 564 eid 564 etid 564 c cMessage n "" k 11 pe 356
+
+E # 357 t 38 m 11 ce 325 msg 567
+CM id 613 tid 613 eid 613 etid 613 c cMessage n "" pe -1
+BS id 613 tid 613 eid 613 etid 613 c DataToCHMessage n "" pe 357
+CL id 613 tid 613 eid 613 etid 613 c DataToCHMessage n "" pe 357 cid 614
+SH sm 11 sg 11
+ES t 38
+CM id 615 tid 615 eid 615 etid 615 c cMessage n "" pe -1
+BS id 615 tid 615 eid 615 etid 615 c cMessage n "" k 11 pe 357
+ES t 43
+DM id 567 tid 567 eid 567 etid 567 c cMessage n "" k 11 pe 357
+
+E # 358 t 38 m 19 ce 354 msg 604
+- REC-energy: 200
+DM id 604 tid 604 eid 604 etid 604 c cMessage n "" pe 358
+
+E # 359 t 38 m 4 ce 355 msg 607
+- REC-energy: 200
+DM id 607 tid 607 eid 607 etid 607 c cMessage n "" pe 359
+
+E # 360 t 38 m 7 ce 356 msg 610
+- REC-energy: 200
+DM id 610 tid 610 eid 610 etid 610 c cMessage n "" pe 360
+
+E # 361 t 38 m 10 ce 357 msg 613
+- REC-energy: 200
+DM id 613 tid 613 eid 613 etid 613 c cMessage n "" pe 361
+
+E # 362 t 39 m 8 ce 308 msg 542
+CM id 616 tid 616 eid 616 etid 616 c cMessage n "" pe -1
+BS id 616 tid 616 eid 616 etid 616 c DataToCHMessage n "" pe 362
+CL id 616 tid 616 eid 616 etid 616 c DataToCHMessage n "" pe 362 cid 617
+SH sm 8 sg 11
+ES t 39
+CM id 618 tid 618 eid 618 etid 618 c cMessage n "" pe -1
+BS id 618 tid 618 eid 618 etid 618 c cMessage n "" k 11 pe 362
+ES t 46
+DM id 542 tid 542 eid 542 etid 542 c cMessage n "" k 11 pe 362
+
+E # 363 t 39 m 9 ce 331 msg 573
+CM id 619 tid 619 eid 619 etid 619 c cMessage n "" pe -1
+BS id 619 tid 619 eid 619 etid 619 c DataToCHMessage n "" pe 363
+CL id 619 tid 619 eid 619 etid 619 c DataToCHMessage n "" pe 363 cid 620
+SH sm 9 sg 11
+ES t 39
+CM id 621 tid 621 eid 621 etid 621 c cMessage n "" pe -1
+BS id 621 tid 621 eid 621 etid 621 c cMessage n "" k 11 pe 363
+ES t 44
+DM id 573 tid 573 eid 573 etid 573 c cMessage n "" k 11 pe 363
+
+E # 364 t 39 m 15 ce 332 msg 576
+CM id 622 tid 622 eid 622 etid 622 c cMessage n "" pe -1
+BS id 622 tid 622 eid 622 etid 622 c DataToCHMessage n "" pe 364
+CL id 622 tid 622 eid 622 etid 622 c DataToCHMessage n "" pe 364 cid 623
+SH sm 15 sg 11
+ES t 39
+CM id 624 tid 624 eid 624 etid 624 c cMessage n "" pe -1
+BS id 624 tid 624 eid 624 etid 624 c cMessage n "" k 11 pe 364
+ES t 44
+DM id 576 tid 576 eid 576 etid 576 c cMessage n "" k 11 pe 364
+
+E # 365 t 39 m 13 ce 333 msg 579
+CM id 625 tid 625 eid 625 etid 625 c cMessage n "" pe -1
+BS id 625 tid 625 eid 625 etid 625 c DataToCHMessage n "" pe 365
+CL id 625 tid 625 eid 625 etid 625 c DataToCHMessage n "" pe 365 cid 626
+SH sm 13 sg 11
+ES t 39
+CM id 627 tid 627 eid 627 etid 627 c cMessage n "" pe -1
+BS id 627 tid 627 eid 627 etid 627 c cMessage n "" k 11 pe 365
+ES t 44
+DM id 579 tid 579 eid 579 etid 579 c cMessage n "" k 11 pe 365
+
+E # 366 t 39 m 19 ce 362 msg 616
+- REC-energy: 200
+DM id 616 tid 616 eid 616 etid 616 c cMessage n "" pe 366
+
+E # 367 t 39 m 4 ce 363 msg 619
+- REC-energy: 200
+DM id 619 tid 619 eid 619 etid 619 c cMessage n "" pe 367
+
+E # 368 t 39 m 7 ce 364 msg 622
+- REC-energy: 200
+DM id 622 tid 622 eid 622 etid 622 c cMessage n "" pe 368
+
+E # 369 t 39 m 10 ce 365 msg 625
+- REC-energy: 200
+DM id 625 tid 625 eid 625 etid 625 c cMessage n "" pe 369
+
+E # 370 t 40 m 12 ce 322 msg 558
+CM id 628 tid 628 eid 628 etid 628 c cMessage n "" pe -1
+BS id 628 tid 628 eid 628 etid 628 c DataToCHMessage n "" pe 370
+CL id 628 tid 628 eid 628 etid 628 c DataToCHMessage n "" pe 370 cid 629
+SH sm 12 sg 11
+ES t 40
+CM id 630 tid 630 eid 630 etid 630 c cMessage n "" pe -1
+BS id 630 tid 630 eid 630 etid 630 c cMessage n "" k 11 pe 370
+ES t 47
+DM id 558 tid 558 eid 558 etid 558 c cMessage n "" k 11 pe 370
+
+E # 371 t 40 m 21 ce 339 msg 585
+CM id 631 tid 631 eid 631 etid 631 c cMessage n "" pe -1
+BS id 631 tid 631 eid 631 etid 631 c DataToCHMessage n "" pe 371
+CL id 631 tid 631 eid 631 etid 631 c DataToCHMessage n "" pe 371 cid 632
+SH sm 21 sg 11
+ES t 40
+CM id 633 tid 633 eid 633 etid 633 c cMessage n "" pe -1
+BS id 633 tid 633 eid 633 etid 633 c cMessage n "" k 11 pe 371
+ES t 45
+DM id 585 tid 585 eid 585 etid 585 c cMessage n "" k 11 pe 371
+
+E # 372 t 40 m 17 ce 340 msg 588
+CM id 634 tid 634 eid 634 etid 634 c cMessage n "" pe -1
+BS id 634 tid 634 eid 634 etid 634 c DataToCHMessage n "" pe 372
+CL id 634 tid 634 eid 634 etid 634 c DataToCHMessage n "" pe 372 cid 635
+SH sm 17 sg 11
+ES t 40
+CM id 636 tid 636 eid 636 etid 636 c cMessage n "" pe -1
+BS id 636 tid 636 eid 636 etid 636 c cMessage n "" k 11 pe 372
+ES t 45
+DM id 588 tid 588 eid 588 etid 588 c cMessage n "" k 11 pe 372
+
+E # 373 t 40 m 22 ce 341 msg 591
+CM id 637 tid 637 eid 637 etid 637 c cMessage n "" pe -1
+BS id 637 tid 637 eid 637 etid 637 c DataToCHMessage n "" pe 373
+CL id 637 tid 637 eid 637 etid 637 c DataToCHMessage n "" pe 373 cid 638
+SH sm 22 sg 11
+ES t 40
+CM id 639 tid 639 eid 639 etid 639 c cMessage n "" pe -1
+BS id 639 tid 639 eid 639 etid 639 c cMessage n "" k 11 pe 373
+ES t 45
+DM id 591 tid 591 eid 591 etid 591 c cMessage n "" k 11 pe 373
+
+E # 374 t 40 m 19 ce 370 msg 628
+- REC-energy: 200
+DM id 628 tid 628 eid 628 etid 628 c cMessage n "" pe 374
+
+E # 375 t 40 m 4 ce 371 msg 631
+- REC-energy: 200
+CM id 640 tid 640 eid 640 etid 640 c cMessage n "" pe -1
+BS id 640 tid 640 eid 640 etid 640 c cMessage n "" k 13 pe 375
+ES t 42
+DM id 631 tid 631 eid 631 etid 631 c cMessage n "" pe 375
+
+E # 376 t 40 m 7 ce 372 msg 634
+- REC-energy: 200
+CM id 641 tid 641 eid 641 etid 641 c cMessage n "" pe -1
+BS id 641 tid 641 eid 641 etid 641 c cMessage n "" k 13 pe 376
+ES t 42
+DM id 634 tid 634 eid 634 etid 634 c cMessage n "" pe 376
+
+E # 377 t 40 m 10 ce 373 msg 637
+- REC-energy: 200
+CM id 642 tid 642 eid 642 etid 642 c cMessage n "" pe -1
+BS id 642 tid 642 eid 642 etid 642 c cMessage n "" k 13 pe 377
+ES t 42
+DM id 637 tid 637 eid 637 etid 637 c cMessage n "" pe 377
+
+E # 378 t 41 m 14 ce 330 msg 570
+CM id 643 tid 643 eid 643 etid 643 c cMessage n "" pe -1
+BS id 643 tid 643 eid 643 etid 643 c DataToCHMessage n "" pe 378
+CL id 643 tid 643 eid 643 etid 643 c DataToCHMessage n "" pe 378 cid 644
+SH sm 14 sg 11
+ES t 41
+CM id 645 tid 645 eid 645 etid 645 c cMessage n "" pe -1
+BS id 645 tid 645 eid 645 etid 645 c cMessage n "" k 11 pe 378
+ES t 48
+DM id 570 tid 570 eid 570 etid 570 c cMessage n "" k 11 pe 378
+
+E # 379 t 41 m 19 ce 378 msg 643
+- REC-energy: 200
+DM id 643 tid 643 eid 643 etid 643 c cMessage n "" pe 379
+
+E # 380 t 42 m 16 ce 338 msg 582
+CM id 646 tid 646 eid 646 etid 646 c cMessage n "" pe -1
+BS id 646 tid 646 eid 646 etid 646 c DataToCHMessage n "" pe 380
+CL id 646 tid 646 eid 646 etid 646 c DataToCHMessage n "" pe 380 cid 647
+SH sm 16 sg 11
+ES t 42
+CM id 648 tid 648 eid 648 etid 648 c cMessage n "" pe -1
+BS id 648 tid 648 eid 648 etid 648 c cMessage n "" k 11 pe 380
+ES t 49
+DM id 582 tid 582 eid 582 etid 582 c cMessage n "" k 11 pe 380
+
+E # 381 t 42 m 4 ce 375 msg 640
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 649 tid 649 eid 649 etid 649 c cMessage n "" pe -1
+BS id 649 tid 649 eid 649 etid 649 c Data2BSMessage n "" pe 381
+CL id 649 tid 649 eid 649 etid 649 c Data2BSMessage n "" pe 381 cid 650
+SH sm 4 sg 9
+ES t 42
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 640 tid 640 eid 640 etid 640 c cMessage n "" k 13 pe 381
+
+E # 382 t 42 m 7 ce 376 msg 641
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 651 tid 651 eid 651 etid 651 c cMessage n "" pe -1
+BS id 651 tid 651 eid 651 etid 651 c Data2BSMessage n "" pe 382
+CL id 651 tid 651 eid 651 etid 651 c Data2BSMessage n "" pe 382 cid 652
+SH sm 7 sg 9
+ES t 42
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 641 tid 641 eid 641 etid 641 c cMessage n "" k 13 pe 382
+
+E # 383 t 42 m 10 ce 377 msg 642
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 653 tid 653 eid 653 etid 653 c cMessage n "" pe -1
+BS id 653 tid 653 eid 653 etid 653 c Data2BSMessage n "" pe 383
+CL id 653 tid 653 eid 653 etid 653 c Data2BSMessage n "" pe 383 cid 654
+SH sm 10 sg 9
+ES t 42
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 642 tid 642 eid 642 etid 642 c cMessage n "" k 13 pe 383
+
+E # 384 t 42 m 19 ce 380 msg 646
+- REC-energy: 200
+CM id 655 tid 655 eid 655 etid 655 c cMessage n "" pe -1
+BS id 655 tid 655 eid 655 etid 655 c cMessage n "" k 13 pe 384
+ES t 44
+DM id 646 tid 646 eid 646 etid 646 c cMessage n "" pe 384
+
+E # 385 t 42 m 2 ce 381 msg 649
+DM id 649 tid 649 eid 649 etid 649 c cMessage n "" pe 385
+
+E # 386 t 42 m 2 ce 382 msg 651
+DM id 651 tid 651 eid 651 etid 651 c cMessage n "" pe 386
+
+E # 387 t 42 m 2 ce 383 msg 653
+DM id 653 tid 653 eid 653 etid 653 c cMessage n "" pe 387
+
+E # 388 t 43 m 5 ce 355 msg 609
+CM id 656 tid 656 eid 656 etid 656 c cMessage n "" pe -1
+BS id 656 tid 656 eid 656 etid 656 c DataToCHMessage n "" pe 388
+CL id 656 tid 656 eid 656 etid 656 c DataToCHMessage n "" pe 388 cid 657
+SH sm 5 sg 11
+ES t 43
+CM id 658 tid 658 eid 658 etid 658 c cMessage n "" pe -1
+BS id 658 tid 658 eid 658 etid 658 c cMessage n "" k 11 pe 388
+ES t 48
+DM id 609 tid 609 eid 609 etid 609 c cMessage n "" k 11 pe 388
+
+E # 389 t 43 m 3 ce 356 msg 612
+CM id 659 tid 659 eid 659 etid 659 c cMessage n "" pe -1
+BS id 659 tid 659 eid 659 etid 659 c DataToCHMessage n "" pe 389
+CL id 659 tid 659 eid 659 etid 659 c DataToCHMessage n "" pe 389 cid 660
+SH sm 3 sg 11
+ES t 43
+CM id 661 tid 661 eid 661 etid 661 c cMessage n "" pe -1
+BS id 661 tid 661 eid 661 etid 661 c cMessage n "" k 11 pe 389
+ES t 48
+DM id 612 tid 612 eid 612 etid 612 c cMessage n "" k 11 pe 389
+
+E # 390 t 43 m 11 ce 357 msg 615
+CM id 662 tid 662 eid 662 etid 662 c cMessage n "" pe -1
+BS id 662 tid 662 eid 662 etid 662 c DataToCHMessage n "" pe 390
+CL id 662 tid 662 eid 662 etid 662 c DataToCHMessage n "" pe 390 cid 663
+SH sm 11 sg 11
+ES t 43
+CM id 664 tid 664 eid 664 etid 664 c cMessage n "" pe -1
+BS id 664 tid 664 eid 664 etid 664 c cMessage n "" k 11 pe 390
+ES t 48
+DM id 615 tid 615 eid 615 etid 615 c cMessage n "" k 11 pe 390
+
+E # 391 t 43 m 4 ce 388 msg 656
+- REC-energy: 200
+DM id 656 tid 656 eid 656 etid 656 c cMessage n "" pe 391
+
+E # 392 t 43 m 7 ce 389 msg 659
+- REC-energy: 200
+DM id 659 tid 659 eid 659 etid 659 c cMessage n "" pe 392
+
+E # 393 t 43 m 10 ce 390 msg 662
+- REC-energy: 200
+DM id 662 tid 662 eid 662 etid 662 c cMessage n "" pe 393
+
+E # 394 t 44 m 9 ce 363 msg 621
+CM id 665 tid 665 eid 665 etid 665 c cMessage n "" pe -1
+BS id 665 tid 665 eid 665 etid 665 c DataToCHMessage n "" pe 394
+CL id 665 tid 665 eid 665 etid 665 c DataToCHMessage n "" pe 394 cid 666
+SH sm 9 sg 11
+ES t 44
+CM id 667 tid 667 eid 667 etid 667 c cMessage n "" pe -1
+BS id 667 tid 667 eid 667 etid 667 c cMessage n "" k 11 pe 394
+ES t 49
+DM id 621 tid 621 eid 621 etid 621 c cMessage n "" k 11 pe 394
+
+E # 395 t 44 m 15 ce 364 msg 624
+CM id 668 tid 668 eid 668 etid 668 c cMessage n "" pe -1
+BS id 668 tid 668 eid 668 etid 668 c DataToCHMessage n "" pe 395
+CL id 668 tid 668 eid 668 etid 668 c DataToCHMessage n "" pe 395 cid 669
+SH sm 15 sg 11
+ES t 44
+CM id 670 tid 670 eid 670 etid 670 c cMessage n "" pe -1
+BS id 670 tid 670 eid 670 etid 670 c cMessage n "" k 11 pe 395
+ES t 49
+DM id 624 tid 624 eid 624 etid 624 c cMessage n "" k 11 pe 395
+
+E # 396 t 44 m 13 ce 365 msg 627
+CM id 671 tid 671 eid 671 etid 671 c cMessage n "" pe -1
+BS id 671 tid 671 eid 671 etid 671 c DataToCHMessage n "" pe 396
+CL id 671 tid 671 eid 671 etid 671 c DataToCHMessage n "" pe 396 cid 672
+SH sm 13 sg 11
+ES t 44
+CM id 673 tid 673 eid 673 etid 673 c cMessage n "" pe -1
+BS id 673 tid 673 eid 673 etid 673 c cMessage n "" k 11 pe 396
+ES t 49
+DM id 627 tid 627 eid 627 etid 627 c cMessage n "" k 11 pe 396
+
+E # 397 t 44 m 19 ce 384 msg 655
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 674 tid 674 eid 674 etid 674 c cMessage n "" pe -1
+BS id 674 tid 674 eid 674 etid 674 c Data2BSMessage n "" pe 397
+CL id 674 tid 674 eid 674 etid 674 c Data2BSMessage n "" pe 397 cid 675
+SH sm 19 sg 9
+ES t 44
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 655 tid 655 eid 655 etid 655 c cMessage n "" k 13 pe 397
+
+E # 398 t 44 m 4 ce 394 msg 665
+- REC-energy: 200
+DM id 665 tid 665 eid 665 etid 665 c cMessage n "" pe 398
+
+E # 399 t 44 m 7 ce 395 msg 668
+- REC-energy: 200
+DM id 668 tid 668 eid 668 etid 668 c cMessage n "" pe 399
+
+E # 400 t 44 m 10 ce 396 msg 671
+- REC-energy: 200
+DM id 671 tid 671 eid 671 etid 671 c cMessage n "" pe 400
+
+E # 401 t 44 m 2 ce 397 msg 674
+DM id 674 tid 674 eid 674 etid 674 c cMessage n "" pe 401
+
+E # 402 t 45 m 6 ce 354 msg 606
+CM id 676 tid 676 eid 676 etid 676 c cMessage n "" pe -1
+BS id 676 tid 676 eid 676 etid 676 c DataToCHMessage n "" pe 402
+CL id 676 tid 676 eid 676 etid 676 c DataToCHMessage n "" pe 402 cid 677
+SH sm 6 sg 11
+ES t 45
+CM id 678 tid 678 eid 678 etid 678 c cMessage n "" pe -1
+BS id 678 tid 678 eid 678 etid 678 c cMessage n "" k 11 pe 402
+ES t 52
+DM id 606 tid 606 eid 606 etid 606 c cMessage n "" k 11 pe 402
+
+E # 403 t 45 m 21 ce 371 msg 633
+CM id 679 tid 679 eid 679 etid 679 c cMessage n "" pe -1
+BS id 679 tid 679 eid 679 etid 679 c DataToCHMessage n "" pe 403
+CL id 679 tid 679 eid 679 etid 679 c DataToCHMessage n "" pe 403 cid 680
+SH sm 21 sg 11
+ES t 45
+CM id 681 tid 681 eid 681 etid 681 c cMessage n "" pe -1
+BS id 681 tid 681 eid 681 etid 681 c cMessage n "" k 11 pe 403
+ES t 50
+DM id 633 tid 633 eid 633 etid 633 c cMessage n "" k 11 pe 403
+
+E # 404 t 45 m 17 ce 372 msg 636
+CM id 682 tid 682 eid 682 etid 682 c cMessage n "" pe -1
+BS id 682 tid 682 eid 682 etid 682 c DataToCHMessage n "" pe 404
+CL id 682 tid 682 eid 682 etid 682 c DataToCHMessage n "" pe 404 cid 683
+SH sm 17 sg 11
+ES t 45
+CM id 684 tid 684 eid 684 etid 684 c cMessage n "" pe -1
+BS id 684 tid 684 eid 684 etid 684 c cMessage n "" k 11 pe 404
+ES t 50
+DM id 636 tid 636 eid 636 etid 636 c cMessage n "" k 11 pe 404
+
+E # 405 t 45 m 22 ce 373 msg 639
+CM id 685 tid 685 eid 685 etid 685 c cMessage n "" pe -1
+BS id 685 tid 685 eid 685 etid 685 c DataToCHMessage n "" pe 405
+CL id 685 tid 685 eid 685 etid 685 c DataToCHMessage n "" pe 405 cid 686
+SH sm 22 sg 11
+ES t 45
+CM id 687 tid 687 eid 687 etid 687 c cMessage n "" pe -1
+BS id 687 tid 687 eid 687 etid 687 c cMessage n "" k 11 pe 405
+ES t 50
+DM id 639 tid 639 eid 639 etid 639 c cMessage n "" k 11 pe 405
+
+E # 406 t 45 m 19 ce 402 msg 676
+- REC-energy: 200
+DM id 676 tid 676 eid 676 etid 676 c cMessage n "" pe 406
+
+E # 407 t 45 m 4 ce 403 msg 679
+- REC-energy: 200
+CM id 688 tid 688 eid 688 etid 688 c cMessage n "" pe -1
+BS id 688 tid 688 eid 688 etid 688 c cMessage n "" k 13 pe 407
+ES t 47
+DM id 679 tid 679 eid 679 etid 679 c cMessage n "" pe 407
+
+E # 408 t 45 m 7 ce 404 msg 682
+- REC-energy: 200
+CM id 689 tid 689 eid 689 etid 689 c cMessage n "" pe -1
+BS id 689 tid 689 eid 689 etid 689 c cMessage n "" k 13 pe 408
+ES t 47
+DM id 682 tid 682 eid 682 etid 682 c cMessage n "" pe 408
+
+E # 409 t 45 m 10 ce 405 msg 685
+- REC-energy: 200
+CM id 690 tid 690 eid 690 etid 690 c cMessage n "" pe -1
+BS id 690 tid 690 eid 690 etid 690 c cMessage n "" k 13 pe 409
+ES t 47
+DM id 685 tid 685 eid 685 etid 685 c cMessage n "" pe 409
+
+E # 410 t 46 m 8 ce 362 msg 618
+CM id 691 tid 691 eid 691 etid 691 c cMessage n "" pe -1
+BS id 691 tid 691 eid 691 etid 691 c DataToCHMessage n "" pe 410
+CL id 691 tid 691 eid 691 etid 691 c DataToCHMessage n "" pe 410 cid 692
+SH sm 8 sg 11
+ES t 46
+CM id 693 tid 693 eid 693 etid 693 c cMessage n "" pe -1
+BS id 693 tid 693 eid 693 etid 693 c cMessage n "" k 11 pe 410
+ES t 53
+DM id 618 tid 618 eid 618 etid 618 c cMessage n "" k 11 pe 410
+
+E # 411 t 46 m 19 ce 410 msg 691
+- REC-energy: 200
+DM id 691 tid 691 eid 691 etid 691 c cMessage n "" pe 411
+
+E # 412 t 47 m 12 ce 370 msg 630
+CM id 694 tid 694 eid 694 etid 694 c cMessage n "" pe -1
+BS id 694 tid 694 eid 694 etid 694 c DataToCHMessage n "" pe 412
+CL id 694 tid 694 eid 694 etid 694 c DataToCHMessage n "" pe 412 cid 695
+SH sm 12 sg 11
+ES t 47
+CM id 696 tid 696 eid 696 etid 696 c cMessage n "" pe -1
+BS id 696 tid 696 eid 696 etid 696 c cMessage n "" k 11 pe 412
+ES t 54
+DM id 630 tid 630 eid 630 etid 630 c cMessage n "" k 11 pe 412
+
+E # 413 t 47 m 4 ce 407 msg 688
+- 3send data to BBBBBSSSS
+- 
+- 
+CM id 697 tid 697 eid 697 etid 697 c cMessage n "" pe -1
+BS id 697 tid 697 eid 697 etid 697 c Data2BSMessage n "" pe 413
+CL id 697 tid 697 eid 697 etid 697 c Data2BSMessage n "" pe 413 cid 698
+SH sm 4 sg 9
+ES t 47
+- TR-energy HEAD: 250.32
+- AGG-energy: 0.015
+DM id 688 tid 688 eid 688 etid 688 c cMessage n "" k 13 pe 413
+
+E # 414 t 47 m 7 ce 408 msg 689
+- 6send data to BBBBBSSSS
+- 
+- 
+CM id 699 tid 699 eid 699 etid 699 c cMessage n "" pe -1
+BS id 699 tid 699 eid 699 etid 699 c Data2BSMessage n "" pe 414
+CL id 699 tid 699 eid 699 etid 699 c Data2BSMessage n "" pe 414 cid 700
+SH sm 7 sg 9
+ES t 47
+- TR-energy HEAD: 430.4
+- AGG-energy: 0.015
+DM id 689 tid 689 eid 689 etid 689 c cMessage n "" k 13 pe 414
+
+E # 415 t 47 m 10 ce 409 msg 690
+- 9send data to BBBBBSSSS
+- 
+- 
+CM id 701 tid 701 eid 701 etid 701 c cMessage n "" pe -1
+BS id 701 tid 701 eid 701 etid 701 c Data2BSMessage n "" pe 415
+CL id 701 tid 701 eid 701 etid 701 c Data2BSMessage n "" pe 415 cid 702
+SH sm 10 sg 9
+ES t 47
+- TR-energy HEAD: 309.64
+- AGG-energy: 0.015
+DM id 690 tid 690 eid 690 etid 690 c cMessage n "" k 13 pe 415
+
+E # 416 t 47 m 19 ce 412 msg 694
+- REC-energy: 200
+DM id 694 tid 694 eid 694 etid 694 c cMessage n "" pe 416
+
+E # 417 t 47 m 2 ce 413 msg 697
+DM id 697 tid 697 eid 697 etid 697 c cMessage n "" pe 417
+
+E # 418 t 47 m 2 ce 414 msg 699
+DM id 699 tid 699 eid 699 etid 699 c cMessage n "" pe 418
+
+E # 419 t 47 m 2 ce 415 msg 701
+DM id 701 tid 701 eid 701 etid 701 c cMessage n "" pe 419
+
+E # 420 t 48 m 16 ce 0 msg 40
+MS id 16 d p=$xpos,$ypos;o=yellow;i=device/device
+- new status 1
+DM id 40 tid 40 eid 40 etid 40 c cMessage n "" k 12 pe 420
+
+E # 421 t 48 m 14 ce 378 msg 645
+CM id 703 tid 703 eid 703 etid 703 c cMessage n "" pe -1
+BS id 703 tid 703 eid 703 etid 703 c DataToCHMessage n "" pe 421
+CL id 703 tid 703 eid 703 etid 703 c DataToCHMessage n "" pe 421 cid 704
+SH sm 14 sg 11
+ES t 48
+CM id 705 tid 705 eid 705 etid 705 c cMessage n "" pe -1
+BS id 705 tid 705 eid 705 etid 705 c cMessage n "" k 11 pe 421
+ES t 55
+DM id 645 tid 645 eid 645 etid 645 c cMessage n "" k 11 pe 421
+
+E # 422 t 48 m 5 ce 388 msg 658
+CM id 706 tid 706 eid 706 etid 706 c cMessage n "" pe -1
+BS id 706 tid 706 eid 706 etid 706 c DataToCHMessage n "" pe 422
+CL id 706 tid 706 eid 706 etid 706 c DataToCHMessage n "" pe 422 cid 707
+SH sm 5 sg 11
+ES t 48
+CM id 708 tid 708 eid 708 etid 708 c cMessage n "" pe -1
+BS id 708 tid 708 eid 708 etid 708 c cMessage n "" k 14 pe 422
+ES t 52
+DM id 658 tid 658 eid 658 etid 658 c cMessage n "" k 11 pe 422
+
+E # 423 t 48 m 3 ce 389 msg 661
+CM id 709 tid 709 eid 709 etid 709 c cMessage n "" pe -1
+BS id 709 tid 709 eid 709 etid 709 c DataToCHMessage n "" pe 423
+CL id 709 tid 709 eid 709 etid 709 c DataToCHMessage n "" pe 423 cid 710
+SH sm 3 sg 11
+ES t 48
+CM id 711 tid 711 eid 711 etid 711 c cMessage n "" pe -1
+BS id 711 tid 711 eid 711 etid 711 c cMessage n "" k 14 pe 423
+ES t 52
+DM id 661 tid 661 eid 661 etid 661 c cMessage n "" k 11 pe 423
+
+E # 424 t 48 m 11 ce 390 msg 664
+CM id 712 tid 712 eid 712 etid 712 c cMessage n "" pe -1
+BS id 712 tid 712 eid 712 etid 712 c DataToCHMessage n "" pe 424
+CL id 712 tid 712 eid 712 etid 712 c DataToCHMessage n "" pe 424 cid 713
+SH sm 11 sg 11
+ES t 48
+CM id 714 tid 714 eid 714 etid 714 c cMessage n "" pe -1
+BS id 714 tid 714 eid 714 etid 714 c cMessage n "" k 14 pe 424
+ES t 52
+DM id 664 tid 664 eid 664 etid 664 c cMessage n "" k 11 pe 424
+
+E # 425 t 48 m 19 ce 421 msg 703
+- REC-energy: 200
+DM id 703 tid 703 eid 703 etid 703 c cMessage n "" pe 425
+
+E # 426 t 48 m 4 ce 422 msg 706
+- REC-energy: 200
+DM id 706 tid 706 eid 706 etid 706 c cMessage n "" pe 426
+
+E # 427 t 48 m 7 ce 423 msg 709
+- REC-energy: 200
+DM id 709 tid 709 eid 709 etid 709 c cMessage n "" pe 427
+
+E # 428 t 48 m 10 ce 424 msg 712
+- REC-energy: 200
+DM id 712 tid 712 eid 712 etid 712 c cMessage n "" pe 428
+
+E # 429 t 49 m 16 ce 380 msg 648
+CM id 715 tid 715 eid 715 etid 715 c cMessage n "" pe -1
+BS id 715 tid 715 eid 715 etid 715 c DataToCHMessage n "" pe 429
+CL id 715 tid 715 eid 715 etid 715 c DataToCHMessage n "" pe 429 cid 716
+SH sm 16 sg 11
+ES t 49
+CM id 717 tid 717 eid 717 etid 717 c cMessage n "" pe -1
+BS id 717 tid 717 eid 717 etid 717 c cMessage n "" k 11 pe 429
+ES t 56
+DM id 648 tid 648 eid 648 etid 648 c cMessage n "" k 11 pe 429
+
+E # 430 t 49 m 9 ce 394 msg 667
+CM id 718 tid 718 eid 718 etid 718 c cMessage n "" pe -1
+BS id 718 tid 718 eid 718 etid 718 c DataToCHMessage n "" pe 430
+CL id 718 tid 718 eid 718 etid 718 c DataToCHMessage n "" pe 430 cid 719
+SH sm 9 sg 11
+ES t 49
+CM id 720 tid 720 eid 720 etid 720 c cMessage n "" pe -1
+BS id 720 tid 720 eid 720 etid 720 c cMessage n "" k 14 pe 430
+ES t 52
+DM id 667 tid 667 eid 667 etid 667 c cMessage n "" k 11 pe 430
+
+E # 431 t 49 m 15 ce 395 msg 670
+CM id 721 tid 721 eid 721 etid 721 c cMessage n "" pe -1
+BS id 721 tid 721 eid 721 etid 721 c DataToCHMessage n "" pe 431
+CL id 721 tid 721 eid 721 etid 721 c DataToCHMessage n "" pe 431 cid 722
+SH sm 15 sg 11
+ES t 49
+CM id 723 tid 723 eid 723 etid 723 c cMessage n "" pe -1
+BS id 723 tid 723 eid 723 etid 723 c cMessage n "" k 14 pe 431
+ES t 52
+DM id 670 tid 670 eid 670 etid 670 c cMessage n "" k 11 pe 431
+
+E # 432 t 49 m 13 ce 396 msg 673
+CM id 724 tid 724 eid 724 etid 724 c cMessage n "" pe -1
+BS id 724 tid 724 eid 724 etid 724 c DataToCHMessage n "" pe 432
+CL id 724 tid 724 eid 724 etid 724 c DataToCHMessage n "" pe 432 cid 725
+SH sm 13 sg 11
+ES t 49
+CM id 726 tid 726 eid 726 etid 726 c cMessage n "" pe -1
+BS id 726 tid 726 eid 726 etid 726 c cMessage n "" k 14 pe 432
+ES t 52
+DM id 673 tid 673 eid 673 etid 673 c cMessage n "" k 11 pe 432
+
+E # 433 t 49 m 19 ce 429 msg 715
+- REC-energy: 200
+CM id 727 tid 727 eid 727 etid 727 c cMessage n "" pe -1
+BS id 727 tid 727 eid 727 etid 727 c cMessage n "" k 13 pe 433
+ES t 51
+DM id 715 tid 715 eid 715 etid 715 c cMessage n "" pe 433
+
+E # 434 t 49 m 4 ce 430 msg 718
+- REC-energy: 200
+DM id 718 tid 718 eid 718 etid 718 c cMessage n "" pe 434
+
+E # 435 t 49 m 7 ce 431 msg 721
+- REC-energy: 200
+DM id 721 tid 721 eid 721 etid 721 c cMessage n "" pe 435
+
+E # 436 t 49 m 10 ce 432 msg 724
+- REC-energy: 200
+DM id 724 tid 724 eid 724 etid 724 c cMessage n "" pe 436
+
+E # 437 t 50 m 21 ce 403 msg 681
+CM id 728 tid 728 eid 728 etid 728 c cMessage n "" pe -1
+BS id 728 tid 728 eid 728 etid 728 c DataToCHMessage n "" pe 437
+CL id 728 tid 728 eid 728 etid 728 c DataToCHMessage n "" pe 437 cid 729
+SH sm 21 sg 11
+ES t 50
+CM id 730 tid 730 eid 730 etid 730 c cMessage n "" pe -1
+BS id 730 tid 730 eid 730 etid 730 c cMessage n "" k 14 pe 437
+ES t 52
+DM id 681 tid 681 eid 681 etid 681 c cMessage n "" k 11 pe 437
+
+E # 438 t 50 m 17 ce 404 msg 684
+CM id 731 tid 731 eid 731 etid 731 c cMessage n "" pe -1
+BS id 731 tid 731 eid 731 etid 731 c DataToCHMessage n "" pe 438
+CL id 731 tid 731 eid 731 etid 731 c DataToCHMessage n "" pe 438 cid 732
+SH sm 17 sg 11
+ES t 50
+CM id 733 tid 733 eid 733 etid 733 c cMessage n "" pe -1
+BS id 733 tid 733 eid 733 etid 733 c cMessage n "" k 14 pe 438
+ES t 52
+DM id 684 tid 684 eid 684 etid 684 c cMessage n "" k 11 pe 438
+
+E # 439 t 50 m 22 ce 405 msg 687
+CM id 734 tid 734 eid 734 etid 734 c cMessage n "" pe -1
+BS id 734 tid 734 eid 734 etid 734 c DataToCHMessage n "" pe 439
+CL id 734 tid 734 eid 734 etid 734 c DataToCHMessage n "" pe 439 cid 735
+SH sm 22 sg 11
+ES t 50
+CM id 736 tid 736 eid 736 etid 736 c cMessage n "" pe -1
+BS id 736 tid 736 eid 736 etid 736 c cMessage n "" k 14 pe 439
+ES t 52
+DM id 687 tid 687 eid 687 etid 687 c cMessage n "" k 11 pe 439
+
+E # 440 t 50 m 4 ce 437 msg 728
+- REC-energy: 200
+CM id 737 tid 737 eid 737 etid 737 c cMessage n "" pe -1
+BS id 737 tid 737 eid 737 etid 737 c cMessage n "" k 13 pe 440
+ES t 52
+DM id 728 tid 728 eid 728 etid 728 c cMessage n "" pe 440
+
+E # 441 t 50 m 7 ce 438 msg 731
+- REC-energy: 200
+CM id 738 tid 738 eid 738 etid 738 c cMessage n "" pe -1
+BS id 738 tid 738 eid 738 etid 738 c cMessage n "" k 13 pe 441
+ES t 52
+DM id 731 tid 731 eid 731 etid 731 c cMessage n "" pe 441
+
+E # 442 t 50 m 10 ce 439 msg 734
+- REC-energy: 200
+CM id 739 tid 739 eid 739 etid 739 c cMessage n "" pe -1
+BS id 739 tid 739 eid 739 etid 739 c cMessage n "" k 13 pe 442
+ES t 52
+DM id 734 tid 734 eid 734 etid 734 c cMessage n "" pe 442
+
+E # 443 t 51 m 19 ce 433 msg 727
+- 18send data to BBBBBSSSS
+- 
+- 
+CM id 740 tid 740 eid 740 etid 740 c cMessage n "" pe -1
+BS id 740 tid 740 eid 740 etid 740 c Data2BSMessage n "" pe 443
+CL id 740 tid 740 eid 740 etid 740 c Data2BSMessage n "" pe 443 cid 741
+SH sm 19 sg 9
+ES t 51
+- TR-energy HEAD: 249.16
+- AGG-energy: 0.025
+DM id 727 tid 727 eid 727 etid 727 c cMessage n "" k 13 pe 443
+
+E # 444 t 51 m 2 ce 443 msg 740
+DM id 740 tid 740 eid 740 etid 740 c cMessage n "" pe 444
+
+E # 445 t 52 m 6 ce 402 msg 678
+CM id 742 tid 742 eid 742 etid 742 c cMessage n "" pe -1
+BS id 742 tid 742 eid 742 etid 742 c DataToCHMessage n "" pe 445
+CL id 742 tid 742 eid 742 etid 742 c DataToCHMessage n "" pe 445 cid 743
+SH sm 6 sg 11
+ES t 52
+CM id 744 tid 744 eid 744 etid 744 c cMessage n "" pe -1
+BS id 744 tid 744 eid 744 etid 744 c cMessage n "" k 11 pe 445
+ES t 59
+DM id 678 tid 678 eid 678 etid 678 c cMessage n "" k 11 pe 445
+
+E # 446 t 52 m 5 ce 422 msg 708
+CM id 745 tid 745 eid 745 etid 745 c cMessage n "" pe -1
+- in send2BS:4
+- 4: sToCluster to1
+BS id 745 tid 745 eid 745 etid 745 c Status2BSMessage n "" pe 446
+CL id 745 tid 745 eid 745 etid 745 c Status2BSMessage n "" pe 446 cid 746
+SH sm 5 sg 9
+ES t 52
+DM id 708 tid 708 eid 708 etid 708 c cMessage n "" k 14 pe 446
+
+E # 447 t 52 m 3 ce 423 msg 711
+CM id 747 tid 747 eid 747 etid 747 c cMessage n "" pe -1
+- in send2BS:2
+- 2: sToCluster to1
+BS id 747 tid 747 eid 747 etid 747 c Status2BSMessage n "" pe 447
+CL id 747 tid 747 eid 747 etid 747 c Status2BSMessage n "" pe 447 cid 748
+SH sm 3 sg 9
+ES t 52
+DM id 711 tid 711 eid 711 etid 711 c cMessage n "" k 14 pe 447
+
+E # 448 t 52 m 11 ce 424 msg 714
+CM id 749 tid 749 eid 749 etid 749 c cMessage n "" pe -1
+- in send2BS:10
+- 10: sToCluster to1
+BS id 749 tid 749 eid 749 etid 749 c Status2BSMessage n "" pe 448
+CL id 749 tid 749 eid 749 etid 749 c Status2BSMessage n "" pe 448 cid 750
+SH sm 11 sg 9
+ES t 52
+DM id 714 tid 714 eid 714 etid 714 c cMessage n "" k 14 pe 448
+
+E # 449 t 52 m 9 ce 430 msg 720
+CM id 751 tid 751 eid 751 etid 751 c cMessage n "" pe -1
+- in send2BS:8
+- 8: sToCluster to1
+BS id 751 tid 751 eid 751 etid 751 c Status2BSMessage n "" pe 449
+CL id 751 tid 751 eid 751 etid 751 c Status2BSMessage n "" pe 449 cid 752
+SH sm 9 sg 9
+ES t 52
+DM id 720 tid 720 eid 720 etid 720 c cMessage n "" k 14 pe 449
+
+E # 450 t 52 m 15 ce 431 msg 723
+CM id 753 tid 753 eid 753 etid 753 c cMessage n "" pe -1
+- in send2BS:14
+- 14: sToCluster to1
+BS id 753 tid 753 eid 753 etid 753 c Status2BSMessage n "" pe 450
+CL id 753 tid 753 eid 753 etid 753 c Status2BSMessage n "" pe 450 cid 754
+SH sm 15 sg 9
+ES t 52
+DM id 723 tid 723 eid 723 etid 723 c cMessage n "" k 14 pe 450
+
+E # 451 t 52 m 13 ce 432 msg 726
+CM id 755 tid 755 eid 755 etid 755 c cMessage n "" pe -1
+- in send2BS:12
+- 12: sToCluster to1
+BS id 755 tid 755 eid 755 etid 755 c Status2BSMessage n "" pe 451
+CL id 755 tid 755 eid 755 etid 755 c Status2BSMessage n "" pe 451 cid 756
+SH sm 13 sg 9
+ES t 52
+DM id 726 tid 726 eid 726 etid 726 c cMessage n "" k 14 pe 451
+
+E # 452 t 52 m 21 ce 437 msg 730
+CM id 757 tid 757 eid 757 etid 757 c cMessage n "" pe -1
+- in send2BS:20
+- 20: sToCluster to1
+BS id 757 tid 757 eid 757 etid 757 c Status2BSMessage n "" pe 452
+CL id 757 tid 757 eid 757 etid 757 c Status2BSMessage n "" pe 452 cid 758
+SH sm 21 sg 9
+ES t 52
+DM id 730 tid 730 eid 730 etid 730 c cMessage n "" k 14 pe 452
+SE e 0 c 9 m "The user has finished the simulation at event #453, t=52."

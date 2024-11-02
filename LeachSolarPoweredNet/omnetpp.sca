@@ -1,0 +1,24 @@
+version 2
+run config2-0-20241102-15:54:28-11740
+attr configname config2
+attr datetime 20241102-15:54:28
+attr experiment config2
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network ned.leach
+attr processid 11740
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar leach.bs 	solarOn 	1
+scalar leach.bs 	sunDuration 	100
+scalar leach.bs 	roundsDone 	21
+scalar leach.bs 	nrRounds 	20
+scalar leach.bs 	firstDead 	0
+scalar leach.bs 	halfDead 	0
+scalar leach.bs 	sunNodes 	3
